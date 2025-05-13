@@ -1,3 +1,3 @@
 <template>
-    <h1>Hello nuxt</h1>
+    <h1>Hello nuxiiii</h1>
 </template>

@@ -1,8 +1,76 @@
 body {
     margin: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-block: 0;
 }
 
 p {
     font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+.px-4 {
+    padding-inline: 2rem;
+}
+.px-2 {
+    padding-inline: 1rem;
+}
+.py-4 {
+    padding-block: 2rem;
+}
+.py-2 {
+    padding-block: 1rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.border-bottom {
+    border-bottom: 1px solid grey;
 }

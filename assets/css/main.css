@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
     margin: 0;
     /* border: 2px solid red; */
@@ -10,67 +16,30 @@ h1, h2, h3, h4, h5, p {
     margin-block: 0;
 }
 
-p {
-    font-size: 1rem;
-}
-
-.flex {
-    display: flex;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.border {
-    border: 1px solid grey;
-}
-
-.px-4 {
-    padding-inline: 2rem;
-}
-.px-2 {
-    padding-inline: 1rem;
-}
-.py-4 {
-    padding-block: 2rem;
-}
-.py-2 {
-    padding-block: 1rem;
-}
-
-.p-4 {
-    padding: 2rem;
-}
-
-.p-2 {
-    padding: 1rem;
-}
-
-.hidden {
-    display: none;
-}
-
-.p-0 {
-    padding: 0;
-}
-
 .container {
     max-width: 1060px;
     width: 100%;
     margin: 0 auto;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
 }
 
+/* @media (min-width: 1220px) {
+    .container {
+        width: calc(-100px + 100vw);
+    }
+} */
+
+@media (min-width: 700px) {
+    .container {
+        /* max-width: 650px; */
+        max-width: 90vw;
+    }
+}
+/* @media (min-width: 950px) {
+    .container {
+        max-width: 850px;
+    }
+} */
+
 .border-bottom {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #dedede;
 }

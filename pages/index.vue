@@ -2,4 +2,6 @@
 
 <template>
     <HeroSection />
+    <Projects />
+    <Contact />
 </template>

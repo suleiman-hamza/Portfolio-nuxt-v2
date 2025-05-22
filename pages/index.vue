@@ -3,5 +3,6 @@
 <template>
     <HeroSection />
     <Projects />
+    <Experience />
     <Contact />
 </template>

@@ -12,6 +12,7 @@ import { House } from 'lucide-vue-next';
 import { FileUser } from 'lucide-vue-next';
 import { SquareChartGantt } from 'lucide-vue-next';
 import { NotebookPen } from 'lucide-vue-next';
+import { ToggleRight } from 'lucide-vue-next';
 
 // const isOpen = ref(false)
 </script>
@@ -37,8 +38,10 @@ import { NotebookPen } from 'lucide-vue-next';
                                 <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li>
                             </ul>
                             <footer class="border">
-                                div.flex
-                                <p>footer nav menu</p>
+                                <div class="flex justify-between">
+                                    <p>footer nav menu</p>
+                                    <Buttonx class="bg-background"><ToggleRight /></Buttonx>
+                                </div>
                             </footer>
                         </SheetDescription>
                     </SheetHeader>

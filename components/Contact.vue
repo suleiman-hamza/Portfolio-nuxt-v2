@@ -4,7 +4,7 @@ import { Send } from 'lucide-vue-next'
 
 <template>
     <section class="border-bottom">
-        <div class="p-4 border-x border-[#dedede] container">
+        <div class="px-4 py-12 border-x border-[#dedede] container">
             <p class="!mb-4 text-(--muted-foreground)">Contact Section</p>
             <div class="!mb-4">
                 <p>Intrested in working with me?</p>

@@ -8,33 +8,46 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 import { Menu } from 'lucide-vue-next';
+import { House } from 'lucide-vue-next';
+import { FileUser } from 'lucide-vue-next';
+import { SquareChartGantt } from 'lucide-vue-next';
+import { NotebookPen } from 'lucide-vue-next';
 
-const isOpen = ref(false)
+// const isOpen = ref(false)
 </script>
 <template>
     <section class="border-bottom">
         <nav class="flex justify-between items-center p-4 border-x border-[#dedede] container">
             <span class="logo size-fit">
-                <h2 class="leading-[1] border text-[1.4rem]">SH</h2>
+                <h2 class="leading-[1] border">SH</h2>
             </span>
 
-            <div class="size-fit">
+            <div class="max-h-[18px] md:hidden">
                 <Sheet>
-                    <SheetTrigger class="size-fit"><Menu /></SheetTrigger>
+                    <SheetTrigger class="size-fit ring-offset-background focus:ring-ring data-[state=open]:bg-secondary rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"><Menu class="size-4"/></SheetTrigger>
                     <SheetContent class="w-full" side="top">
                     <SheetHeader>
-                        <SheetTitle>Are you absolutely sure?</SheetTitle>
+                        <SheetTitle class="!mb-4">SH</SheetTitle>
                         <SheetDescription>
-                        This action cannot be undone. This will permanently delete your account
-                        and remove your data from our servers.
+                            <ul class="flex-col flex gap-2 !mb-4">
+                                <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><FileUser class="size-4"/><NuxtLink to="/">About</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><SquareChartGantt class="size-4"/><NuxtLink to="/">Work</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><NotebookPen class="size-4"/><NuxtLink to="/">Articles</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li>
+                            </ul>
+                            <footer class="border">
+                                div.flex
+                                <p>footer nav menu</p>
+                            </footer>
                         </SheetDescription>
                     </SheetHeader>
-                    </SheetContent>
+                </SheetContent>
                 </Sheet>
             </div>
             
-            <ul class="hidden lg:flex gap-4">
-                <li class="bg-blue-400"><NuxtLink to="/">Home</NuxtLink></li>
+            <ul class="hidden md:flex gap-4">
+                <li class=""><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/">About</NuxtLink></li>
                 <li><NuxtLink to="/">Work</NuxtLink></li>
                 <li><NuxtLink to="/">Articles</NuxtLink></li>

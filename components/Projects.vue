@@ -14,10 +14,11 @@ function runfunc() {
             <Buttonx @click="runfunc" class="bg-teal-600 !text-[#202020]">All Projects</Buttonx>
             <!-- <Button @click="runfunc">Button</Button> -->
             <motion.div 
-                class="w-20 h-20 bg-blue-600 rounded-md mt-4"
+                class="w-20 h-20 bg-blue-600 rounded-md mt-4 mb-4"
                 :initial="{ rotate: 0 }"
                 :hover="{ rotate: 360 }"
             />
+            <SvgLogoPaths />
         </div>
     </section>
 </template>

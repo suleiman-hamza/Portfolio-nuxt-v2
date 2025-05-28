@@ -20,7 +20,7 @@ import { ToggleRight } from 'lucide-vue-next';
     <section class="border-bottom">
         <nav class="flex justify-between items-center p-4 border-x border-[#dedede] container">
             <span class="logo size-fit">
-                <h2 class="leading-[1] border">SH</h2>
+                <SvgLogoPaths />
             </span>
 
             <div class="max-h-[18px] md:hidden">

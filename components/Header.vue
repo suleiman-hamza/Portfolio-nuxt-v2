@@ -28,7 +28,6 @@ import { ToggleRight } from 'lucide-vue-next';
                     <SheetTrigger class="size-fit ring-offset-background focus:ring-ring data-[state=open]:bg-secondary rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"><Menu class="size-4"/></SheetTrigger>
                     <SheetContent class="w-full bg-transparent text-white tab" side="top">
                     <SheetHeader>
-                        <SheetTitle class="!mb-4">SH</SheetTitle>
                         <SheetDescription>
                             <ul class="flex-col flex gap-2 !mb-4">
                                 <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>

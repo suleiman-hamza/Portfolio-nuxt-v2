@@ -2,6 +2,7 @@
 
 <template>
     <HeroSection />
+    <Background />
     <Projects />
     <Experience />
     <Contact />

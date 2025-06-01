@@ -8,13 +8,10 @@ import { Anvil } from 'lucide-vue-next';
                 <h1 class="mb-4">Suleiman Hamza</h1>
                 <p>~ Hunter</p>
             </span>
-            <h2 class="bg-blue-500 mb-[30px]">Software Engineer based in Abuja</h2>
-            <p>Lorem ipsum dolor sit amet . Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <Anvil />
+            <h2 class="font-bold text-2xl">Suleiman, a creative developer pursuing standout solutions that are meaningful & scalable.</h2>
+            <!-- <h2 class="bg-blue-500 mb-[30px]">Software Engineer based in Abuja</h2> -->
+            <p>I strive to create intuitive ideas that upscale products via my design thinking approach. I am always exploring new opportunities to improve user experience across various industries. Feel free to explore my work and connect with me, I am excited to hear from you!</p>
+            <p>I craft standout solutions that are meaningful & scalable</p>
         </main>
     </section>
     </template>

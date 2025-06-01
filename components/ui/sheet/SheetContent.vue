@@ -49,6 +49,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
           && 'data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t',
         props.class)"
       v-bind="{ ...forwarded, ...$attrs }"
+      class="tab"
     >
       <slot />
 
@@ -61,3 +62,10 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
     </DialogContent>
   </DialogPortal>
 </template>
+<style lang="css" scoped>
+.tab {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(120deg, rgba(96, 102, 109, 0.3)rgba(240, 169, 169, 0.2));
+}
+</style>

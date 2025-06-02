@@ -165,3 +165,9 @@ h1, h2, h3, h4, h5, p {
     @apply bg-background text-foreground;
     }
 }
+
+.cross {
+  @apply before:absolute after:absolute;
+  @apply before:top-[-4px] before:bg-[#dedede] before:content-[''] before:w-[1px] before:h-[9px];
+  @apply after:left-[-4px] after:bg-[#dedede] after:content-[''] after:w-[9px] after:h-[1px];
+}

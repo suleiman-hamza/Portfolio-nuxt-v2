@@ -7,6 +7,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
+import Button from './ui/button/Button.vue';
 import { Menu } from 'lucide-vue-next';
 import { House } from 'lucide-vue-next';
 import { FileUser } from 'lucide-vue-next';
@@ -30,11 +31,11 @@ import { ToggleRight } from 'lucide-vue-next';
                     <SheetHeader>
                         <SheetDescription>
                             <ul class="flex-col flex gap-2 !mb-4">
-                                <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
+                                <!-- <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><FileUser class="size-4"/><NuxtLink to="/">About</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><SquareChartGantt class="size-4"/><NuxtLink to="/">Work</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><NotebookPen class="size-4"/><NuxtLink to="/blog">Articles</NuxtLink></li>
-                                <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li>
+                                <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li> -->
                             </ul>
                             <footer class="border">
                                 <div class="flex justify-between">
@@ -49,11 +50,11 @@ import { ToggleRight } from 'lucide-vue-next';
             </div>
             
             <ul class="hidden md:flex gap-4">
-                <li class=""><NuxtLink to="/">Home</NuxtLink></li>
+                <!-- <li class=""><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/">About</NuxtLink></li>
                 <li><NuxtLink to="/">Work</NuxtLink></li>
                 <li><NuxtLink to="/blog">Articles</NuxtLink></li>
-                <li><NuxtLink to="/">Github</NuxtLink></li>
+                <li><NuxtLink to="/">Github</NuxtLink></li> -->
             </ul>
         </nav>
     </section>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { as = 'div', border = 'border-green-400', crossed = '#2b7fff' } = defineProps<{
+const { as = 'div', border = 'border-zinc-200/40', crossed = '#2b7fff' } = defineProps<{
   as?: string
   border?: string
   crossed?: string

@@ -8,6 +8,7 @@
     <HeroSection />
     <Background />
     <Projects />
+    <LatestArticles />
     <Experience />
     <Contact />
 </template>

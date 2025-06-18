@@ -8,8 +8,8 @@ import { Send } from 'lucide-vue-next'
             <CrossedDiv class="!mb-4 text-(--muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="!mb-4">
-                <p>Intrested in having me on your team, I'd love to talk to you</p>
-                <p>I'm open to exciting opportunities that allows me to create impactful solutions.</p>
+                <p class="!mb-4 text-2xl">Intrested in having me on your team, I'd love to talk to you</p>
+                <p class="!mb-4 text-(--muted-foreground)">I'm open to exciting opportunities that allows me to create impactful solutions.</p>
                 <div class="border p-2">
                     <h3>What i bring to your team:</h3>
                     <ul>

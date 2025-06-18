@@ -60,8 +60,7 @@ function runfunc() {
                 </div>
                 <div class="w-[150px] h-[200px] border flex-none bg-linear-to-r from-yellow-400/50 via-purple-400 to-fuchsia-400/50"></div>
             </div>
-            <p class="!mb-4">Lorem ipsum dolor sit amet . Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <Buttonx @click="runfunc" class="">All Projects</Buttonx>
+            <Buttonx @click="runfunc" class="">See Playground</Buttonx>
         </div>
     </section>
 </template>

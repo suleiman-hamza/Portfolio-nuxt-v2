@@ -44,9 +44,9 @@ import { NotebookPen } from 'lucide-vue-next';
                 </Sheet>
             </div>
             
-            <ul class="hidden md:flex gap-4">
-                <li class=""><NuxtLink to="/">Home</NuxtLink></li>
-                <li><NuxtLink to="/">About</NuxtLink></li>
+            <ul class="hidden md:flex gap-4 nav-links">
+                <li class="" tabindex="0"><NuxtLink to="/">Home</NuxtLink></li>
+                <li tabindex="1"><NuxtLink to="/">About</NuxtLink></li>
                 <li><NuxtLink to="/">Work</NuxtLink></li>
                 <li><NuxtLink to="/blog">Articles</NuxtLink></li>
                 <li><NuxtLink to="/">Github</NuxtLink></li>
@@ -56,5 +56,13 @@ import { NotebookPen } from 'lucide-vue-next';
 </template>
 
 <style lang="css" scoped>
-
+.nav-links:has(li:hover) li:not(:hover), .nav-links:has(li:focus) li:not(:focus) {
+    opacity: 0.5;
+}
+li {
+    transition: 300ms ease;
+}
+li:hover {
+    transform: translateY(5px);
+}
 </style>

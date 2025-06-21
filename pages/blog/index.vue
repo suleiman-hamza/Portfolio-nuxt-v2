@@ -2,7 +2,25 @@
 
 </script>
 <template>
-<main class="border-pink-600 border-2">
-    <div><p>This is my blog</p></div>
-</main>
+    <section class="border-bottom">
+        <header class="container border-x border-y p-8 grid-background">
+            <p class="text-4xl">Blog ✨</p>
+        </header>
+        <main>
+            <section class="container border-x border-[#dedede] p-4">
+            <div class="mb-4">
+                <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
+                <p class="text-sm mt-1">June 22, 2025</p>
+            </div>
+            <div class="mb-4">
+                <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
+                <p class="text-sm mt-1">June 02, 2025</p>
+            </div>
+            <div class="mb-4">
+                <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
+                <p class="text-sm mt-1">March 22, 2025</p>
+            </div>
+        </section>
+        </main>
+    </section>
 </template>

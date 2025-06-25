@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { Anvil } from 'lucide-vue-next';
 </script>
 <template>
     <section class="border-bottom">
         <main class="container p-4 sm:p-8 border-x border-[#dedede] grid-background">
-            <span class="flex items-center mb-4">
-                <h1 class="mb-4">Suleiman Hamza</h1>
-                <p>~ Hunter</p>
-            </span>
-            <h2 class="font-bold text-2xl md:text-4xl !mb-4">Suleiman, a creative developer pursuing standout solutions that are meaningful & scalable.</h2>
-            <p>I strive to create intuitive ideas that upscale products via my design thinking approach. I am always exploring new opportunities to improve user experience across various industries. Feel free to explore my work and connect with me, I am excited to hear from you!</p>
+            <h1 class="text-4xl lg:text-6xl border !mb-2 !mt-16">Suleiman <br> Hamza ~ Hunter</h1>
+            <h2 class="text-2xl lg:text-4xl mb-4">A creative developer pursuing standout solutions that are meaningful & scalable.</h2>
+            <p>Feel free to explore my work and connect with me, I am excited to hear from you!</p>
+            <div>
+                <button class="bg-blue-100 px-3 py-1 rounded-full leading-none mb-1">hamzasuleiman530@gmail.com</button>
+                <button class="bg-sky-100 px-3 py-1 rounded-full leading-none">Download CV</button>
+            </div>
         </main>
     </section>
     </template>

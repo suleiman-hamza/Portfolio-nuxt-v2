@@ -18,9 +18,10 @@ import { NotebookPen } from 'lucide-vue-next';
 // const isOpen = ref(false)
 </script>
 <template>
-    <section class="border-bottom">
-        <nav class="flex justify-between items-center p-4 border-x border-[#dedede] container">
-            <span class="logo size-fit">
+    <section class="border-bottom bg-transparent fixed z-20 w-full">
+        <nav class="tab flex justify-between items-center p-4 border-x border-[#dedede] container">
+            <span class="logo size-fit flex gap-2 items-center">
+                <span class="w-[25px] h-[25px] rounded-full border-2 border-rose-500"></span>
                 <SvgLogoPaths />
             </span>
 
@@ -29,7 +30,7 @@ import { NotebookPen } from 'lucide-vue-next';
                     <SheetTrigger class="size-fit ring-offset-background focus:ring-ring data-[state=open]:bg-secondary rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"><Menu class="size-4"/></SheetTrigger>
                     <SheetContent class="w-full bg-transparent text-white tab" side="top">
                     <SheetHeader>
-                        <SheetTitle>Something</SheetTitle>
+                        <SheetTitle>Somethingz</SheetTitle>
                         <SheetDescription>
                             <ul class="flex-col flex gap-2 !mb-4">
                                 <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
@@ -64,5 +65,10 @@ li {
 }
 li:hover {
     transform: translateY(5px);
+}
+.tab {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(120deg, rgba(96, 102, 109, 0.3)rgba(240, 169, 169, 0.2));
 }
 </style>

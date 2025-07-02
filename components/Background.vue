@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { NuxtLink } from '#components';
+
 </script>
 
 <template>
@@ -16,7 +18,7 @@
             <!--background section header-->
             <p class="!mb-4 text-justify">I specialize in frontend tools and frameworks, with a strong focus in improving DX and infastructure</p>
             <p class="text-justify">Lorem ipsum dolor sit amet . Animi eveniet pariatur nulla temporibus veritatis deleniti tempore laborum officia laboriosam minus suscipit similique, porro cum consectetur, doloremque dicta excepturi iste provident.</p>
-            <a href="#" class="text-sky-500 underline">Read More</a>
+            <NuxtLink to="/about" class="text-sky-500 underline">Read More</NuxtLink>
         </div>
     </section>
 </template>

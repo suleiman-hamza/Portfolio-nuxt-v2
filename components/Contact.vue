@@ -23,7 +23,7 @@ import { Send } from 'lucide-vue-next'
                 <span>Get in Touch</span>
                 <Send class="size-4"/>
             </Buttonx>
-            <p>You can get in touch by email, or if you'd love to connect on social media.</p>
+            <!-- <p>You can get in touch by email, or if you'd love to connect on social media.</p> -->
         </div>
     </section>
 </template>

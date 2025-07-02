@@ -21,6 +21,9 @@
                 <img src="../assets/icons/platform-x-icon.svg" alt="Bluesky butterfly"/>
             </span>
         </section>
-        <div class="p-4"><p class="text-center">If you love this, give me a star on github :)</p></div>
+        <div class="p-4">
+            <p class="text-center">If you love this, give me a star on <a href="#" class="underline text-blue-400">github</a> :)</p>
+            <p class="text-center">Copyright @ 2025. Built with <a href="#" class="underline text-blue-400">Nuxt_js</a></p>
+        </div>
     </footer>
 </template>

@@ -3,6 +3,11 @@
 
 <template>
     <footer class="">
+        <section class="border-b">
+            <span class="p-6 flex items-center justify-center">
+                <SvgLogoPaths />
+            </span>
+        </section>
         <section class="flex item-center justify-center border-bottom">
             <!--x-logo-->
             <span class="flex items-center justify-center icon border w-[40px] h-[40px] bg-green-200 p-2">

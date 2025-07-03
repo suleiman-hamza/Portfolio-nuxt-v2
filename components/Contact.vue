@@ -3,7 +3,7 @@ import { Send } from 'lucide-vue-next'
 </script>
 
 <template>
-    <section class="border-bottom">
+    <section class="border-b">
         <div class="px-12 py-12 container bg-(--secondary-foreground) text-white">
             <CrossedDiv class="!mb-4 text-(--muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->

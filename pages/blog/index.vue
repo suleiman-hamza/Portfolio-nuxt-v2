@@ -1,9 +1,15 @@
 <script setup lang="ts">
+const title = 'Blog';
 
+useSeoMeta({
+    title,
+    description: 'My blog is now live'
+})
 </script>
 <template>
     <section class="border-bottom">
-        <header class="container border-x border-y p-8 grid-background">
+        <b class="h-[58px] block"></b>
+        <header class="container border-x border-y p-8 py-16 grid-background">
             <p class="text-4xl">Blog ✨</p>
         </header>
         <main>

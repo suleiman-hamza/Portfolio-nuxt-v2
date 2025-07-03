@@ -7,7 +7,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
-import Button from './ui/button/Button.vue';
 import { Menu } from 'lucide-vue-next';
 import { House } from 'lucide-vue-next';
 import { FileUser } from 'lucide-vue-next';
@@ -23,7 +22,7 @@ import { NotebookPen } from 'lucide-vue-next';
             <span class="logo size-fit flex gap-2 items-center">
                 <!-- <span class="w-[25px] h-[25px] rounded-full border-2 border-rose-500"></span> -->
                 <img src="/images/avatar1.png" alt="user suleiman" class="w-[25px] h-[25px] rounded-full border border-rose-500" />
-                <SvgLogoPaths />
+                <!-- <SvgLogoPaths /> -->
             </span>
 
             <div class="max-h-[18px] md:hidden">
@@ -35,7 +34,7 @@ import { NotebookPen } from 'lucide-vue-next';
                         <SheetDescription>
                             <ul class="flex-col flex gap-2 !mb-4">
                                 <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
-                                <li class="flex gap-2 items-center"><FileUser class="size-4"/><NuxtLink to="/">About</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><FileUser class="size-4"/><NuxtLink to="/about">About</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><SquareChartGantt class="size-4"/><NuxtLink to="/">Work</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><NotebookPen class="size-4"/><NuxtLink to="/blog">Articles</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li>
@@ -48,10 +47,10 @@ import { NotebookPen } from 'lucide-vue-next';
             
             <ul class="hidden md:flex gap-4 nav-links">
                 <li class="" tabindex="0"><NuxtLink to="/">Home</NuxtLink></li>
-                <li tabindex="1"><NuxtLink to="/">About</NuxtLink></li>
-                <li><NuxtLink to="/">Work</NuxtLink></li>
+                <li tabindex="1"><NuxtLink to="/about">About</NuxtLink></li>
+                <!-- <li><NuxtLink to="/">Work</NuxtLink></li> -->
                 <li><NuxtLink to="/blog">Articles</NuxtLink></li>
-                <li><NuxtLink to="/">Github</NuxtLink></li>
+                <!-- <li><NuxtLink to="/">Github</NuxtLink></li> -->
             </ul>
         </nav>
     </section>

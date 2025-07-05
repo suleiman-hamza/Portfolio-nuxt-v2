@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { GitCommitVertical, Send } from 'lucide-vue-next'
+import { GitCommitVertical, SendHorizonal } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/components/ui/stepper'
 
@@ -38,7 +38,7 @@ const steps = [
                 </div>
                 <!--stepper prototype-->
                 <section>
-                    <Stepper orientation="vertical" class="mx-auto flex w-full max-w-md flex-col justify-start gap-10">
+                    <Stepper orientation="vertical" class="flex w-full max-w-md flex-col justify-start gap-10">
                         <StepperItem v-for="step in steps" :key="step.step" v-slot="{ state }"
                             class="relative flex w-full items-start gap-6" :step="step.step">
                             <StepperSeparator v-if="step.step !== steps[steps.length - 1].step"
@@ -53,7 +53,7 @@ const steps = [
 
                             <div class="flex flex-col gap-1">
                                 <StepperTitle
-                                    class="text-sm font-semibold transition lg:text-base">
+                                    class="text-md sm:text-1xl font-semibold transition lg:text-base">
                                     {{ step.title }}
                                 </StepperTitle>
                                 <!-- <StepperDescription
@@ -68,7 +68,7 @@ const steps = [
             </div>
             <Buttonx class="border border-dashed cursor-pointer">
                 <span class="text-(--muted-foreground)">Get in Touch</span>
-                <Send class="size-4" />
+                <SendHorizonal class="size-4" />
             </Buttonx>
             <!-- <p>You can get in touch by email, or if you'd love to connect on social media.</p> -->
         </div>

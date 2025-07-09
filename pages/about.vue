@@ -5,7 +5,6 @@ import { Motion } from "motion-v"
     <main class="border-b">
         <section class="container border-x border-[#dedede]">
             <header class="pt-16 p-4">
-                <h1 class="text-2xl font-semi !mb-4">About</h1>
                 <h2 class="!mb-2">Hey, I'm Suleiman</h2>
                 <img src="/images/replace-img.jpeg" alt="My pic">
             </header>
@@ -33,7 +32,19 @@ import { Motion } from "motion-v"
                     <h3 class="font-bold">Frontend Developer</h3>
                     <h4>2024 - Present / RovelTech</h4>
                 </div>
-                <Motion as-child :initial="{opacity: 0}" :whileInView="{opacity: 1}">
+                <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2 }">
+                <div class="mb-2">
+                    <h3 class="font-bold">Frontend Developer</h3>
+                    <h4>2024 - Present / RovelTech</h4>
+                </div>
+                </Motion>
+                <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
+                <div class="mb-2">
+                    <h3 class="font-bold">Frontend Developer</h3>
+                    <h4>2024 - Present / RovelTech</h4>
+                </div>
+                </Motion>
+                <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.5 }">
                 <div class="mb-2">
                     <h3 class="font-bold">Frontend Developer</h3>
                     <h4>2024 - Present / RovelTech</h4>

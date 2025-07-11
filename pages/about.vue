@@ -3,26 +3,22 @@ import { Motion } from "motion-v"
 </script>
 <template>
     <main class="border-b">
-        <section class="container border-x border-[#dedede]">
-            <header class="pt-16 p-4">
+        <section class="container border-x border-[#dedede] grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-[auto_1fr]">
+            <header class="pt-16 p-4 row-start-1 sm:col-start-2 sm:row-start-1">
                 <h2 class="!mb-2">Hey, I'm Suleiman</h2>
-                <img src="/images/replace-img.jpeg" alt="My pic">
+                <img src="/images/replace-img.jpeg" width="400" alt="My pic">
             </header>
-            <section class="p-4">
+            <section class="p-4 sm:col-start-1 sm:row-start-1">
             <h3 class="text-2xl font-semi !mb-4">Intro...</h3>
             <p>I'm a software engineer that specializes in modern web development.</p>
             <p class="!mb-4 text-justify">I specialize in frontend tools and frameworks, with a strong focus in improving DX and infastructure</p>
-            
             <p>I have been working with Frontend technologies for over 2 Years. During these years i have been able to work with designers to create delightful User Interface and debug web apps.</p>
             <p>My interest in the web started back in 2022. I was always curious about everything Tech & Trends. After trying out diffrent career paths in tech - from cybersecurity to penetration testing to programming, it just felt right the moment i began to write code.</p>
             <p>I’m a Frontend Engineer with a passion for crafting smooth, responsive web experiences using Vue.js/Nuxt, Node.js/Express and TypeScript. My expertise lies in building intuitive interfaces and robust applications, leveraging powerful component libraries like VueUse and Vue Motion to create reusable and efficient code.</p>
             <p>I’m well-versed in the Vue ecosystem, with a deep understanding of tools like Pinia, Vue Router, PrimeVue, Vitest, Nuxt-UI and Vite. My goal is to build applications that are not only visually engaging but also performant and scalable. i'm constantly exploring the latest advancements in frontend technology.</p>
             <p>My other interests includes: Mountain Biking, Basketball, Events or Meetups, Volunteering and Gaming.</p>
-            </section>
-
-            <span class="grid-background block h-[50px]"></span>
-            
-            <section class="p-4">
+            </section>            
+            <section class="p-4 sm:col-start-2">
                 <h2 class="text-2xl font-semi !mb-4">Experience</h2>
                 <div class="mb-2">
                     <h3 class="font-bold">Frontend Developer</h3>
@@ -51,10 +47,7 @@ import { Motion } from "motion-v"
                 </div>
                 </Motion>
             </section>
-
-            <span class="grid-background block h-[50px]"></span>
-
-            <section class="p-4">
+            <section class="p-4 row-start-2">
                 <h2 class="text-2xl font-semi !mb-4">Stack</h2>
                 <div class="border p-2 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
                 <!--icon set lists-->
@@ -170,7 +163,6 @@ import { Motion } from "motion-v"
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><g fill="none"><path fill="#feb804" d="M17.42 13.51s7.243-11.603 7.407-11.893c.165-.29.2-.822-.255-.822c-.454 0-11.737 11.518-11.737 11.518l-8.013 4.75s-.537.33-.455.742c.083.413.443.43.608.43s8.713-.045 9.21-.06c.617-.018.465.86.465.86L9.24 27.54s-2.362 3.27-2.362 3.492c0 .328.394.49.762.27c.285-.17 18.71-15.782 19.523-16.854c.22-.293.332-1.063-.576-1.063s-8.134 2.105-8.134 2.105z"/><path fill="#ffc927" d="M16.153 12.588c-.223.305-.283.815.197.845c.477.027 10.237-.046 10.237-.046s-6.972 6.408-9.082 8.32c-2.11 1.913-9.097 8.108-9.567 8.546c-.46.43-.878.825-1.048.77c-.027-.008-.062-.155.595-1.238c.6-.988 6.36-10.64 6.585-11.005s.422-.675.535-.845c.112-.17.477-1.098-.283-1.098s-9.5.226-9.5.226s6.038-5.123 7.783-6.5C14.35 9.185 24.24.794 24.573.794c.332 0-8.195 11.485-8.42 11.793"/><path fill="#ffe567" d="M15.863 17.688c.45-.648.892-.695 1.16-.535c.345.207.38.684-.055 1.262c-.686.915-5.72 7.653-5.913 7.89c-.365.45-.902.253-.553-.4c.293-.54 4.896-7.547 5.36-8.218m-7.156-1.315c-.862.577-1.665-.286-1.087-.918c.577-.633 4.368-3.787 5.135-4.44c.768-.652 5.248-4.55 5.595-4.83c.46-.37.745.005.455.39c-.288.385-3.455 3.55-4.852 4.835c-1.08.995-4.426 4.413-5.246 4.962"/></g></svg>
                 </span>
                 </div>
-
 
                 <div class="border flex gap-2 p-2">
                 <!--send message-->

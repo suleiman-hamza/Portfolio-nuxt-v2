@@ -67,14 +67,19 @@ function runfunc() {
                     </div>
                 </div>
 
-                <div class="w-[150px] h-[200px] border flex-none">
+                <div class="w-[150px] h-[200px] border flex-none rounded-md">
                     <div class="w-full h-full p-2 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 bg-slate-200">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Rovel Tech LTD.</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Tooly</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
             </div>

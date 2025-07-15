@@ -1,74 +1,97 @@
 <script setup lang="ts">
 import { EllipsisVertical } from 'lucide-vue-next'
-function runfunc() {
-    console.log('something dey happen')
-}
 </script>
 
 <template>
     <section class="border-bottom">
         <div class="p-4 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
-            <CrossedDiv class="size-min p-1 mb-4" as="section">Projects</CrossedDiv>
+            <CrossedDiv class="size-max text-[1.2rem] p-1 mb-8" as="section">Featured Projects</CrossedDiv>
 
             <!--selected project cards-->
             
-            <div class="mb-4 flex gap-4 overflow-x-scroll w-full flex-initial">
-                <div class="w-[150px] h-[200px] border flex-none">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
-                        <span class="flex flex-col size-min gap-1 ml-auto">
-                            <a href="/" class="border p-1 hover:bg-red-200">
+            <div class="mb-4 flex gap-4 overflow-x-auto w-full flex-initial bar pb-2">
+                <div class="w-[150px] md:w-[220px] md:h-[280px] h-[200px] border flex-none rounded-md shadow tab">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
+                        <span class="flex gap-2 justify-end">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Nova Tech</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">RovelSub Point</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="w-[150px] h-[200px] border flex-none">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 hover:bg-red-200">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Rovel Tech LTD.</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Naira-x</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="w-[150px] h-[200px] border flex-none">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 hover:bg-red-200">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Naira-x</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Revel Office</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">e-commerce</span>
+                        </div>
                     </div>
                 </div>
-                <div class="w-[150px] h-[200px] border flex-none">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                           <a href="/" class="border p-1 hover:bg-red-200">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Revel Office</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Aggr</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="w-[150px] h-[200px] border flex-none">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 hover:bg-red-200">
+                            <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
-                            </a>
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Rovel Tech LTD.</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Mini-Mod</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">game</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="w-[150px] h-[200px] border flex-none rounded-md">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
                             <button class="border p-1 bg-slate-200 rounded-md">
                                 <EllipsisVertical :size="18" />
@@ -83,14 +106,17 @@ function runfunc() {
                     </div>
                 </div>
             </div>
-            <Buttonx @click="runfunc" class="">See Playground</Buttonx>
+            <div class="flex justify-end"><NuxtLink to="/" class="text-sky-400 text-[1.2rem]">See Playground</NuxtLink></div>
         </div>
     </section>
 </template>
 
 <style scoped>
 .tab {
-    background: rgba(255, 255, 255, 0.28);
-    backdrop-filter: blur(26px);
+    background: linear-gradient(to right, rgba(124, 252, 134, 0.829), rgba(93, 160, 248, 0.815)); 
 }
+.bar::-webkit-scrollbar {
+    display: none;
+}
+
 </style>

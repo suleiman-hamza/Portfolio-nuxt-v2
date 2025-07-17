@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, p {
 .container {
     max-width: 1060px;
     width: 100%;
-    margin: 0 auto;
+    margin-inline: auto;
 }
 
 /* @media (min-width: 1220px) {

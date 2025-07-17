@@ -1,101 +1,122 @@
 <script setup lang="ts">
-import { Donut, Github } from 'lucide-vue-next'
-function runfunc() {
-    console.log('something dey happen')
-}
+import { EllipsisVertical } from 'lucide-vue-next'
 </script>
 
 <template>
     <section class="border-bottom">
         <div class="p-4 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
-            <CrossedDiv class="size-min p-1 mb-4" as="section">Projects</CrossedDiv>
+            <CrossedDiv class="size-max text-[1.2rem] p-1 mb-8" as="section">Featured Projects</CrossedDiv>
+
             <!--selected project cards-->
-            <div class="mb-4 flex gap-4 overflow-x-scroll w-full flex-initial bg-blue-300">
-                <div class="w-[150px] h-[200px] border flex-none glass-card">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+            
+            <div class="mb-4 flex gap-4 overflow-x-auto w-full flex-initial bar pb-2">
+                <div class="w-[150px] md:w-[220px] md:h-[280px] h-[200px] border flex-none rounded-md shadow tab">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 hover:bg-red-200">
-                                <Donut :size="18" />
-                            </a>
-                            <a href="/" class="border p-1 hover:bg-red-200">
-                                <Github :size="18" />
-                            </a>
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Nova Tech</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">RovelSub Point</h3>
                         <div class="flex gap-1 flex-wrap">
-                            <b v-for="_ in 10" class="border bg-blue-300 w-[15px] h-[15px]"></b>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
                         </div>
                     </div>
                 </div>
-                <div class="w-[150px] h-[200px] border flex-none glass-card">
-                    <div class="w-full h-full p-2 flex justify-between flex-col">
+
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
                         <span class="flex gap-2 justify-end">
-                            <a href="/" class="border p-1 hover:bg-red-200">
-                                <Donut :size="18" />
-                            </a>
-                            <a href="/" class="border p-1 hover:bg-red-200">
-                                <Github :size="18" />
-                            </a>
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
                         </span>
-                        <h3 class="text-[#202020] text-2xl text-center leading-none">Rovel Tech LTD.</h3>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Naira-x</h3>
                         <div class="flex gap-1 flex-wrap">
-                            <b v-for="_ in 7" class="border bg-blue-300 w-[15px] h-[15px]"></b>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
                         </div>
                     </div>
                 </div>
-                <div class="w-[150px] h-[200px] border flex-none bg-linear-to-r from-green-100 via-green-100 to-green-100/50">
-                    <div class="tab w-full border h-full p-4">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
+                        <span class="flex gap-2 justify-end">
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
+                        </span>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Revel Office</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">e-commerce</span>
+                        </div>
                     </div>
                 </div>
-                <div class="w-[150px] h-[200px] border flex-none bg-linear-to-b from-sky-400/50 via-blue-400 to-blue-900/80">
-                    <div class="tab w-full h-full p-4">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, cumque. eque volupt</p>
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
+                        <span class="flex gap-2 justify-end">
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
+                        </span>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Aggr</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
-                <div class="w-[150px] h-[200px] border flex-none bg-linear-to-b from-slate-400 via-rose-200 to-pink-400/50">
-                    <div class="tab w-full h-full p-4">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, cumque. eque volupt</p>
+                
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
+                        <span class="flex gap-2 justify-end">
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
+                        </span>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Mini-Mod</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">game</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
                 </div>
-                    <div class="w-[150px] h-[200px] border flex-none glass-card">
-                        <p class="text-white">Hello there</p>
+
+                <div class="w-[150px] h-[200px] md:w-[220px] md:h-[280px] border flex-none rounded-md shadow">
+                    <div class="w-full h-full p-2 md:p-4 flex justify-between flex-col">
+                        <span class="flex gap-2 justify-end">
+                            <button class="border p-1 bg-slate-200 rounded-md">
+                                <EllipsisVertical :size="18" />
+                            </button>
+                        </span>
+                        <h3 class="text-[#202020] text-2xl text-center leading-none my-2">Tooly</h3>
+                        <div class="flex gap-1 flex-wrap">
+                            <span class="bg-red-200 px-1 text-sm rounded-md">web app</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">tool</span>
+                            <span class="bg-red-200 px-1 text-sm rounded-md">pwa</span>
+                        </div>
                     </div>
+                </div>
             </div>
-            <Buttonx @click="runfunc" class="">See Playground</Buttonx>
+            <div class="flex justify-end"><NuxtLink to="/" class="text-sky-400 text-[1.2rem]">See Playground</NuxtLink></div>
         </div>
     </section>
 </template>
 
 <style scoped>
 .tab {
-    background: rgba(255, 255, 255, 0.28);
-    backdrop-filter: blur(26px);
+    background: linear-gradient(to right, rgba(124, 252, 134, 0.829), rgba(93, 160, 248, 0.815)); 
+}
+.bar::-webkit-scrollbar {
+    display: none;
 }
 
-.glass-card {
-    background: rgba(255, 255, 255, 0.28);
-    backdrop-filter: blur(26px);
-    position: relative;
-}
-
-.glass-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8));
-}
-
-.glass-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.3));
-}
 </style>

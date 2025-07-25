@@ -5,7 +5,7 @@ import { NuxtLink } from '#components';
 
 <template>
     <section class="border-bottom">
-        <div class="p-4 sm:py-8 container bg-(--secondary-foreground) text-[#dedede]"> <!--border-x border-[#dedede]-->
+        <div class="p-4 py-10 container bg-(--secondary-foreground) text-[#dedede]"> <!--border-x border-[#dedede]-->
             <!--background section header-->
             <div class="grid grid-cols-[2fr_150px]">
                 <div class="flex flex-col justify-between">

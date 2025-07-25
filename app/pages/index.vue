@@ -9,6 +9,7 @@
     <Background />
     <Projects />
     <LatestArticles />
-    <Experience />
+    <!-- <Experience /> -->
+     <Clients />
     <Contact />
 </template>

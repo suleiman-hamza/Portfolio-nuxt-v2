@@ -7,22 +7,16 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
-import { Menu } from 'lucide-vue-next';
-import { House } from 'lucide-vue-next';
-import { FileUser } from 'lucide-vue-next';
-import { SquareChartGantt } from 'lucide-vue-next';
-import { NotebookPen } from 'lucide-vue-next';
-
+import { Menu, House, FileUser, SquareChartGantt, NotebookPen } from 'lucide-vue-next';
 
 // const isOpen = ref(false)
 </script>
 <template>
-    <section class="bg-transparent fixed z-20 w-full shadow top-0">
-        <nav class="tab flex justify-between items-center p-4 border-x border-[#dedede] container">
+    <section class="fixed z-20 w-full top-0 bg-transparent border-b">
+        <nav class="shadow tab flex justify-between items-center p-4 container">
             <span class="logo size-fit flex gap-2 items-center">
                 <!-- <span class="w-[25px] h-[25px] rounded-full border-2 border-rose-500"></span> -->
                 <img src="/images/avatar1.png" alt="user suleiman" class="w-[25px] h-[25px] rounded-full border border-rose-500" />
-                <!-- <SvgLogoPaths /> -->
             </span>
 
             <div class="max-h-[18px] md:hidden">

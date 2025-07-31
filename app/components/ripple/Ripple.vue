@@ -24,11 +24,11 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  baseCircleSize: 100,
+  baseCircleSize: 200,
   baseCircleOpacity: 0.24,
   circleOpacityDowngradeRatio: 0.03,
   waveSpeed: 80,
-  spaceBetweenCircle: 70,
-  numberOfCircles: 5,
+  spaceBetweenCircle: 40,
+  numberOfCircles: 7,
 });
 </script>

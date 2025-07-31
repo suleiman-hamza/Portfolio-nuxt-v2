@@ -38,7 +38,6 @@ const testimonyList = ref([
 <template>
     <section class="border-bottom">
         <div class="p-6 py-10 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
-            <CrossedDiv class="size-max text-[1.2rem] p-1 mb-8">Clients Tesimonials</CrossedDiv>
         <p class="text-center text-2xl !mb-6">Here's what 99% of my clients say about my work</p>
         <section class="mb-12">
             <Carousel class="relative w-full">

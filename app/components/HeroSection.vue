@@ -15,7 +15,7 @@ import { Mail, Download } from 'lucide-vue-next'
             <h2 class="text-slate-500 text-2xl lg:text-4xl leading-[1.3] !mb-4 max-w-[700px]">A creative developer
                 pursuing standout solutions that are meaningful & scalable.</h2>
             <div class="flex flex-col gap-4">
-                <button class="bg-stone-200/70 px-4 py-2 leading-none flex items-center gap-2 size-max hover:shadow hover:cursor-pointer transition-all 
+                <button class="bg-stone-200/70 px-2 py-2 leading-none flex items-center gap-2 size-max hover:shadow hover:cursor-pointer transition-all 
   duration-200">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -26,7 +26,7 @@ import { Mail, Download } from 'lucide-vue-next'
                     </svg>
                     <span>suleiman530@gmail.com</span>
                 </button>
-                <button class="bg-stone-200/70 px-4 py-2 leading-none flex items-center gap-2 size-max hover:shadow hover:cursor-pointer transition-all 
+                <button class="bg-stone-200/70 px-2 py-2 leading-none flex items-center gap-2 size-max hover:shadow hover:cursor-pointer transition-all 
   duration-200">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"

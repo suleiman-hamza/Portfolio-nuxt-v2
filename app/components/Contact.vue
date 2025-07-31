@@ -64,11 +64,10 @@ const steps = [
                 </section>
                 <!--stepper prototype-->
             </div>
-            <Buttonx class="cursor-pointer mt-4 hover:bg-white hover:text-[#dedede]">
-                <span class="text-(--muted-foreground)">Get in Touch</span>
-                <SendHorizonal class="size-4" color="gray"/>
-            </Buttonx>
-            <!-- <p>You can get in touch by email, or if you'd love to connect on social media.</p> -->
+            <RippleButton class="">
+                <span class="">Get in Touch</span>
+                <SendHorizonal class="size-4 inline" />
+            </RippleButton>
         </div>
     </section>
 </template>

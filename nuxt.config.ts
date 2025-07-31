@@ -27,5 +27,5 @@ export default defineNuxtConfig({
     ],
   },
   devtools: { enabled: true },
-  modules: ['shadcn-nuxt', 'motion-v/nuxt'],
+  modules: ['shadcn-nuxt', 'motion-v/nuxt', '@nuxt/image'],
 })

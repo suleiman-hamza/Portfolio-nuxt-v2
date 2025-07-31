@@ -12,7 +12,7 @@ import { Menu, House, FileUser, SquareChartGantt, NotebookPen } from 'lucide-vue
 // const isOpen = ref(false)
 </script>
 <template>
-    <section class="fixed z-20 w-full top-0 bg-transparent border-b">
+    <section class="fixed z-20 w-full top-0 bg-transparent border-b border-[#dededec4]">
         <nav class="shadow tab flex justify-between items-center p-4 container">
             <span class="logo size-fit flex gap-2 items-center">
                 <!-- <span class="w-[25px] h-[25px] rounded-full border-2 border-rose-500"></span> -->

@@ -11,7 +11,8 @@ const testimonyList = ref([
     {
         client: "ABdulRauf-Star",
         text: "lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eaque mollitia quidem veritatis perspiciatis, ducimus, iusto ad nostrum velit atque at ullam incidunt possimus ut in illum. Soluta, repellendus dignissimos.",
-        role: "CTO, Readyl."
+        role: "CTO, Readyl.",
+        img: "/images/avatar1.png"
     },
     {
         client: "Ayatullah Suleiman",
@@ -38,7 +39,7 @@ const testimonyList = ref([
 <template>
     <section class="border-bottom">
         <div class="p-6 py-10 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
-        <p class="text-center text-2xl !mb-6">Here's what 99% of my clients say about my work</p>
+        <p class="text-center text-2xl !mb-6">99% of my clients refer me, here's why they do</p>
         <section class="mb-12">
             <Carousel class="relative w-full">
                 <CarouselContent>
@@ -46,7 +47,9 @@ const testimonyList = ref([
                         <div class="flex flex-col items-center justify-center gap-4 p-4 border bg-red-200 rounded-lg border-red-200">
                             <p class="border p-2">{{ item.text }}</p>
                             <div class="border flex flex-col justify-center items-center gap-1">
-                                <span class="block w-[40px] h-[40px] border rounded-full"></span>
+                                <span class="block w-[40px] h-[40px] border rounded-full">
+                                    <NuxtImg :src="item.img" />
+                                </span>
                                 <h2 class="text-md">{{ item.client }}</h2>
                                 <h3 class="text-(--muted-foreground) text-sm">{{ item.role }}</h3>
                             </div>
@@ -57,7 +60,7 @@ const testimonyList = ref([
                 <CarouselNext class="top-[50%] right-[-15px]" />
             </Carousel>
         </section>
-        <p class="text-center text-2xl !mb-6">Here's what 99% of my clients say about my work</p>
+        <p class="text-center text-2xl !mb-6">99% of my clients say about my work</p>
     </div>
     </section>
 </template>

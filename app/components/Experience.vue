@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { Briefcase } from 'lucide-vue-next'
+import { Briefcase } from 'lucide-vue-next';
 import Button from './ui/button/Button.vue'
+
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/components/ui/stepper'
 
 const steps = [
@@ -34,7 +35,6 @@ const steps = [
                             class="relative flex w-full items-start gap-6" :step="step.step">
                             <StepperSeparator v-if="step.step !== steps[steps.length - 1].step"
                                 class="absolute left-[18px] top-[38px] block h-[105%] w-0.5 shrink-0 rounded-full bg-muted group-data-[state=completed]:bg-primary" />
-
                             <StepperTrigger>
                                 <Briefcase />
                             </StepperTrigger>

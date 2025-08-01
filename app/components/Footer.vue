@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { NuxtLink } from '#components';
-
 </script>
 
 <template>

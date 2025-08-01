@@ -63,4 +63,5 @@ import { Mail, Download } from 'lucide-vue-next'
     height: auto;
     background-color: #dedede;
 }
+
 </style>

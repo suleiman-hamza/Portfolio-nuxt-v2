@@ -41,3 +41,4 @@ import { NuxtLink } from '#components';
     transition: all 0.8s ease-in-out;
 }
 </style>
+

@@ -50,6 +50,7 @@ import { Motion } from "motion-v"
             <section class="p-4 about-stack">
                 <h2 class="text-2xl font-semi !mb-4">Stack</h2>
                 <div class="border">
+
                 <!--icon set lists-->
                 
                 <span class="w-[60px] h-[60px] border flex items-center justify-center">
@@ -228,4 +229,5 @@ import { Motion } from "motion-v"
 .about-hobby {
 
 }
+
 </style>

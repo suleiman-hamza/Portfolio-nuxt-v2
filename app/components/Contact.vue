@@ -31,6 +31,7 @@ const steps = [
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="!mb-4">
                 <p class="!mb-4 text-2xl">Intrested in having me on your team, I'd love to talk to you</p>
+
                 <div class="p-2 mb-3">
                     <h3 class="text-(--muted-foreground)">What i bring to your team:</h3>
                 </div>

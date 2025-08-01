@@ -4,7 +4,8 @@ import { EllipsisVertical } from 'lucide-vue-next'
 
 <template>
     <section class="border-bottom">
-        <div class="p-4 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
+        <div class="p-4 py-10 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
+
             <CrossedDiv class="size-max text-[1.2rem] p-1 mb-8" as="section">Featured Projects</CrossedDiv>
 
             <!--selected project cards-->

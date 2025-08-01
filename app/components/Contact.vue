@@ -31,8 +31,7 @@ const steps = [
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="!mb-4">
                 <p class="!mb-4 text-2xl">Intrested in having me on your team, I'd love to talk to you</p>
-                <!--<p class="!mb-4 text-(--muted-foreground)">I'm open to exciting opportunities that allows me to create
-                    impactful solutions.</p>-->
+
                 <div class="p-2 mb-3">
                     <h3 class="text-(--muted-foreground)">What i bring to your team:</h3>
                 </div>
@@ -66,11 +65,10 @@ const steps = [
                 </section>
                 <!--stepper prototype-->
             </div>
-            <Buttonx class="border border-dashed cursor-pointer">
-                <span class="text-(--muted-foreground)">Get in Touch</span>
-                <SendHorizonal class="size-4" />
-            </Buttonx>
-            <!-- <p>You can get in touch by email, or if you'd love to connect on social media.</p> -->
+            <RippleButton class="">
+                <span class="">Get in Touch</span>
+                <SendHorizonal class="size-4 inline" />
+            </RippleButton>
         </div>
     </section>
 </template>

@@ -10,7 +10,7 @@
         </section>
         <section class="flex item-center justify-center border-bottom">
             <!--x-logo-->
-            <NuxtLink to="/">
+            <NuxtLink to="https://x.com/thee_hamza001" target="_blank">
                 <span class="flex items-center justify-center icon border w-[40px] h-[40px] bg-green-200 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -20,7 +20,7 @@
                 </span>
             </NuxtLink>
             <!--instagram-logo-->
-            <NuxtLink to="/">
+            <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank">
                 <span class="block icon border w-[40px] h-[40px] bg-pink-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none">
@@ -46,7 +46,7 @@
                 </span>
             </NuxtLink>
             <!--bluesky-logo-->
-            <NuxtLink to="/">
+            <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social">
                 <span class="block icon border w-[40px] h-[40px] bg-blue-100 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -56,7 +56,7 @@
                 </span>
             </NuxtLink>
             <!--github-logo-->
-            <NuxtLink to="https://github.com/suleiman-hamza">
+            <NuxtLink to="https://github.com/suleiman-hamza" target="_blank">
                 <span class="block icon border w-[40px] h-[40px] bg-blue-100 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"

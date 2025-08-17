@@ -31,7 +31,7 @@ import { Menu, House, FileUser, SquareChartGantt, NotebookPen } from 'lucide-vue
                                 <li class="flex gap-2 items-center"><House class="size-4"/><NuxtLink to="/">Home</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><FileUser class="size-4"/><NuxtLink to="/about">About</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><SquareChartGantt class="size-4"/><NuxtLink to="/">Work</NuxtLink></li>
-                                <li class="flex gap-2 items-center"><NotebookPen class="size-4"/><NuxtLink to="/blog">Articles</NuxtLink></li>
+                                <li class="flex gap-2 items-center"><NotebookPen class="size-4"/><NuxtLink to="/articles">Articles</NuxtLink></li>
                                 <li class="flex gap-2 items-center"><NuxtLink to="/"><span>Github</span></NuxtLink></li>
                             </ul>
                         </SheetDescription>
@@ -44,8 +44,8 @@ import { Menu, House, FileUser, SquareChartGantt, NotebookPen } from 'lucide-vue
                 <li class="" tabindex="0"><NuxtLink to="/">Home</NuxtLink></li>
                 <li tabindex="1"><NuxtLink to="/about">About</NuxtLink></li>
                 <!-- <li><NuxtLink to="/">Work</NuxtLink></li> -->
-                <li><NuxtLink to="/blog">Articles</NuxtLink></li>
-                <!-- <li><NuxtLink to="/">Github</NuxtLink></li> -->
+                <li><NuxtLink to="/articles">Articles</NuxtLink></li>
+                <li><NuxtLink to="https://www.github.com/suleiman-hamza">Github</NuxtLink></li>
             </ul>
         </nav>
     </section>

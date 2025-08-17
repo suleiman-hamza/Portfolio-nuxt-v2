@@ -5,7 +5,7 @@ import { NuxtLink } from '#components';
 
 <template>
     <section class="border-bottom">
-        <div class="p-4 py-10 container bg-(--secondary-foreground) text-[#dedede]"> <!--border-x border-[#dedede]-->
+        <div class="p-4 py-10 container bg-(--foreground) text-[#dedede]"> <!--border-x border-[#dedede]-->
             <!--background section header-->
             <CrossedDiv class="text-(--muted-foreground) align-center mx-auto size-max p-2 mb-4">Background
             </CrossedDiv>

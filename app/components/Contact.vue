@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { GitCommitVertical, SendHorizonal } from 'lucide-vue-next'
+import { GitCommitVertical, SendHorizonal, Plus } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/components/ui/stepper'
 
@@ -26,7 +26,7 @@ const steps = [
 
 <template>
     <section class="border-b">
-        <div class="px-12 py-12 container bg-(--secondary-foreground) text-white">
+        <div class="px-12 py-12 container bg-(--foreground) text-white">
             <CrossedDiv class="!mb-4 text-(--muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="!mb-4">
@@ -36,7 +36,7 @@ const steps = [
                     <h3 class="text-(--muted-foreground)">What i bring to your team:</h3>
                 </div>
                 <!--stepper prototype-->
-                <section>
+                <!-- <section>
                     <Stepper orientation="vertical" class="flex w-full max-w-md flex-col justify-start gap-10">
                         <StepperItem v-for="step in steps" :key="step.step" v-slot="{ state }"
                             class="relative flex w-full items-start gap-6" :step="step.step">
@@ -55,17 +55,26 @@ const steps = [
                                     class="text-md sm:text-1xl font-semibold transition lg:text-base">
                                     {{ step.title }}
                                 </StepperTitle>
-                                <!-- <StepperDescription
-                                    class="text-xs text-muted-foreground transition md:not-sr-only lg:text-sm">
-                                    {{ step.description }}
-                                </StepperDescription> -->
                             </div>
                         </StepperItem>
                     </Stepper>
-                </section>
+                </section> -->
                 <!--stepper prototype-->
             </div>
-            
+            <!--experiment grid with crossed div-->
+            <div class="mb-6 w-[400px]">
+            <section class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40">
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Extensive experience in modern web development.</div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Strong focus on developer experience and UX.</div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Proven track record of successful project deliveries.</div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Proven track record of successful project deliveries.</div>
+                    <!--crossed div-->
+                    <div class="hidden md:grid absolute top-1/2 left-0 -translate-y-1/2 z-30 w-full grid-cols-2">
+                        <Plus class="translate-x-[12.5px] ml-auto" color="white"/>
+                    </div>
+                </section>
+            </div>
+
             <RippleButton class="bg-white hover:shadow-sm shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] border transition duration-400">
                 <span class="">Get in Touch</span>
                 <SendHorizonal class="size-4 inline" />

@@ -4,11 +4,11 @@ import { Motion } from "motion-v"
 <template>
     <main class="border-b">
         <section class="container mt-[58px] border-[#dedede] about-grid bg-(--foreground) text-white">
-            <header class="p-4 about-img">
+            <header class="p-6 about-img">
                 <h2 class="!mb-2">Hey, I'm Suleiman</h2>
                 <img src="/images/replace-img.jpeg" width="400" alt="My pic">
             </header>
-            <section class="p-4 about-desc">
+            <section class="p-6 about-desc">
                 <h3 class="text-2xl font-semi !mb-4">Intro...</h3>
                 <div class="leading-[1.7]">
                     <p>I'm a software engineer that specializes in modern web development.</p>
@@ -20,32 +20,32 @@ import { Motion } from "motion-v"
                     <p>My other interests includes: Mountain Biking, Basketball, Events or Meetups, Volunteering and Gaming.</p>
                 </div>
             </section>          
-            <section class="p-4 about-exp border-r">
-                <h2 class="text-2xl font-semi !mb-4">Experience</h2>
+            <section class="p-4 about-exp">
+                <h2 class="text-2xl font-semi !mb-5">Experience</h2>
                 <div class="mb-2">
                     <h3 class="font-bold">ERP Technical Developer @ Growth-Stack</h3>
-                    <h4>Sept, 2025 - Present</h4>
+                    <h4 class="text-(--muted-foreground)">Sept, 2025 - Present</h4>
                 </div>
                 <div class="mb-2">
                     <h3 class="font-bold">FullStack Developer @ RovelTech</h3>
-                    <h4>April 2025 - Present</h4>
+                    <h4 class="text-(--muted-foreground)">April 2025 - Present</h4>
                 </div>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2 }">
                 <div class="mb-2">
                     <h3 class="font-bold">Founder @ Naira-X</h3>
-                    <h4>2024 - Present</h4>
+                    <h4 class="text-(--muted-foreground)">2024 - Present</h4>
                 </div>
                 </Motion>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                 <div class="mb-2">
                     <h3 class="font-bold">Frontend Engineer @ Nova </h3>
-                    <h4>Aug, 2024 - Nov, 2024</h4>
+                    <h4 class="text-(--muted-foreground)">Aug, 2024 - Nov, 2024</h4>
                 </div>
                 </Motion>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.5 }">
                 <div class="mb-2">
                     <h3 class="font-bold">Volunteer @ GDCS BUK</h3>
-                    <h4>2022 - 2024</h4>
+                    <h4 class="text-(--muted-foreground)">2022 - 2024</h4>
                 </div>
                 </Motion>
             </section>
@@ -166,7 +166,7 @@ import { Motion } from "motion-v"
                 </span> -->
                 </div>
             </section>
-            <section class="about-quote">
+            <section class="col-span-2">
                 <Quote />
             </section>
         </section>
@@ -174,19 +174,9 @@ import { Motion } from "motion-v"
 </template>
 
 <style lang="css" scoped>
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
 
 @media (min-width: 760px) {
-    .about-img {
-    grid-column: 2 / 3;
-}
-.about-desc {
-    grid-row-start: 1;
-}
+
 }
 
 </style>

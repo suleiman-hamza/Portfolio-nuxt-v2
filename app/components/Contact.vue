@@ -32,44 +32,31 @@ const steps = [
             <div class="!mb-4">
                 <p class="!mb-4 text-2xl">Intrested in having me on your team, I'd love to talk to you</p>
 
-                <div class="p-2 mb-3">
+                <div class="mb-4">
                     <h3 class="text-(--muted-foreground)">What i bring to your team:</h3>
                 </div>
-                <!--stepper prototype-->
-                <!-- <section>
-                    <Stepper orientation="vertical" class="flex w-full max-w-md flex-col justify-start gap-10">
-                        <StepperItem v-for="step in steps" :key="step.step" v-slot="{ state }"
-                            class="relative flex w-full items-start gap-6" :step="step.step">
-                            <StepperSeparator v-if="step.step !== steps[steps.length - 1].step"
-                                class="absolute left-[18px] top-[38px] block h-[105%] w-0.5 shrink-0 rounded-full bg-muted group-data-[state=completed]:bg-primary" />
-
-                            <StepperTrigger as-child>
-                                <Button variant="default"
-                                    size="icon" class="z-10 rounded-full shrink-0 border">
-                                    <GitCommitVertical />
-                                </Button>
-                            </StepperTrigger>
-
-                            <div class="flex flex-col gap-1">
-                                <StepperTitle
-                                    class="text-md sm:text-1xl font-semibold transition lg:text-base">
-                                    {{ step.title }}
-                                </StepperTitle>
-                            </div>
-                        </StepperItem>
-                    </Stepper>
-                </section> -->
-                <!--stepper prototype-->
             </div>
             <!--experiment grid with crossed div-->
-            <div class="mb-6 w-[400px]">
-            <section class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40">
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Extensive experience in modern web development.</div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Strong focus on developer experience and UX.</div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Proven track record of successful project deliveries.</div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-4">Proven track record of successful project deliveries.</div>
+            <div class="mb-6 sm:w-[500px]">
+            <section class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40">
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                        <p>Extensive experience in modern web development.</p>
+                        <span class="border-r border-b border-dashed absolute top-0 left-0 w-8 h-8 flex justify-center items-center">1</span>
+                    </div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                        <p>Strong focus on developer experience and UX.</p>
+                        <span class="border-l border-b border-dashed absolute top-0 right-0 w-8 h-8 flex justify-center items-center">2</span>
+                    </div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                        <p>Proven track record of successful project deliveries.</p>
+                        <span class="border-r border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 left-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">3</span>
+                    </div>
+                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                        <p>Proven track record of successful project deliveries.</p>
+                        <span class="border-l border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 right-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">4</span>
+                    </div>
                     <!--crossed div-->
-                    <div class="hidden md:grid absolute top-1/2 left-0 -translate-y-1/2 z-30 w-full grid-cols-2">
+                    <div class="hidden sm:grid absolute top-1/2 left-0 -translate-y-1/2 z-30 w-full grid-cols-2">
                         <Plus class="translate-x-[12.5px] ml-auto" color="white"/>
                     </div>
                 </section>

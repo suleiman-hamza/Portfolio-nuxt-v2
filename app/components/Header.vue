@@ -2,11 +2,11 @@
 </script>
 
 <template>
-    <header class="border-b border-dashed">
+    <header class="border-b border-gray-300/50 border-dashed">
         <nav class="tab p-4 w-full container">
-            <span class="logo size-fit flex gap-2 items-center border">
+            <span class="logo size-fit flex gap-2 items-center">
                 <img src="/images/avatar1.png" alt="suleiman avatar" class="w-[25px] h-[25px] rounded-full" />
-                <h1>Hunter</h1>
+                <h1 class="text-shadow-sm text-shadow-rose-200">Hunter</h1>
             </span>
         </nav>
     </header>

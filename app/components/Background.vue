@@ -20,7 +20,7 @@ import { NuxtLink } from '#components';
 
 
                 <div class="sm:p-4 text-lg flex flex-col justify-end">
-                    <p class="">I'm a software developer that specializes in modern web development.</p>
+                    <!-- <p class="">I'm a software developer that specializes in modern web development.</p> -->
                     <p class="">I specialize in frontend tools and frameworks, with a strong focus in
                         improving DX and infastructure</p>
                     <p class="!mb-4">I value long-term partnership, so i focus on scaling up your MVP and making sure that it delights your users.</p>

@@ -10,8 +10,8 @@
         </section>
         <section class="flex item-center justify-center border-bottom">
             <!--x-logo-->
-            <NuxtLink to="https://x.com/thee_hamza001" target="_blank">
-                <span class="flex items-center justify-center icon border w-[40px] h-[40px] bg-green-200 p-2">
+            <NuxtLink to="https://x.com/thee_hamza001" target="_blank" class="hover:shadow-md shadow-green-300">
+                <span class="flex items-center justify-center icon border-l w-[40px] h-[40px] bg-green-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5"
@@ -20,8 +20,8 @@
                 </span>
             </NuxtLink>
             <!--instagram-logo-->
-            <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank">
-                <span class="block icon border w-[40px] h-[40px] bg-pink-300 p-2">
+            <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank" class="hover:shadow-md shadow-pink-300">
+                <span class="block icon border-l w-[40px] h-[40px] bg-pink-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none">
                             <rect width="17" height="17" x="3.5" y="3.5" stroke="currentColor" stroke-linecap="round"
@@ -34,8 +34,8 @@
                 </span>
             </NuxtLink>
             <!--discord-logo-->
-            <NuxtLink to="/">
-                <span class="block icon border w-[40px] h-[40px] bg-blue-400 p-2">
+            <NuxtLink to="/" class="hover:shadow-md shadow-slate-300">
+                <span class="block icon border-l w-[40px] h-[40px] bg-slate-300/50 p-2">
                     <!--link-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -46,8 +46,8 @@
                 </span>
             </NuxtLink>
             <!--bluesky-logo-->
-            <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social">
-                <span class="block icon border w-[40px] h-[40px] bg-blue-100 p-2">
+            <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social" class="hover:shadow-md shadow-blue-300">
+                <span class="block icon border-l w-[40px] h-[40px] bg-blue-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5"
@@ -56,8 +56,8 @@
                 </span>
             </NuxtLink>
             <!--github-logo-->
-            <NuxtLink to="https://github.com/suleiman-hamza" target="_blank">
-                <span class="block icon border w-[40px] h-[40px] bg-blue-100 p-2">
+            <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" class="hover:shadow-md shadow-teal-300">
+                <span class="block icon border-r w-[40px] h-[40px] bg-teal-200 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5">
@@ -72,7 +72,7 @@
         </section>
         <div class="p-4">
             <p class="text-center">If you love this, give me a star on <a href="#"
-                    class="underline text-blue-400">github</a> :)</p>
+                    class="underline text-blue-400">Github</a> :)</p>
             <p class="text-center">Copyright @ 2025. Built with <a href="#" class="underline text-blue-400">Nuxt_js</a>
             </p>
         </div>

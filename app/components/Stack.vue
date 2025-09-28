@@ -4,7 +4,7 @@
 <template>
     <section class="border-b">
         <section class="p-4 sm:px-12 py-12 container border-x justify-center items-center bg-(--foreground) text-[#dedede]">
-            <h2 class="text-2xl font-semi !mb-4">Stack</h2>
+                        <CrossedDiv class="size-max p-1 mb-8" as="section">Stack & Tools</CrossedDiv>
             <div class="grid grid-cols-4 grid-rows-4 gap-1 size-max">
                 
                 <span class="col-start-2 w-[60px] h-[60px] border flex items-center justify-center">

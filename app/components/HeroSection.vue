@@ -1,4 +1,47 @@
 <script setup lang="ts">
+// Reviews data
+const reviews = [
+    {
+        name: "Jack",
+        username: "@jack",
+        body: "I've never seen anything like this before. It's amazing. I love it.",
+        img: "https://avatar.vercel.sh/jack",
+    },
+    {
+        name: "Jill",
+        username: "@jill",
+        body: "I don't know what to say. I'm speechless. This is amazing.",
+        img: "https://avatar.vercel.sh/jill",
+    },
+    {
+        name: "John",
+        username: "@john",
+        body: "I'm at a loss for words. This is amazing. I love it.",
+        img: "https://avatar.vercel.sh/john",
+    },
+    {
+        name: "Jane",
+        username: "@jane",
+        body: "I'm at a loss for words. This is amazing. I love it.",
+        img: "https://avatar.vercel.sh/jane",
+    },
+    {
+        name: "Jenny",
+        username: "@jenny",
+        body: "I'm at a loss for words. This is amazing. I love it.",
+        img: "https://avatar.vercel.sh/jenny",
+    },
+    {
+        name: "James",
+        username: "@james",
+        body: "I'm at a loss for words. This is amazing. I love it.",
+        img: "https://avatar.vercel.sh/james",
+    },
+];
+
+// Split reviews into two rows
+const firstRow = ref(reviews.slice(0, reviews.length / 2));
+const secondRow = ref(reviews.slice(reviews.length / 2));
 </script>
 
 <template>
@@ -25,8 +68,7 @@
             <h2 class="text-slate-500 text-3xl lg:text-4xl leading-[1.3] !mt-18 !mb-4 max-w-[700px]">An independent
                 creative developer
                 pursuing standout solutions that are meaningful & scalable &#x1F525 &#128293</h2>
-            <div class="flex w-full h-10 border bg-(--foreground)">
-
+            <div class="border w-full">
             </div>
             <!-- <p>Feel free to explore my work and connect with me, I am excited to hear from you!</p> -->
         </main>

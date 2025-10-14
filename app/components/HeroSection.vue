@@ -24,9 +24,8 @@
             <!-- <h1 class="text-4xl lg:text-6xl !mb-4">Suleiman <br> Hamza ~ Hunter</h1> -->
             <h2 class="text-slate-500 text-3xl lg:text-4xl leading-[1.3] !mt-18 !mb-4 max-w-[700px]">An independent
                 creative developer
-                pursuing standout solutions that are meaningful & scalable.</h2>
+                pursuing standout solutions that are meaningful & scalable &#x1F525 &#128293</h2>
             <div class="flex w-full h-10 border bg-(--foreground)">
-
 
             </div>
             <!-- <p>Feel free to explore my work and connect with me, I am excited to hear from you!</p> -->

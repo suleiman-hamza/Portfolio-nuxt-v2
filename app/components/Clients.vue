@@ -60,7 +60,6 @@ const testimonyList = ref([
                 <CarouselNext class="top-[50%] right-[-15px]" />
             </Carousel>
         </section>
-        <p class="text-center text-2xl !mb-6">99% of my clients say about my work</p>
     </div>
     </section>
 </template>

@@ -8,7 +8,7 @@
     <HeroSection />
     <Background />
     <Projects />
-    <Stack />
+    <!-- <Stack /> -->
     <LatestArticles />
     <Clients />
     <Contact />

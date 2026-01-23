@@ -23,12 +23,12 @@ import { Motion } from "motion-v"
             <section class="p-4 about-exp border border-green-500">
                 <h2 class="text-2xl font-semi !mb-5">Professional Experience</h2>
                 <div class="mb-2">
-                    <h3 class="font-bold">ERP Technical Developer @ Growth-Stack</h3>
-                    <h4 class="text-(--muted-foreground)">Sept, 2025 - Present</h4>
+                    <h3 class="font-bold">ERP Technical Developer @ Ops29 Ltd.</h3>
+                    <h4 class="text-(--muted-foreground)">Aug 2025 - Present</h4>
                 </div>
                 <div class="mb-2">
-                    <h3 class="font-bold">FullStack Developer @ RovelTech</h3>
-                    <h4 class="text-(--muted-foreground)">April 2025 - Present</h4>
+                    <h3 class="font-bold">Frontend Engineer @ RovelTech</h3>
+                    <h4 class="text-(--muted-foreground)">March 2024 - Jan 2025</h4>
                 </div>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2 }">
                 <div class="mb-2">
@@ -38,8 +38,8 @@ import { Motion } from "motion-v"
                 </Motion>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                 <div class="mb-2">
-                    <h3 class="font-bold">Frontend Engineer @ Nova </h3>
-                    <h4 class="text-(--muted-foreground)">Aug, 2024 - Nov, 2024</h4>
+                    <h3 class="font-bold">Frontend Developer @upwork</h3>
+                    <h4 class="text-(--muted-foreground)">Mar, 2019 - Jan, 2023</h4>
                 </div>
                 </Motion>
                 <Motion as-child :initial="{opacity: 0, x: 12}" :whileInView="{opacity: 1, x: 0}" :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.5 }">

@@ -3,12 +3,12 @@ import { Motion } from "motion-v"
 </script>
 <template>
     <main class="border-b">
-        <section class="container mt-[58px] border-[#dedede] about-grid bg-(--foreground) text-white">
-            <header class="p-6 about-img">
+        <section class="container mt-[58px] border-[#dedede] bg-(--foreground) text-white grid grid-cols-2">
+            <header class="p-6 about-img border border-red-500">
                 <h2 class="!mb-2">Hey, I'm Suleiman</h2>
                 <img src="/images/replace-img.jpeg" width="400" alt="My pic">
             </header>
-            <section class="p-6 about-desc">
+            <section class="p-6 about-desc border border-amber-500 sticky">
                 <h3 class="text-2xl font-semi !mb-4">Intro...</h3>
                 <div class="leading-[1.7]">
                     <p>I'm a software engineer that specializes in modern web development.</p>
@@ -20,8 +20,8 @@ import { Motion } from "motion-v"
                     <p>My other interests includes: Mountain Biking, Basketball, Events or Meetups, Volunteering and Gaming.</p>
                 </div>
             </section>          
-            <section class="p-4 about-exp">
-                <h2 class="text-2xl font-semi !mb-5">Experience</h2>
+            <section class="p-4 about-exp border border-green-500">
+                <h2 class="text-2xl font-semi !mb-5">Professional Experience</h2>
                 <div class="mb-2">
                     <h3 class="font-bold">ERP Technical Developer @ Growth-Stack</h3>
                     <h4 class="text-(--muted-foreground)">Sept, 2025 - Present</h4>
@@ -49,10 +49,10 @@ import { Motion } from "motion-v"
                 </div>
                 </Motion>
             </section>
-            <section class="col-span-2">
+            <section class="col-span-2 border border-b-blue-400">
                 <Quote />
             </section>
-            <section class="p-4">
+            <section class="p-4 border border-purple-500">
                 <p>Some other section will be below the quote</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam optio harum corporis, quaerat blanditiis velit sequi architecto recusandae deserunt veritatis nulla dolorum aliquam atque eaque molestias, consectetur nisi cupiditate quidem.</p>
             </section>

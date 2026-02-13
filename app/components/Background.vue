@@ -19,7 +19,7 @@ import { NuxtLink } from '#components';
                 </div>
 
 
-                <div class="sm:p-4 text-lg flex flex-col justify-end">
+                <div class="sm:p-4 text-base flex flex-col justify-end">
                     <!-- <p class="">I'm a software developer that specializes in modern web development.</p> -->
                     <p class="">I specialize in frontend tools and frameworks, with a strong focus in
                         improving DX and infastructure</p>

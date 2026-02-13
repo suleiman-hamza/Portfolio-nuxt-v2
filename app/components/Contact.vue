@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { GitCommitVertical, SendHorizonal, Plus } from 'lucide-vue-next'
-import { Button } from '@/components/ui/button'
-import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/components/ui/stepper'
+import { SendHorizonal, Plus } from 'lucide-vue-next'
 
 const steps = [
     {

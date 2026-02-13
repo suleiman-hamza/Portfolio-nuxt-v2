@@ -47,8 +47,8 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 <template>
     <section class="border-b h-screen mt-[58px]">
         <main
-            class="container flex flex-col items-center justify-between border-x border-[#dedede] grid-background px-4 sm:py-12 bg-rose-100/50 h-full">
-            <ul class="flex flex-wrap gap-2 mt-4 mb-4 text-[1rem] leading-none">
+            class="container flex flex-col items-center justify-between border-x border-[#dedede] grid-background px-4 sm:px-8 sm:py-12 bg-rose-100/50 h-full">
+            <ul class="flex flex-wrap gap-2 mt-12 mb-4 text-[1rem] leading-none">
                 <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                     <li>FrontEnd Engineer</li>
@@ -65,9 +65,9 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
                 </Motion>
             </ul>
             <!-- <h1 class="text-4xl lg:text-6xl !mb-4">Suleiman <br> Hamza ~ Hunter</h1> -->
-            <h2 class="text-slate-500 text-3xl lg:text-4xl leading-[1.3] !mt-18 !mb-4 max-w-[700px]">An independent
+            <h2 class="text-slate-500 text-3xl sm:text-4xl leading-[1.3] !mt-18 !mb-4 max-w-[700px] text-center">An independent
                 creative developer
-                pursuing standout solutions that are meaningful & scalable &#x1F525 &#128293</h2>
+                pursuing standout solutions that are meaningful & scalable <span>&#128293</span></h2>
             <div class="border w-full">
             </div>
             <!-- <p>Feel free to explore my work and connect with me, I am excited to hear from you!</p> -->

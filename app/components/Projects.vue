@@ -39,7 +39,6 @@ const projectData = ref([
             <div class="mb-4 flex gap-4 overflow-x-auto w-full flex-initial bar pb-2">
                 <ProjectCard v-for="proj in projectData" :name="proj.name" :tags="proj.tags" />
             </div>
-            <div class="flex justify-end"><NuxtLink to="/" class="text-sky-500">See Playground</NuxtLink></div>
         </div>
     </section>
 </template>

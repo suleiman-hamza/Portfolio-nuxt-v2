@@ -3,11 +3,12 @@
 
 <template>
     <header class="border-b border-gray-300/50 border-dashed">
-        <nav class="tab p-4 w-full container">
-            <span class="logo size-fit flex gap-2 items-center">
+        <nav class="tab p-4 w-full container flex justify-between items-center">
+            <NuxtLink to="/" class="logo size-fit flex gap-2 items-center">
                 <img src="/images/avatar1.png" alt="suleiman avatar" class="w-[25px] h-[25px] rounded-full" />
                 <h1 class="text-shadow-sm text-shadow-rose-200">shs</h1>
-            </span>
+            </NuxtLink>
+            <Sidebar />
         </nav>
     </header>
 </template>

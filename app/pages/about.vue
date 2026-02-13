@@ -3,12 +3,15 @@ import { Motion } from "motion-v"
 </script>
 <template>
     <main class="border-b">
-        <section class="container mt-[58px] border-[#dedede] bg-(--foreground) text-white grid grid-cols-2">
-            <header class="p-6 about-img border border-red-500">
-                <h2 class="!mb-2">Hey, I'm Suleiman</h2>
-                <img src="/images/replace-img.jpeg" width="400" alt="My pic">
+        <section class="container mt-[58px] border-[#dedede] bg-(--foreground) text-white sm:grid sm:grid-cols-2">
+            <header class="about-img border flex">
+                <h2 class="!mb-2 vertical">Hey, I'm Suleiman</h2>
+                <NuxtImg src="/images/replace-img.jpeg"  alt="My pic" />
             </header>
-            <section class="p-6 about-desc border border-amber-500 sticky">
+            <section class="p-4">
+                <p>Some weird paragrapgh</p>
+            </section>
+            <section class="p-6 about-desc border border-amber-500 col-span-2">
                 <h3 class="text-2xl font-semi !mb-4">Intro...</h3>
                 <div class="leading-[1.7]">
                     <p>I'm a software engineer that specializes in modern web development.</p>
@@ -49,6 +52,7 @@ import { Motion } from "motion-v"
                 </div>
                 </Motion>
             </section>
+            
             <section class="col-span-2 border border-b-blue-400">
                 <Quote />
             </section>
@@ -61,7 +65,10 @@ import { Motion } from "motion-v"
 </template>
 
 <style lang="css" scoped>
-
+.vertical {
+    writing-mode: sideways-lr;
+  text-orientation: sideways;
+}
 @media (min-width: 760px) {
 
 }

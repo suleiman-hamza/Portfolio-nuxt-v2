@@ -23,8 +23,8 @@ watch(route, () => {
 
 <template>
     <Sheet v-model:open="closeSheet">
-        <SheetTrigger as-child>
-            <Button variant="outline" size="icon" class="p-2 rounded-none">
+        <SheetTrigger as-child >
+            <Button variant="outline" size="icon" class="p-2 rounded-none" aria-label="Open Sidebar">
                 <Menu />
             </Button>
         </SheetTrigger>

@@ -7,7 +7,10 @@ import { Motion } from "motion-v"
             <header class="grid grid-cols-[auto_1fr]">
                 <h2 class="text-2xl !mb-2 vertical p-2">Hey, I'm Suleiman</h2>
                 <NuxtImg src="/images/replace-img.jpeg" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
-                    alt="Image user">
+                    alt="Image user" 
+                    preload 
+                    loading="eager"
+                    fetch-priority="high">
                     <img v-if="isLoaded" v-bind="imgAttrs" :src="src" class="w-full max-w-[400px]">
                 </NuxtImg>
             </header>

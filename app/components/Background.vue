@@ -13,7 +13,7 @@
                         improving DX and infastructure</p>
                     <p class="!mb-4">I value long-term partnership, so i focus on scaling up your MVP and making sure that it delights your users.</p>
                     <NuxtLink to="/about" class="text-sky-500 flex gap-1 size-max link items-center transition-all duration-200">
-                        <span class="leading-none text-[18px]">Read More</span>
+                        <span class="leading-none text-[18px]">More About Me</span>
                     </NuxtLink>
                 </div>
             </section>

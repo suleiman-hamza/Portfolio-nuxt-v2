@@ -4,8 +4,8 @@
 <template>
     <header class="border-b border-gray-300/50 border-dashed">
         <nav class="tab p-4 w-full container flex justify-between items-center">
-            <NuxtLink to="/" class="logo size-fit flex gap-2 items-center">
-                <img src="/images/avatar1.png" alt="suleiman avatar" class="w-[25px] h-[25px] rounded-full" />
+            <NuxtLink to="/" aria-label="Back to Home" class="logo size-fit flex gap-2 items-center">
+                <img src="/images/avatar1.png" alt="suleiman avatar" w="25" h="25" class="w-[25px] h-[25px] rounded-full" />
                 <h1 class="text-shadow-sm text-shadow-rose-200">shs</h1>
             </NuxtLink>
             <Sidebar />

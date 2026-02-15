@@ -2,13 +2,12 @@
 </script>
 
 <template>
-    <section class="border-bottom">
-        <div class="p-4 py-10 container bg-(--foreground) text-[#dedede]"> <!--border-x border-[#dedede]-->
+    <section class="border-b border-gray-300/50">
+        <div class="p-4 py-10 container border-gray-300/50 bg-(--foreground) border-x"> <!--border-x border-[#dedede]-->
             <!--background section header-->
             <CrossedDiv class="text-(--muted-foreground) align-center mx-auto size-max p-2 mb-4">Background
             </CrossedDiv>
-            <section class="grid grid-cols-1 sm:grid-cols-[minmax(200px,_300px)_2fr] sm:gap-4">
-                <div class="sm:p-4 text-base flex flex-col justify-end">
+                <div class="">
                     <p class="">I specialize in frontend tools and frameworks, with a strong focus in
                         improving DX and infastructure</p>
                     <p class="!mb-4">I value long-term partnership, so i focus on scaling up your MVP and making sure that it delights your users.</p>
@@ -16,7 +15,6 @@
                         <span class="leading-none text-[18px]">More About Me</span>
                     </NuxtLink>
                 </div>
-            </section>
         </div>
     </section>
 </template>

@@ -37,8 +37,8 @@ const testimonyList = ref([
 ])
 </script>
 <template>
-    <section class="border-bottom">
-        <div class="p-6 py-10 container border-x border-[#dedede]"> <!--border-x border-[#dedede]-->
+    <section class="border-b border-gray-300/50">
+        <div class="p-6 py-10 container border-x border-gray-300/50"> <!--border-x border-[#dedede]-->
         <p class="text-center text-2xl !mb-6">99% of my clients refer me, here's why they do</p>
         <section class="mb-12">
             <Carousel class="relative w-full">

@@ -23,7 +23,7 @@ const steps = [
 </script>
 
 <template>
-    <section class="border-b">
+    <section class="border-b bg-accent">
         <div class="px-12 py-12 container bg-(--foreground) text-white">
             <CrossedDiv class="!mb-4 text-(--muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->

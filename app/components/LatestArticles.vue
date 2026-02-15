@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <section class="border-bottom">
-        <section class="container border-x border-[#dedede] p-4 py-10">
+    <section class="border-b border-gray-300/50">
+        <section class="container border-x border-gray-300/50 p-4 py-10">
 
             <CrossedDiv class="size-max p-1 mb-6">Recent from the blog</CrossedDiv>
             <div class="mb-4">

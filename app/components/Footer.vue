@@ -3,12 +3,12 @@
 
 <template>
     <footer class="">
-        <section class="border-b">
+        <section class="border-b border-gray-300/50">
             <span class="p-6 flex items-center justify-center">
                 <SvgLogoPaths />
             </span>
         </section>
-        <section class="flex item-center justify-center border-bottom">
+        <section class="flex item-center justify-center border-b border-gray-300/50">
             <!--x-logo-->
             <NuxtLink to="https://x.com/thee_hamza001" target="_blank" aria-label="X (Twitter) Profile" class="hover:shadow-md shadow-green-300">
                 <span class="flex items-center justify-center icon border-l w-[40px] h-[40px] bg-green-300 p-2">

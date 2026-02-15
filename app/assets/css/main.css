@@ -9,6 +9,8 @@
 
 body {
     margin: 0;
+    background-color: var(--foreground);
+    color: var(--text-muted);
     /* border: 2px solid red; */
 }
 *, *::before, *::after {
@@ -38,19 +40,9 @@ img {
 } */
 
 @media (min-width: 700px) {
-    .container {
-        /* max-width: 650px; */
+    .contain {
         max-width: 90vw;
     }
-}
-/* @media (min-width: 950px) {
-    .container {
-        max-width: 850px;
-    }
-} */
-
-.border-bottom {
-    border-bottom: 1px solid #dedede;
 }
 
 @theme inline {
@@ -94,7 +86,8 @@ img {
 
 :root {
     --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
+    --foreground: oklch(0.2 0 0);
+    --text-muted: oklch(70.8% 0 0);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.145 0 0);
     --popover: oklch(1 0 0);

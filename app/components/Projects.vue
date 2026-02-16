@@ -30,7 +30,7 @@ const projectData = ref([
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="p-4 py-10 container border-x border-gray-300/50 bg-(--background)"> <!--border-x border-[#dedede]-->
+        <div class="p-4 py-10 container border-x border-gray-300/50 bg-background"> <!--border-x border-[#dedede]-->
 
             <CrossedDiv class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
 

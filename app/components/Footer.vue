@@ -3,15 +3,15 @@
 
 <template>
     <footer class="">
-        <section class="border-b">
+        <section class="border-b border-gray-300/50">
             <span class="p-6 flex items-center justify-center">
                 <SvgLogoPaths />
             </span>
         </section>
-        <section class="flex item-center justify-center border-bottom">
+        <section class="flex item-center justify-center border-b border-gray-300/50">
             <!--x-logo-->
             <NuxtLink to="https://x.com/thee_hamza001" target="_blank" aria-label="X (Twitter) Profile" class="hover:shadow-md shadow-green-300">
-                <span class="flex items-center justify-center icon border-l w-[40px] h-[40px] bg-green-300 p-2">
+                <span class="flex items-center justify-center icon border-l w-10 h-10 bg-green-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5"
@@ -21,7 +21,7 @@
             </NuxtLink>
             <!--instagram-logo-->
             <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank" aria-label="Instagram Profile" class="hover:shadow-md shadow-pink-300">
-                <span class="block icon border-l w-[40px] h-[40px] bg-pink-300 p-2">
+                <span class="block icon border-l w-10 h-10 bg-pink-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none">
                             <rect width="17" height="17" x="3.5" y="3.5" stroke="currentColor" stroke-linecap="round"
@@ -35,7 +35,7 @@
             </NuxtLink>
             <!--discord-logo-->
             <NuxtLink to="https://discord.gg/eaNBB5vg" target="_blank" aria-label="Discord Profile" class="hover:shadow-md shadow-slate-300">
-                <span class="block icon border-l w-[40px] h-[40px] bg-slate-300/50 p-2">
+                <span class="block icon border-l w-10 h-10 bg-slate-300/50 p-2">
                     <!--link-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -47,7 +47,7 @@
             </NuxtLink>
             <!--bluesky-logo-->
             <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social" target="_blank" aria-label="Bluesky Profile" class="hover:shadow-md shadow-blue-300">
-                <span class="block icon border-l w-[40px] h-[40px] bg-blue-300 p-2">
+                <span class="block icon border-l w-10 h-10 bg-blue-300 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5"
@@ -57,7 +57,7 @@
             </NuxtLink>
             <!--github-logo-->
             <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile" class="hover:shadow-md shadow-teal-300">
-                <span class="block icon border-r w-[40px] h-[40px] bg-teal-200 p-2">
+                <span class="block icon border-r w-10 h-10 bg-teal-200 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5">
@@ -73,7 +73,7 @@
         <div class="p-4">
             <p class="text-center">If you love this, give me a star on <a href="https://github.com/suleiman-hamza"
                     class="underline text-blue-400">Github</a> :)</p>
-            <p class="text-center">Copyright @ 2025. Built with <a href="https://nuxt.com" class="underline text-blue-400">Nuxt_js</a>
+            <p class="text-center">Copyright @ 2026. Built with <a href="https://nuxt.com" class="underline text-blue-400">Nuxt_js</a>
             </p>
         </div>
     </footer>

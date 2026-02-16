@@ -29,8 +29,8 @@ const projectData = ref([
 </script>
 
 <template>
-    <section class="border-bottom">
-        <div class="p-4 py-10 container border-x border-[#dedede] bg-rose-100/50"> <!--border-x border-[#dedede]-->
+    <section class="border-b border-gray-300/50">
+        <div class="p-4 py-10 container border-x border-gray-300/50 bg-(--background)"> <!--border-x border-[#dedede]-->
 
             <CrossedDiv class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
 

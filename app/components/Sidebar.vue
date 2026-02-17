@@ -24,7 +24,7 @@ watch(route, () => {
 <template>
     <Sheet v-model:open="closeSheet">
         <SheetTrigger as-child >
-            <Button variant="outline" size="icon" class="p-2 rounded-none" aria-label="Open Sidebar">
+            <Button variant="ghost" size="icon" class="p-2 rounded-none" aria-label="Open Sidebar">
                 <Menu />
             </Button>
         </SheetTrigger>
@@ -47,7 +47,7 @@ watch(route, () => {
                     <NuxtLink to="/about">About</NuxtLink>
                     <NuxtLink to="https://github.com/suleiman-hamza">PlayGround</NuxtLink>
                     <NuxtLink to="https://github.com/suleiman-hamza">Github</NuxtLink>
-                    <NuxtLink to="/articles">Articles</NuxtLink>
+                    <NuxtLink to="/Blog">Articles</NuxtLink>
                 </div>
                 <div class="p-4 border w-full">
 

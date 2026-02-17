@@ -50,7 +50,7 @@ const steps = [
                         <span class="border-r border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 left-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">3</span>
                     </div>
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
-                        <p>Proven track record of successful project deliveries.</p>
+                        <p>Replacing multiple disconnected tools with a single ERP platform.</p>
                         <span class="border-l border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 right-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">4</span>
                     </div>
                     <!--crossed div-->

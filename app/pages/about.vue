@@ -26,7 +26,7 @@ definePageMeta({
                 </NuxtImg>
             </header>
             <section class="p-4 col-span-2 border-b border-gray-300/50">
-                <h3 class="text-2xl font-semi mb-4">Intro...</h3>
+                <h3 class="text-2xl font-semi mb-4">Intro</h3>
                 <div class="leading-[1.7]">
                     <p>I’m a Frontend Engineer with a passion for crafting smooth, responsive web experiences using
                         Vue.js/Nuxt, Node.js/Express and TypeScript. My expertise lies in building intuitive interfaces
@@ -40,7 +40,7 @@ definePageMeta({
                         Gaming.</p>
                 </div>
             </section>
-            <section class="p-4 about-exp">
+            <section class="p-4 about-exp border-b border-gray-300/50 sm:border-0">
                 <h2 class="text-2xl font-semi mb-5">Professional Experience</h2>
                 <div class="mb-2">
                     <h3 class="font-bold">ERP Technical Developer @ Ops29 Ltd.</h3>
@@ -72,7 +72,7 @@ definePageMeta({
                     </div>
                 </Motion>
             </section>
-            <section class="p-4 py-8">
+            <section class="p-4 py-8 border-b border-gray-300/50 sm:border-0">
                 <h2 class="text-2xl mb-4">Volunteering</h2>
                 <div class="flex w-full max-w-lg flex-col gap-6">
                     <Item variant="outline" class="rounded-none">

@@ -56,12 +56,12 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
                 <hr class="divider">
                 <Motion as-child :initial="{ opacity: 0, x: 6 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.7 }">
-                    <li>Software Engineer</li>
+                    <li>Creative Designer</li>
                 </Motion>
                 <hr class="divider">
                 <Motion as-child :initial="{ opacity: 0, y: 4 }" :whileInView="{ opacity: 1, y: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
-                    <li>Creative Designer</li>
+                    <li>Odoo Technical Developer</li>
                 </Motion>
             </ul>
             <!-- <h1 class="text-4xl lg:text-6xl !mb-4">Suleiman <br> Hamza ~ Hunter</h1> -->

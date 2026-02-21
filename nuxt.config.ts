@@ -21,9 +21,26 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2025-05-20',
   css: ['~/assets/css/main.css'],
+  // At a minimum, a Vite plugin must have a name
+  // Our plugin is an IIFE (Immediately Invoked Function Expression)
   vite: {
     plugins: [
       tailwindcss(),
+      (() => {
+  const imgTagRegex = /<img\s[^>]*src=["']([^"']+)["'][^>]*>/g
+
+  return {
+    name: 'unpic',
+    enforce: 'pre',
+    transform: {
+      filter: {
+        id: /\.vue$/, 
+        code: imgTagRegex, 
+      },
+      async handler(code) {},
+    }
+  }
+})()
     ],
   },
   devtools: { enabled: true },

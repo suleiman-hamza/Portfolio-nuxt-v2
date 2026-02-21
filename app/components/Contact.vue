@@ -24,19 +24,19 @@ const steps = [
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="px-12 py-12 container bg-foreground) text-white">
+        <div class="px-12 py-12 container bg-foreground">
             <CrossedDiv class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="mb-4">
-                <p class="mb-4 text-2xl">Intrested in having me on your team, I'd love to talk to you</p>
+                <p class="mb-4 text-2xl text-muted">Intrested in having me on your team, I'd love to talk to you</p>
 
                 <div class="mb-4">
-                    <h3 class="text-muted-foreground)">What i bring to your team:</h3>
+                    <h3 class="text-muted">What i bring to your team:</h3>
                 </div>
             </div>
             <!--experiment grid with crossed div-->
             <div class="mb-6 sm:w-125">
-            <section class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40">
+            <section class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40 text-muted">
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
                         <p>Extensive experience in modern web development.</p>
                         <span class="border-r border-b border-dashed absolute top-0 left-0 w-8 h-8 flex justify-center items-center">1</span>

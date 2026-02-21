@@ -39,7 +39,7 @@ const testimonyList = ref([
 <template>
     <section class="border-b border-gray-300/50">
         <div class="p-6 py-10 container border-x border-gray-300/50"> <!--border-x border-[#dedede]-->
-        <p class="text-center text-2xl !mb-6">99% of my clients refer me, here's why they do</p>
+        <p class="text-center text-2xl mb-6">99% of my clients refer me, here's why they do</p>
         <section class="mb-12">
             <Carousel class="relative w-full">
                 <CarouselContent>
@@ -47,7 +47,7 @@ const testimonyList = ref([
                         <div class="flex flex-col items-center justify-center gap-4 p-4 border bg-red-200 rounded-lg border-red-200">
                             <p class="border p-2">{{ item.text }}</p>
                             <div class="border flex flex-col justify-center items-center gap-1">
-                                <span class="block w-[40px] h-[40px] border rounded-full">
+                                <span class="block w-10 h-10 border rounded-full">
                                     <NuxtImg :src="item.img" />
                                 </span>
                                 <h2 class="text-md">{{ item.client }}</h2>

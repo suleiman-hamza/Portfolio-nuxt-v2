@@ -29,7 +29,7 @@ definePageMeta({
                 <h3 class="text-2xl font-semi mb-4">Intro</h3>
                 <div class="leading-[1.7]">
                     <p>Since the beginning of my web journey in 2018, I’ve always wanted to...... </p>
-                    <p>If you have any questions or suggestions, feel free to reach out! You can message me on X or email me at infra@soubiran.dev....... </p>
+                    <p>If you have any questions or suggestions, feel free to reach out! You can message me on X or email me at infra@soubiran....... </p>
                     <p>I’m a Frontend Engineer with a passion for crafting smooth, responsive web experiences using
                         Vue.js/Nuxt, Node.js/Express and TypeScript. My expertise lies in building intuitive interfaces
                         and robust applications, leveraging powerful component libraries like VueUse and Vue Motion to

@@ -9,6 +9,7 @@ import {
   ItemContent,
   ItemDescription,
   ItemGroup,
+  ItemHeader,
   ItemMedia,
   ItemSeparator,
   ItemTitle,
@@ -36,6 +37,27 @@ const models = [
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
     credit: 'Cherry Laithang on Unsplash',
   },
+  {
+    name: 'v0-2.0-mini',
+    description: 'Open Source model for everyone.',
+    image:
+      'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
+    credit: 'Cherry Laithang on Unsplash',
+  },
+  {
+    name: 'v0-2.0-mini',
+    description: 'Open Source model for everyone.',
+    image:
+      'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
+    credit: 'Cherry Laithang on Unsplash',
+  },
+  {
+    name: 'v0-2.0-mini',
+    description: 'Open Source model for everyone.',
+    image:
+      'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
+    credit: 'Cherry Laithang on Unsplash',
+  },
 ]
 
 </script>
@@ -44,11 +66,10 @@ const models = [
     <section class="border-b border-gray-300/50">
         <div class="p-4 py-10 container border-x border-gray-300/50 bg-foreground">
             <CrossedDiv class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
-            <div class="flex w-full max-w-xl flex-col gap-6">
-    <ItemGroup class="grid grid-cols-3 gap-4">
+            <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6">
+    <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
       <Item
         v-for="model in models"
-        :key="model.name"
         variant="outline"
         as-child
         role="listitem"

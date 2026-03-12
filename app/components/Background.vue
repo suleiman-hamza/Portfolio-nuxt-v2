@@ -3,14 +3,15 @@
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="p-4 py-10 container border-gray-300/50 bg-foreground border-x"> <!--border-x border-[#dedede]-->
-            <!--background section header-->
-            <CrossedDiv class="align-center mx-auto size-max p-2 mb-4">Background
-            </CrossedDiv>
-                <div class="max-w-2xl">
-                    <p class="text-md">I am proficient in building scalable web applications using modern frontend technologies. I thrive in building scalable solutions, integrating complex systems and leveragings modern development tools and practices. With over 4 years of experience. I always aim to deliver high-quality solutions by creating reusable and efficient code. I value long-term partnership, so i focus on scaling up your MVP and making sure that it delights your users.</p>
+        <div class="grid gap-8 sm:grid-cols-2 p-4 py-10 container border-gray-300/50 bg-foreground border-x">
+            <div class="border min-h-75"></div>
+            <div class="max-w-2xl">
+                    <CrossedDiv class="align-center mx-auto size-max p-2 mb-4">
+                        Background
+                    </CrossedDiv>
+                    <p class="text-md text-base sm:text-xl text-pretty leading-8">Hello, My name is Suleiman Hamza Suleiman (shs). I thrive in building scalable web applications using modern frontend technologies, integrating complex systems and leveragings modern development tools and practices.</p>
                     <NuxtLink to="/about" class="text-sky-500 flex gap-1 size-max link items-center transition-all duration-200 mt-4">
-                        <span class="leading-none">More About Me</span>
+                        <span class="border">More About Me</span>
                     </NuxtLink>
                 </div>
         </div>

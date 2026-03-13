@@ -19,7 +19,7 @@ definePageMeta({
     <main class="">
         <section class="container mt-17 border-[#dedede] bg-foreground text-white sm:grid sm:grid-cols-2">
             <header class="grid grid-cols-[auto_1fr] border-b border-gray-300/50">
-                <h2 class="text-2xl mb-2 vertical p-2">Hey, I'm Suleiman</h2>
+                <h2 class="text-2xl mb-2 vertical p-2">Meet the dev</h2>
                 <NuxtImg src="/images/replace-img.jpeg" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
                     alt="Image user" preload loading="eager" fetch-priority="high">
                     <img v-if="isLoaded" v-bind="imgAttrs" :src="src" class="w-full max-w-100">

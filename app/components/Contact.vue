@@ -1,30 +1,10 @@
 <script setup lang="ts">
 import { SendHorizonal, Plus } from 'lucide-vue-next'
-
-const steps = [
-    {
-        step: 1,
-        title: 'Extensive experience in modern web development',
-        description:
-            'Provide your name and email address. We will use this information to create your account',
-    },
-    {
-        step: 2,
-        title: 'Strong focus on developer experience and UX',
-        description: 'A few details about your company will help us personalize your experience',
-    },
-    {
-        step: 3,
-        title: 'Proven track record of successful project deliveries',
-        description:
-            'Start collaborating with your team by inviting them to join your account. You can skip this step and invite them later',
-    },
-]
 </script>
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="px-12 py-12 container bg-foreground">
+        <div class="px-4 py-12 container bg-foreground">
             <CrossedDiv class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="mb-4">

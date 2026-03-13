@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ArrowUpRight } from 'lucide-vue-next'
 </script>
 
 <template>
@@ -9,9 +10,10 @@
                     <CrossedDiv class="align-center mx-auto size-max p-2 mb-4">
                         Background
                     </CrossedDiv>
-                    <p class="text-md text-base sm:text-xl text-pretty leading-8">Hello, My name is Suleiman Hamza Suleiman (shs). I thrive in building scalable web applications using modern frontend technologies, integrating complex systems and leveragings modern development tools and practices.</p>
-                    <NuxtLink to="/about" class="text-sky-500 flex gap-1 size-max link items-center transition-all duration-200 mt-4">
-                        <span class="border">More About Me</span>
+                    <p class="text-md text-base sm:text-xl text-pretty leading-8">Hello, My name is Suleiman Hamza Suleiman (shs). I am a detail-oriented, design-driven and passionate developer. I thrive in building scalable web applications using modern frontend technologies, integrating complex systems and leveragings modern development tools and practices.</p>
+                    <NuxtLink to="/about" class="text-sky-500 underline flex gap-1 items-center justify-center size-fit leading-0 transition-all duration-200 mt-4">
+                        <span class="">More About Me</span>
+                        <ArrowUpRight :size="16" />
                     </NuxtLink>
                 </div>
         </div>

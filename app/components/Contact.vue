@@ -11,7 +11,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                 <p class="mb-4 text-2xl text-muted">Intrested in having me on your team, I'd love to talk to you</p>
 
                 <div class="mb-4">
-                    <h3 class="text-muted">What i bring to your team:</h3>
+                    <h3 class="">What i bring to your team:</h3>
                 </div>
             </div>
             <!--experiment grid with crossed div-->

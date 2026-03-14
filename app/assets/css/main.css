@@ -1,11 +1,5 @@
 @import "tailwindcss";
-/* @tailwind base
-@tailwind components
-@tailwind utilities */
-@import "tw-animate-css";
 
-
-/* @custom-variant dark (&:is(.dark *)); */
 * {
     scrollbar-width: thin;
     scrollbar-color: red;
@@ -15,8 +9,8 @@ body {
     margin: 0;
     background-color: var(--foreground);
     color: var(--text-muted);
-    /* border: 2px solid red; */
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
 }

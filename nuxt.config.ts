@@ -41,6 +41,19 @@ export default defineNuxtConfig({
   // At a minimum, a Vite plugin must have a name
   // Our plugin is an IIFE (Immediately Invoked Function Expression)
   vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        'lucide-vue-next',
+        'class-variance-authority',
+        'clsx',
+        'tailwind-merge',
+        '@vueuse/core',
+        'embla-carousel-vue',
+        'reka-ui',
+      ]
+    },
     plugins: [
       // inspect(),
       tailwindcss(),

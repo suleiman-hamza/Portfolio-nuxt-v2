@@ -1,31 +1,6 @@
 <script setup lang="ts">
-import { motion } from 'motion-v';
 import { ArrowUpRight } from 'lucide-vue-next'
 
-const draw = {
-    hidden: { pathLength: 0, opacity: 0 },
-    visible: (i: number) => {
-        const delay = i * 0.5
-        return {
-            pathLength: 1,
-            opacity: 1,
-            transition: {
-                pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },
-                opacity: { delay, duration: 0.01 },
-            },
-        }
-    },
-}
-
-const image = {
-    maxWidth: "80vw",
-}
-
-const shape = {
-    strokeWidth: 10,
-    strokeLinecap: "round",
-    fill: "transparent",
-}
 </script>
 
 <template>

@@ -1,7 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "Hunterr",
   "private": true,
   "type": "module",
+  "description": "Suleiman Hamza is a professional Software Developer from Abuja, Nigeria",
+  "author": "Suleiman Hamza",
+  "repository": "https://suleiman-hamza.github.com/Portfolio-nuxt-v2",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

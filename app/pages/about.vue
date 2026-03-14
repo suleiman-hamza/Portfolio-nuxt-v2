@@ -17,17 +17,19 @@ definePageMeta({
 </script>
 <template>
     <main class="">
-        <section class="container mt-17 border-[#dedede] bg-foreground text-white sm:grid sm:grid-cols-2">
-            <header class="grid grid-cols-[auto_1fr] border-b border-gray-300/50">
-                <h2 class="text-2xl mb-2 vertical p-2">Hey, I'm Suleiman</h2>
+        <section class="container mt-(--ui-header) border-[#dedede] bg-foreground text-white sm:grid sm:grid-cols-2">
+            <header class="grid grid-cols-[auto_1fr] items-end border-b border-gray-300/50">
+                <h2 class="text-2xl mb-2 vertical p-2">Meet the dev</h2>
                 <NuxtImg src="/images/replace-img.jpeg" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
                     alt="Image user" preload loading="eager" fetch-priority="high">
-                    <img v-if="isLoaded" v-bind="imgAttrs" :src="src" class="w-full max-w-100">
+                    <img v-if="isLoaded" v-bind="imgAttrs" :src="src" class="w-100">
                 </NuxtImg>
             </header>
             <section class="p-4 col-span-2 border-b border-gray-300/50">
                 <h3 class="text-2xl font-semi mb-4">Intro</h3>
                 <div class="leading-[1.7]">
+                    <p>Since the beginning of my web journey in 2018, I’ve always wanted to...... </p>
+                    <p>If you have any questions or suggestions, feel free to reach out! You can message me on X or email me at infra@soubiran....... </p>
                     <p>I’m a Frontend Engineer with a passion for crafting smooth, responsive web experiences using
                         Vue.js/Nuxt, Node.js/Express and TypeScript. My expertise lies in building intuitive interfaces
                         and robust applications, leveraging powerful component libraries like VueUse and Vue Motion to
@@ -104,7 +106,7 @@ definePageMeta({
                 <p class="mb-2">Feel free to connect with me on any of these platforms.</p>
                 <div class="flex flex-col gap-4">
                     <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile"
-                        class="flex items-center p-2 px-3 font-light size-fit bg-muted-foreground">
+                        class="flex items-center p-2 font-light size-fit border border-muted hover:bg-gray-300/10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             class="w-auto h-full mr-2">
                             <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"
@@ -115,22 +117,22 @@ definePageMeta({
                                     d="M3.086 16.57c.163.554.463 1.066.878 1.496c.414.431.932.77 1.513.988a4.46 4.46 0 0 0 3.62-.216" />
                             </g>
                         </svg>
-                        <span class="text-white">@suleiman-hamza</span>
+                        <span class="text-muted">@suleiman-hamza</span>
                     </NuxtLink>
                     <NuxtLink to="https://x.com/thee_hamza001" target="_blank"
                         aria-label="X/Twitter Profile"
-                        class="flex items-center p-2 px-3 font-light size-fit bg-muted-foreground">
+                        class="flex items-center p-2 font-light size-fit border border-muted hover:bg-gray-300/10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             class="w-auto h-full mr-2">
                             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5"
                                 d="m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25" />
                         </svg>
-                        <span class="text-white">@thee_hamza001</span>
+                        <span class="text-muted">@thee_hamza001</span>
                     </NuxtLink>
                     <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank"
                         aria-label="Instagram Profile"
-                        class="flex items-center p-2 px-3 font-light size-fit bg-muted-foreground">
+                        class="flex items-center p-2 font-light size-fit border border-muted hover:bg-gray-300/10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             class="w-auto h-full mr-2">
                             <g fill="none">
@@ -141,18 +143,18 @@ definePageMeta({
                                 <circle cx="16.894" cy="7.106" r="1.03" fill="currentColor" />
                             </g>
                         </svg>
-                        <span class="text-white">@_suleiman_hue</span>
+                        <span class="text-muted">@_suleiman_hue</span>
                     </NuxtLink>
                     <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social" target="_blank"
                         aria-label="Bluesky Profile"
-                        class="flex items-center p-2 px-3 font-light size-fit bg-muted-foreground">
+                        class="flex items-center p-2 font-light size-fit border border-muted hover:bg-gray-300/10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             class="w-auto h-full mr-2">
                             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5"
                                 d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478" />
                         </svg>
-                        <span class="text-white">@suleiman-hue.bsky.social</span>
+                        <span class="text-muted">@suleiman-hue.bsky.social</span>
                     </NuxtLink>
                 </div>
             </section>

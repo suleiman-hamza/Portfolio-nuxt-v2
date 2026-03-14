@@ -1,18 +1,16 @@
 @import "tailwindcss";
-@tailwind base
-@tailwind components
-@tailwind utilities
 
-@import "tw-animate-css";
-
-/* @custom-variant dark (&:is(.dark *)); */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: red;
+}
 
 body {
     margin: 0;
     background-color: var(--foreground);
     color: var(--text-muted);
-    /* border: 2px solid red; */
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -27,7 +25,7 @@ img {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 89vw;
     width: 100%;
     margin-inline: auto;
 }
@@ -118,6 +116,7 @@ img {
     --sidebar-accent-foreground: oklch(0.205 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
+    --ui-header: 68px;
 }
 
 .dark {

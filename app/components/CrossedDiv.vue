@@ -14,7 +14,7 @@ const { as = 'div', border = 'border-zinc-200/40', crossy = 'before:bg-[#2b7fff]
     <span class="absolute -bottom-px -right-px size-px before:absolute after:absolute before:top-[-4px] before:content-[''] before:w-[1px] before:h-[9px] after:left-[-4px] after:content-[''] after:w-[9px] after:h-[1px]" :class="[crossx, crossy]"/>
     <span class="absolute -left-px -top-px size-px before:absolute after:absolute before:top-[-4px] before:content-[''] before:w-[1px] before:h-[9px] after:left-[-4px] after:content-[''] after:w-[9px] after:h-[1px]" :class="[crossx, crossy]"/>
     <span class="absolute -right-px -top-px size-px before:absolute after:absolute before:top-[-4px] before:content-[''] before:w-[1px] before:h-[9px] after:left-[-4px] after:content-[''] after:w-[9px] after:h-[1px]" :class="[crossx, crossy]"/>
-    <div class="relative z-10 flex h-full flex-col justify-center">
+    <div class="relative z-10 flex h-full justify-center gap-2 items-center">
       <slot/>
     </div>
   </component>

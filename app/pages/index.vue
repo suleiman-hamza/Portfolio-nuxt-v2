@@ -12,4 +12,5 @@
     <LatestArticles />
     <Clients />
     <Contact />
+    <Hire4Odoo />
 </template>

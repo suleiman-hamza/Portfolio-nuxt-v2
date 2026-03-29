@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <header class="border-b border-gray-300/50 border-dashed @container">
+    <header class="border-b border-gray-300/50 border-dashed container -h-(--ui-header)">
         <nav class="tab p-4 w-full container flex justify-between items-center @sm:w-[50px]">
             <NuxtLink to="/" aria-label="Back to Home" class="logo size-fit flex gap-2 items-center">
                 <NuxtImg 

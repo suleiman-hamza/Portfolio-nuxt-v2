@@ -3,9 +3,9 @@
         <header class="fixed w-full top-0 z-50">
             <Header />
         </header>
-        <div>
+        <main class="min-h-screen">
             <slot/>
-        </div>
+        </main>
         <Footer />
     </div>
 </template>

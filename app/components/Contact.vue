@@ -4,7 +4,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="px-4 py-12 container bg-foreground">
+        <div class="px-4 py-12 container bg-foreground border-x border-gray-300/50">
             <CrossedDiv class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="mb-4">

@@ -9,6 +9,10 @@ import { Book } from 'lucide-vue-next'
                 <span class="">Recent from the blog</span>
                 <Book :size="16" />
             </CrossedDiv>
+            <NuxtLink to="/Blog/what-is-odoo" class="mb-4">
+                <h4 class="underline text-sky-600">What Is Odoo ERP</h4>
+                <p class="text-sm mt-1">March 29, 2026</p>
+            </NuxtLink>
             <div class="mb-4">
                 <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
                 <p class="text-sm mt-1">June 22, 2025</p>
@@ -17,10 +21,6 @@ import { Book } from 'lucide-vue-next'
                 <h4 class="underline text-sky-600">Multi-Tenancy in SaaS Applications: A Typical Model with Example</h4>
                 <p class="text-sm mt-1">January 02, 2026</p>
             </NuxtLink>
-            <div class="mb-4">
-                <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
-                <p class="text-sm mt-1">March 22, 2025</p>
-            </div>
             <div class="mb-4">
                 <h4 class="underline text-sky-600">Use Nuxt Auth Utils for your Authentication</h4>
                 <p class="text-sm mt-1">March 22, 2025</p>

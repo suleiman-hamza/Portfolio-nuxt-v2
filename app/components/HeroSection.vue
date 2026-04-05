@@ -51,7 +51,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
             <ul class="flex flex-wrap justify-center gap-2 text-[1rem] leading-none">
                 <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
-                    <li>FrontEnd Engineer</li>
+                    <li>Software Developer</li>
                 </Motion>
                 <hr class="divider">
                 <Motion as-child :initial="{ opacity: 0, x: 6 }" :whileInView="{ opacity: 1, x: 0 }"

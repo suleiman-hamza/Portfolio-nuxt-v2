@@ -14,8 +14,8 @@ import { ArrowUpRight } from 'lucide-vue-next'
                     Background
                 </CrossedDiv>
                 <p class="text-md text-base sm:text-xl text-pretty leading-8">Hello, My name is Suleiman Hamza Suleiman
-                    (shs). I am a detail-oriented, design-driven and passionate developer. I thrive in building scalable
-                    web applications using modern frontend technologies, integrating complex systems and leveragings
+                    (shs). I am a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
+                    software applications, integrating complex systems and leveragings
                     modern development tools and practices.</p>
                 <NuxtLink to="/about"
                     class="text-sky-500 underline flex gap-1 items-center justify-center size-fit leading-0 transition-all duration-200 mt-4">

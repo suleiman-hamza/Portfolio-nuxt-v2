@@ -29,7 +29,6 @@ definePageMeta({
                 <h3 class="text-2xl font-semi mb-4">Intro</h3>
                 <div class="leading-[1.7]">
                     <p>Hello, I'm Suleiman. A Developer currently based in Abuja, Nigeria.</p>
-                    <p>Since the beginning of my web journey in 2018, I’ve always wanted to...... </p>
                     <p>As a Frontend Engineer with a passion for crafting smooth, delightful web experiences using modern frontend technologies. My expertise lies in building intuitive interfaces
                         and robust applications, leveraging powerful component libraries like VueUse, Motion, Shadcn-UI, NuxtUI to
                         create reusable and efficient code.</p>
@@ -51,7 +50,7 @@ definePageMeta({
                 </div>
                 <div class="mb-2">
                     <h3 class="font-bold">Frontend Engineer @ RovelTech</h3>
-                    <h4 class="text-muted-foreground)">March 2024 - Jan 2025</h4>
+                    <h4 class="text-muted-foreground)">March 2025 - Jan 2026</h4>
                 </div>
                 <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2 }">
@@ -63,7 +62,7 @@ definePageMeta({
                 <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                     <div class="mb-2">
-                        <h3 class="font-bold">Frontend Developer @upwork</h3>
+                        <h3 class="font-bold">Freelance Developer @upwork</h3>
                         <h4 class="text-muted-foreground)">Mar, 2019 - Jan, 2023</h4>
                     </div>
                 </Motion>

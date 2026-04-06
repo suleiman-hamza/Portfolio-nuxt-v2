@@ -3,19 +3,18 @@ definePageMeta({
     layout: 'blog-pages'
 })
 useSeoMeta({
-    title: 'Article - What is Odoo ERP',
+    title: 'What is Odoo ERP',
     publisher: 'Suleiman Hamza - Odoo Technical Developer'
 })
+
+const title = 'What is ODOO ERP'
+const postedOn = 'March 29, 2026'
 </script>
 
 <template>
-    <div class="container border">
-        <header class="h-44 border">
-            <h4>What is Odoo ERP?</h4>
-            <p>Last Updated: </p>
-        </header>
-        <main>
-            <h3>What is Odoo</h3>
+    <div class="container">
+        <BlogHeader :title="title" :posted-on="postedOn" />
+        <main class="py-4 border-b">
             <p>Odoo, formerly known as OpenERP, is a software solution.</p>
             <p>Odoo provides a rapid application development framework that is particularly suited to 
 building applications for business.</p>

@@ -45,7 +45,7 @@ interface RippleButtonProps {
 }
 
 const props = withDefaults(defineProps<RippleButtonProps>(), {
-  rippleColor: "#ADD8E6",
+  rippleColor: "#a33bff",
   duration: 600,
 });
 

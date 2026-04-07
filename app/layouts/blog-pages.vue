@@ -3,9 +3,9 @@
         <header class="fixed w-full top-0 z-50">
             <Header />
         </header>
-        <div>
+        <main class="mt-(--ui-header)">
             <slot/>
-        </div>
+        </main>
         <Footer />
     </div>
 </template>

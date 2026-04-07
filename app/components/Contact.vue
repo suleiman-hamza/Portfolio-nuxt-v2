@@ -4,7 +4,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="px-4 py-12 container bg-foreground">
+        <div class="px-4 py-12 container bg-foreground border-x border-gray-300/50">
             <CrossedDiv class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="mb-4">
@@ -30,7 +30,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                         <span class="border-r border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 left-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">3</span>
                     </div>
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
-                        <p>Replacing multiple disconnected tools with a single ERP platform.</p>
+                        <p>Core & deep understanding of modern technologies (AI)</p>
                         <span class="border-l border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 right-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">4</span>
                     </div>
                     <!--crossed div-->

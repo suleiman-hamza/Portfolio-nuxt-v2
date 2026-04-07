@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <header class="border-b border-gray-300/50 border-dashed @container">
-        <nav class="tab p-4 w-full container flex justify-between items-center @sm:w-[50px]">
+    <header class="border-b border-gray-300/50 border-dashed container -h-(--ui-header)">
+        <nav class="tab p-4 w-full container flex justify-between items-center @sm:w-12.5">
             <NuxtLink to="/" aria-label="Back to Home" class="logo size-fit flex gap-2 items-center">
                 <NuxtImg 
                     preload 
@@ -13,7 +13,7 @@
                     alt="suleiman avatar" 
                     w="25" 
                     h="25" 
-                    class="w-[25px] h-[25px] rounded-full" 
+                    class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 
                 />
                 <h1 class="text-shadow-sm text-shadow-rose-200">shs</h1>
             </NuxtLink>

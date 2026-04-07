@@ -7,7 +7,7 @@ definePageMeta({
 </script>
 
 <template>
-    <section class="mt-(--ui-header) p-4">
+    <section class="container mt-(--ui-header) p-4">
         <h1 class="text-muted text-2xl mb-4">Odoo Development Service (v18, v19+)</h1>
         <p>I provide full cycle odoo implementation, from requirement gathering to deployment with minimal disruption. By aligning odoo with your business goals, i craft ERP Solutions that align perfectly with your workflow, compliance needs and growth goals across multiple industries.</p>
 

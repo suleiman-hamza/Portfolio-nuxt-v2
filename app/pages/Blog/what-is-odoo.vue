@@ -14,7 +14,7 @@ const postedOn = 'March 29, 2026'
 <template>
     <div class="container">
         <BlogHeader :title="title" :posted-on="postedOn" />
-        <main class="py-4 border-b">
+        <main class="py-4 border-b border-gray-300/50 border-dashed">
             <p>Odoo, formerly known as OpenERP, is a software solution.</p>
             <p>Odoo provides a rapid application development framework that is particularly suited to 
 building applications for business.</p>

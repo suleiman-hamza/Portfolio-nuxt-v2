@@ -66,7 +66,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
             </ul>
             <!-- <h1 class="text-4xl lg:text-6xl !mb-4">Suleiman <br> Hamza ~ Hunter</h1> -->
             <h2 class="text-slate-500 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center">
-                An independent creative developer pursuing standout solutions that are meaningful & scalable <span>&#128293</span>
+                An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>
             </h2>
             <HeroLogoSet />
         </main>

@@ -24,7 +24,7 @@ watch(route, () => {
 <template>
     <Sheet v-model:open="closeSheet">
         <SheetTrigger as-child >
-            <Button variant="ghost" size="icon" class="p-2 rounded-none" aria-label="Open Sidebar">
+            <Button variant="outline" size="icon" class="p-2 outline-0 border-none rounded-none ring ring-indigo-300/50" aria-label="Open Sidebar">
                 <Menu />
             </Button>
         </SheetTrigger>

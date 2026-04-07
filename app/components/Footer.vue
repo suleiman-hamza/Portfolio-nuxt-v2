@@ -72,8 +72,8 @@
         </section>
         <div class="p-4">
             <p class="text-center">If you love this, give me a star on <a href="https://github.com/suleiman-hamza"
-                    class="underline text-blue-400">Github</a> :)</p>
-            <p class="text-center">Copyright @ 2026. Built with <a href="https://nuxt.com" class="underline text-blue-400">Nuxt_js</a>
+                    class="underline text-indigo-300">Github</a> :)</p>
+            <p class="text-center">Copyright @ 2026. Built with <span>&#9749</span> <span>&#128293</span> & <span>&#128156</span>
             </p>
         </div>
     </footer>

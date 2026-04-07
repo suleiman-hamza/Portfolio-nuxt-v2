@@ -16,7 +16,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
                     software applications, integrating complex systems and leveragings
                     modern development tools and practices.</p>
                 <NuxtLink to="/about"
-                    class="text-sky-500 underline flex gap-1 items-center justify-center size-fit leading-0 transition-all duration-200 mt-4">
+                    class="text-indigo-300 underline flex gap-1 items-center justify-center size-fit leading-0 transition-all duration-200 mt-4">
                     <span class="">More About Me</span>
                     <ArrowUpRight :size="16" />
                 </NuxtLink>

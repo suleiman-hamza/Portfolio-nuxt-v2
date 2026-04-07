@@ -39,15 +39,15 @@ const testimonyList = ref([
 <template>
     <section class="border-b border-gray-300/50">
         <div class="p-6 py-10 container border-x border-gray-300/50"> <!--border-x border-[#dedede]-->
-        <p class="text-center text-indigo-400 text-2xl mb-6">99% of my clients refer me, here's why they do</p>
+        <p class="text-center text-2xl mb-6">99% of my clients refer me, here's why they do</p>
         <section class="mb-12">
-            <Carousel :opts="{ align: 'end' }" class="relative w-full h-100 border border-white">
+            <Carousel :opts="{ align: 'end' }" class="relative w-full h-100">
                 <CarouselContent class="h-auto">
                     <CarouselItem v-for="item in testimonyList" class="sm:basis-1/2 md:basis-1/3 h-full items-stretch">
                         <div class="flex flex-col items-center justify-between gap-4 p-4 border bg-indigo-200 rounded-lg text-foreground h-full">
-                            <p class="border p-2">{{ item.text }}</p>
-                            <div class="border flex flex-col justify-center items-center gap-1">
-                                <span class="block w-10 h-10 border rounded-full">
+                            <p class="p-2">{{ item.text }}</p>
+                            <div class="flex flex-col justify-center items-center gap-1">
+                                <span class="block w-10 h-10 rounded-full">
                                     <NuxtImg :src="item.img" />
                                 </span>
                                 <h2 class="text-md">{{ item.client }}</h2>

@@ -6,10 +6,10 @@ import { ArrowUpRight } from 'lucide-vue-next'
 <template>
     <section class="border-b border-gray-300/50">
         <div class="grid gap-8 sm:grid-cols-2 p-4 py-10 container border-gray-300/50 bg-foreground border-x">
-            <div class="min-h-75 border-gray-300/50 border-dashed grid-background">
-            </div>
+            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="min-h-75 border-gray-300/50 border-dashed grid-background">
+            </CrossedDiv>
             <div class="max-w-2xl">
-                <CrossedDiv class="align-center mx-auto size-max p-2 mb-4">
+                <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
                     Background
                 </CrossedDiv>
                 <p class="text-md text-base sm:text-xl text-pretty leading-8">I'm Suleiman also known as Hunterr. I am a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable

@@ -25,8 +25,8 @@ definePageMeta({
                     <img v-if="isLoaded" v-bind="imgAttrs" width="" :src="src" class="w-100">
                 </NuxtImg>
             </header>
-            <section class="p-4 col-span-2 border-b border-gray-300/50">
-                <h3 class="text-2xl font-semi mb-4 text-white">Intro</h3>
+            <section class="py-8 col-span-2 border-b border-gray-300/50">
+                <h3 class="text-2xl font-semi mb-4 text-indigo-200 font-bold">Intro</h3>
                 <div class="leading-[1.7]">
                     <p>Hello, I'm Suleiman Hamza Suleiman (shs). A Developer currently based in Abuja, Nigeria.
                         I'm a web tech enthusiast with a focus on the intersection of finance and business growth. I
@@ -53,18 +53,18 @@ definePageMeta({
                     </p>
                     <p>I am also an active member of various developer communities in Abuja</p>
                     <!-- <p>If you have any questions or suggestions, feel free to reach out! You can message me on X or email me at infra@soubiran....... </p> -->
-                    <ul class="marker:text-indigo-400">
-                        <p>Beyond Coding, i also enjoy,</p>
-                        <li>Mountain Biking</li>
-                        <li>Basketball</li>
-                        <li>Learning Japanese</li>
-                        <li>Events or Meetups Volunteering</li>
-                        <li>Watching Anime</li>
+                    <p>Beyond Coding, i also enjoy:</p>
+                    <ul class="marker:text-indigo-400 p-4">
+                        <li class="list-disc">Mountain Biking</li>
+                        <li class="list-disc">Basketball</li>
+                        <li class="list-disc">Learning Japanese</li>
+                        <li class="list-disc">Events or Meetups Volunteering</li>
+                        <li class="list-disc">Watching Anime</li>
                     </ul>
                 </div>
             </section>
-            <section class="p-4 about-exp border-b border-gray-300/50 sm:border-0">
-                <h2 class="text-2xl font-semi mb-5 text-white">Professional Experience</h2>
+            <section class="py-8 about-exp border-b border-gray-300/50 sm:border-0">
+                <h2 class="text-2xl font-semi mb-5 text-indigo-200 font-bold">Professional Experience</h2>
                 <div class="mb-2">
                     <h3 class="font-bold text-white">ERP Technical Developer @ Ops29 Ltd.</h3>
                     <h4 class="text-muted-foreground)">Aug 2025 - Present</h4>
@@ -95,8 +95,8 @@ definePageMeta({
                     </div>
                 </Motion>
             </section>
-            <section class="p-4 py-8 border-b border-gray-300/50 sm:border-0">
-                <h2 class="text-2xl mb-4 text-white">Volunteering</h2>
+            <section class="py-8 border-b border-gray-300/50 sm:border-0">
+                <h2 class="text-2xl mb-4 text-indigo-200 font-bold">Volunteering</h2>
                 <div class="flex w-full max-w-lg flex-col gap-6">
                     <Item variant="outline" class="rounded-none">
                         <ItemContent>
@@ -122,10 +122,10 @@ definePageMeta({
                     </Item>
                 </div>
             </section>
-            <section class="p-4 sm:col-start-2 sm:row-start-1 border-b border-gray-300/50 text-(--text-muted)">
-                <h4 class="text-2xl mb-2 text-white">Let's Connect</h4>
+            <section class="py-8 sm:col-start-2 sm:row-start-1 border-b border-gray-300/50 text-(--text-muted)">
+                <h4 class="text-2xl mb-2 text-indigo-200 font-bold">Let's Connect</h4>
                 <p class="mb-2">Feel free to connect with me on any of these platforms.</p>
-                <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-4 text-indigo-300">
                     <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile"
                         class="flex items-center p-2 font-light size-fit border border-indigo-300 hover:bg-gray-300/10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -138,7 +138,7 @@ definePageMeta({
                                     d="M3.086 16.57c.163.554.463 1.066.878 1.496c.414.431.932.77 1.513.988a4.46 4.46 0 0 0 3.62-.216" />
                             </g>
                         </svg>
-                        <span class="text-muted">@suleiman-hamza</span>
+                        <span class="text-(--text-muted) font-semibold">@suleiman-hamza</span>
                     </NuxtLink>
                     <NuxtLink to="https://x.com/thee_hamza001" target="_blank" aria-label="X/Twitter Profile"
                         class="flex items-center p-2 font-light size-fit border border-indigo-300 hover:bg-gray-300/10">
@@ -148,7 +148,7 @@ definePageMeta({
                                 stroke-width="1.5"
                                 d="m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25" />
                         </svg>
-                        <span class="text-muted">@thee_hamza001</span>
+                        <span class="text-(--text-muted) font-semibold">@thee_hamza001</span>
                     </NuxtLink>
                     <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank"
                         aria-label="Instagram Profile"
@@ -163,7 +163,7 @@ definePageMeta({
                                 <circle cx="16.894" cy="7.106" r="1.03" fill="currentColor" />
                             </g>
                         </svg>
-                        <span class="text-muted">@_suleiman_hue</span>
+                        <span class="text-(--text-muted) font-semibold">@_suleiman_hue</span>
                     </NuxtLink>
                     <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social" target="_blank"
                         aria-label="Bluesky Profile"
@@ -174,7 +174,18 @@ definePageMeta({
                                 stroke-width="1.5"
                                 d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478" />
                         </svg>
-                        <span class="text-muted">@suleiman-hue.bsky.social</span>
+                        <span class="text-(--text-muted) font-semibold">@suleiman-hue.bsky.social</span>
+                    </NuxtLink>
+                    <NuxtLink to="https://discord.gg/eaNBB5vg" target="_blank"
+                        aria-label="Discord Profile"
+                        class="flex items-center p-2 font-light size-fit border border-indigo-300 hover:bg-gray-300/10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="w-auto h-full mr-2">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5"
+                                d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478" />
+                        </svg>
+                        <span class="text-(--text-muted) font-semibold">@Discord User</span>
                     </NuxtLink>
                 </div>
             </section>

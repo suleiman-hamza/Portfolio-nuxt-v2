@@ -48,7 +48,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
     <section class="border-b border-gray-300/50 mt-(--ui-header)">
         <main
             class="container flex flex-col items-center justify-around py-8 border-x border-gray-300/50 grid-background px-4 sm:px-8 sm:py-12 bg-foreground) text-text-muted) h-svh">
-            <ul class="flex flex-wrap justify-center gap-2 text-[1rem] leading-none">
+            <!-- <ul class="flex flex-wrap justify-center gap-2 text-[1rem] leading-none">
                 <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                     <li>Software Developer</li>
@@ -63,7 +63,8 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
                     :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
                     <li>Odoo Technical Developer</li>
                 </Motion>
-            </ul>
+            </ul> -->
+            <div>Role: Software Developer</div>
             <!-- <h1 class="text-4xl lg:text-6xl !mb-4">Suleiman <br> Hamza ~ Hunter</h1> -->
             <h2 class="text-slate-500 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center">
                 An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>

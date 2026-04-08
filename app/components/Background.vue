@@ -16,8 +16,8 @@ import { ArrowUpRight } from 'lucide-vue-next'
                 <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
                     Background
                 </CrossedDiv>
-                <p class="text-md text-base text-justify sm:text-xl text-pretty leading-8">I'm Suleiman also known as Hunterr. I am a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
-                    software applications, integrating complex systems and leveragings
+                <p class="text-justify text-xl md:text-2xl text-pretty leading-8">I'm Suleiman, a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
+                    software applications, integrating complex systems and leveraging
                     modern development tools and practices.</p>
                 <NuxtLink to="/about"
                     class="text-indigo-300 underline flex gap-1 items-center justify-center size-fit leading-0 transition-all duration-200 mt-4">

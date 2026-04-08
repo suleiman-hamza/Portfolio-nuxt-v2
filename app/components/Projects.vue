@@ -65,7 +65,7 @@ const models = [
 <template>
     <section class="border-b border-gray-300/50">
         <div class="p-4 py-10 container border-x border-gray-300/50 bg-foreground">
-            <CrossedDiv class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
+            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
             <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6">
     <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
       <Item

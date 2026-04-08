@@ -5,14 +5,18 @@ import { ArrowUpRight } from 'lucide-vue-next'
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="grid gap-8 sm:grid-cols-2 p-4 py-10 container border-gray-300/50 bg-foreground border-x">
-            <div class="min-h-75 border-gray-300/50 border-dashed grid-background">
-            </div>
+        <div class="grid gap-8 md:grid-cols-2 p-4 py-10 container border-gray-300/50 bg-foreground border-x">
+            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="min-h-75 border-gray-300/50 border-dashed flex flex-col grid-background">
+                <div class="w-full grid grid-cols-1 grid-rows-[auto_200px] gap-3 h-full overflow-hidden">
+                    <div class="w-full h-auto flex items-center justify-center"><p class="text-[24px] md:text-[32px] font-bold">Building in Obsession</p></div>
+                    <div class="w-full h-auto"><span class="mt-20 md:mt-10 mx-auto animate-spin bg-indigo-500/20 rounded-full h-auto aspect-square w-full block border border-dashed"></span></div>
+                </div>
+            </CrossedDiv>
             <div class="max-w-2xl">
-                <CrossedDiv class="align-center mx-auto size-max p-2 mb-4">
+                <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
                     Background
                 </CrossedDiv>
-                <p class="text-md text-base sm:text-xl text-pretty leading-8">I'm Suleiman also known as Hunterr. I am a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
+                <p class="text-md text-base text-justify sm:text-xl text-pretty leading-8">I'm Suleiman also known as Hunterr. I am a detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
                     software applications, integrating complex systems and leveragings
                     modern development tools and practices.</p>
                 <NuxtLink to="/about"

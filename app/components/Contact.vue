@@ -5,7 +5,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
 <template>
     <section class="border-b border-gray-300/50">
         <div class="px-4 py-12 container bg-foreground border-x border-gray-300/50">
-            <CrossedDiv class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
+            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
             <div class="mb-4">
                 <p class="mb-4 text-2xl text-muted">Intrested in having me on your team, I'd love to talk to you</p>
@@ -30,12 +30,12 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                         <span class="border-r border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 left-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">3</span>
                     </div>
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
-                        <p>Core & deep understanding of modern technologies (AI)</p>
+                        <p>Core & deep understanding of modern technologies (AI).</p>
                         <span class="border-l border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 right-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">4</span>
                     </div>
                     <!--crossed div-->
                     <div class="hidden sm:grid absolute top-1/2 left-0 -translate-y-1/2 z-30 w-full grid-cols-2">
-                        <Plus class="translate-x-[12.5px] ml-auto" color="white"/>
+                        <Plus class="translate-x-[12.5px] ml-auto text-indigo-300" />
                     </div>
                 </section>
             </div>

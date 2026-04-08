@@ -27,7 +27,7 @@ definePageMeta({
             </header>
             <section class="py-8 col-span-2 border-b border-gray-300/50">
                 <h3 class="text-2xl font-semi mb-4 text-indigo-200 font-bold">Intro</h3>
-                <div class="leading-[1.7]">
+                <div class="leading-[1.7] text-[18px]">
                     <p>Hello, I'm Suleiman Hamza Suleiman (shs). A Developer currently based in Abuja, Nigeria.
                         I'm a web tech enthusiast with a focus on the intersection of finance and business growth. I
                         love translating complex ideas into shared insights and collaborating with forward-thinking
@@ -43,7 +43,7 @@ definePageMeta({
                         engaging but also performant, secure and scalable. i'm constantly exploring the latest
                         advancements in
                         frontend technology.</p>
-                    <p>I have recently picked up ERP (Odoo) Technical development as a core skill which has now widen my
+                    <p>I have recently picked up <span>ERP (Odoo) Technical development</span> as a core skill which has now widen my
                         knowledge of software development in general. By leveraging it's modular and extensible
                         architecture, i provide services to businesses of various sizes to help with:
                         <span>Implementation</span>, <span>Customization and Configuration</span>, <span>Technical
@@ -51,9 +51,7 @@ definePageMeta({
                         <span>XML</span>, <span>Postgres</span>, <span>Odoo ORM</span>, <span>Git</span>,
                         <span>Docker</span> and <span>JavaScript</span> to help businesses align with their workflow.
                     </p>
-                    <p>I am also an active member of various developer communities in Abuja</p>
-                    <!-- <p>If you have any questions or suggestions, feel free to reach out! You can message me on X or email me at infra@soubiran....... </p> -->
-                    <p>Beyond Coding, i also enjoy:</p>
+                    <p>I am also an active member of various developer communities in Abuja. Beyond Coding, i also enjoy:</p>
                     <ul class="marker:text-indigo-400 p-4">
                         <li class="list-disc">Mountain Biking</li>
                         <li class="list-disc">Basketball</li>
@@ -179,12 +177,14 @@ definePageMeta({
                     <NuxtLink to="https://discord.gg/eaNBB5vg" target="_blank"
                         aria-label="Discord Profile"
                         class="flex items-center p-2 font-light size-fit border border-indigo-300 hover:bg-gray-300/10">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            class="w-auto h-full mr-2">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5"
-                                d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="w-auto h-full mr-2">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0-2 0m6 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0" />
+                            <path
+                                d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833-1.667 3.5-3c.667-1.667.5-5.833-1.5-11.5c-1.457-1.015-3-1.34-4.5-1.5l-.972 1.923a11.9 11.9 0 0 0-4.053 0L9 4c-1.5.16-3.043.485-4.5 1.5c-2 5.667-2.167 9.833-1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2-2 2-3" />
+                            <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+                        </g>
+                    </svg>
                         <span class="text-(--text-muted) font-semibold">@Discord User</span>
                     </NuxtLink>
                 </div>

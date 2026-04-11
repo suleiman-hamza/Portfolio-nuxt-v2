@@ -28,28 +28,21 @@ definePageMeta({
             <section class="py-8 col-span-2 border-b border-gray-300/50">
                 <h3 class="text-2xl font-semi mb-4 text-indigo-200 font-bold">Intro</h3>
                 <div class="leading-[1.7] text-[18px]">
-                    <p>Hello, I'm Suleiman Hamza Suleiman (shs). A Developer currently based in Abuja, Nigeria.
-                        I'm a web tech enthusiast with a focus on the intersection of finance and business growth. I
+                    <p>Hello, I'm <span>Suleiman Hamza Suleiman</span> (shs). A software engineer currently based in Abuja, Nigeria. I have over 5 years of experience building web apllications. I
                         love translating complex ideas into shared insights and collaborating with forward-thinking
                         teams.</p>
                     <p>As a <span class="text-indigo-300">Frontend Engineer</span> with a passion for crafting smooth, delightful web experiences using
-                        modern frontend technologies. My expertise lies in building intuitive interfaces
-                        and robust applications, leveraging powerful component libraries like <span class="text-[#42b983]">VueUse</span>, <span class="text-[#fff42b]">Motion</span>, <span class="text-white">Shadcn-UI</span>,
-                        <span class="text-[#00dc82]">NuxtUI</span> to
-                        create reusable and efficient code.</p>
-                    <p>I’m well-versed in the Vue & Vite ecosystem, with a deep understanding of libraries like <span class="text-[#ffd859]">Pinia</span>,
-                        <span class="text-[#42b983]">Vue Router</span>, <span class="text-[#add467]">Vitest</span>, <span class="text-[#42b983]">VueUse</span>, <span class="text-[#6b77f8]">Vite +</span> and many more. My goal is to always build applications and
-                        tools that are not only visually
-                        engaging but also performant, secure and scalable. i'm constantly exploring the latest
-                        advancements in
-                        frontend technology.</p>
+                        modern frontend technologies. I've worked with a variety of technologies including <span>React</span>, <span>TypeScript</span>, <span>Vue</span>, <span>Nuxt</span>, <span>Zustand</span>, <span>Better-Auth</span>, <span>Redis</span>, <span class="text-[#42b983]">VueUse</span>, <span class="text-[#fff42b]">Motion</span>, <span class="text-white">Shadcn-UI</span>,
+                        <span class="text-[#00dc82]">NuxtUI</span>, <span>PostgreSQL</span> & <span>Golang</span> to name a few.</p>
+                    <p>I’m also well-versed in the Vue & Vite ecosystem, with a deep understanding of libraries like <span class="text-[#ffd859]">Pinia</span>,
+                        <span class="text-[#42b983]">Vue Router</span>, <span class="text-[#add467]">Vitest</span>, <span class="text-[#42b983]">VueUse</span>, <span class="text-[#6b77f8]">Vite +</span> and many more.</p>
                     <p>I have recently picked up <span>ERP (Odoo) Technical development</span> as a core skill which has now widen my
                         knowledge of software development in general. By leveraging it's modular and extensible
                         architecture, i provide services to businesses of various sizes to help with:
                         <span>Implementation</span>, <span>Customization and Configuration</span>, <span>Technical
                             Support</span> and <span>Migration</span> of their ERP Platforms. Using <span>Pyhton</span>,
-                        <span>XML</span>, <span>Postgres</span>, <span>Odoo ORM</span>, <span>Git</span>,
-                        <span>Docker</span> and <span>JavaScript</span> to help businesses align with their workflow.
+                        <span>XML</span>, <span>PostgreSQL</span>, <span>Odoo ORM</span>, <span>Git</span>,
+                        <span>Docker</span> and <span>JavaScript.</span>
                     </p>
                     <p>I am also an active member of various developer communities in Abuja. Beyond Coding, i also enjoy:</p>
                     <ul class="marker:text-indigo-400 p-4">

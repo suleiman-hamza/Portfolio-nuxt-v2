@@ -64,7 +64,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
                     <li>Odoo Technical Developer</li>
                 </Motion>
             </ul> -->
-            <div>Building with obsession</div>
+            <h1 class="font-bold md:text-[18px] text-white">🖐 Hi, I'm Suleiman</h1>
             <h2 class="text-slate-500 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center">
                 An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>
             </h2>

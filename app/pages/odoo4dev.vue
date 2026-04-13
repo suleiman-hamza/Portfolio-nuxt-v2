@@ -13,19 +13,24 @@ definePageMeta({
 
 const accordionList = ref([
     {
-        title: 'Product Information',
-        content: 'Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability.',
+        title: 'How much does a project cost?',
+        content: 'The cost of a project depends on manu factors, such as the size of the project, the features, the development time, etc. The initial amount of my services start from $200, with an average between $500 and $1000',
         value: 'item-1'
     },
     {
-        title: 'Shipping Details',
-        content: 'We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days.',
+        title: 'We want to employ you fulltime',
+        content: 'At the moment, i am not open for a fulltime role as an Odoo developer, but i can recommend other developers for you.',
         value: 'item-2'
     },
     {
-        title: 'Return Policy',
-        content: "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition.",
+        title: 'How does payment work for a project?',
+        content: "I ask for a 40% deposit before starting a project, and the remaining 60% after succesful delivery. I accept payments by bank transfer (local & International), Paypal, etc..",
         value: 'item-3'
+    },
+    {
+        title: 'How long is Technical support?',
+        content: "It ranges from 3 months - 6 months, dependng on the agreed payment for that particuar project.",
+        value: 'item-4'
     }
 ])
 </script>
@@ -140,6 +145,20 @@ const accordionList = ref([
                         </svg>
                         <span class="font-semibold text-white">Odoo Orm</span>
                     </div>
+                    <div class="flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
+                            <path fill="#88269f"
+                                d="M21.1 15.796a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4H21.1a1.7 1.7 0 0 0 0 3.4m-6.065 1.2a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4h-.002a1.7 1.7 0 0 0 0 3.4m-3.17-1.738c0 1.62-1.298 2.938-2.898 2.938s-2.9-1.314-2.9-2.936S7.248 10 8.968 10c.636 0 1.224.134 1.7.484v-1.68a.6.6 0 0 1 1.2 0v4.054zm-2.898 1.74a1.7 1.7 0 0 0 .002-3.4h-.002a1.7 1.7 0 0 0 0 3.4M2.9 15.796a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4H2.9a1.7 1.7 0 0 0 0 3.4" />
+                        </svg>
+                        <span class="font-semibold text-white">Odoo Framework</span>
+                    </div>
+                    <div class="flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
+                            <path fill="#88269f"
+                                d="M21.1 15.796a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4H21.1a1.7 1.7 0 0 0 0 3.4m-6.065 1.2a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4h-.002a1.7 1.7 0 0 0 0 3.4m-3.17-1.738c0 1.62-1.298 2.938-2.898 2.938s-2.9-1.314-2.9-2.936S7.248 10 8.968 10c.636 0 1.224.134 1.7.484v-1.68a.6.6 0 0 1 1.2 0v4.054zm-2.898 1.74a1.7 1.7 0 0 0 .002-3.4h-.002a1.7 1.7 0 0 0 0 3.4M2.9 15.796a2.9 2.9 0 1 1 0-5.8a2.9 2.9 0 0 1 0 5.8m0-1.2a1.7 1.7 0 1 0 .002-3.4H2.9a1.7 1.7 0 0 0 0 3.4" />
+                        </svg>
+                        <span class="font-semibold text-white">Odoo Qweb</span>
+                    </div>
                 </div>
             </section>
 
@@ -186,11 +205,11 @@ const accordionList = ref([
         <section class="border-b border-gray-300/50">
             <div class="border-x border-gray-300/50 container">
                 <div class="grid grid-cols-1 md:grid-cols-3">
-                    <h2 class="text-center text-muted text-2xl md:text-3xl flex items-center justify-center">FAQ</h2>
+                    <h2 class="text-center text-muted text-2xl md:text-3xl flex items-center justify-center p-4">FAQ</h2>
                     <div class="md:col-span-2 border-t md:border-t-0 border-gray-300/50 md:border-l">
                         <Accordion type="single" collapsible class="w-full" default-value="item-1">
                             <AccordionItem v-for="item in accordionList" :key="item.value" class="" :value="item.value">
-                                <AccordionTrigger class="px-4">{{ item.title }}</AccordionTrigger>
+                                <AccordionTrigger class="px-4 text-indigo-300">{{ item.title }}</AccordionTrigger>
                                 <AccordionContent class="px-4">
                                     <p>{{ item.content }}</p>
                                 </AccordionContent>

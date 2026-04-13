@@ -16,7 +16,7 @@
                     h="25" 
                     class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 
                 />
-                <h1 class="text-shadow-sm text-shadow-rose-200">shs</h1>
+                <h1 class="text-shadow-sm text-shadow-indigo-300">shs</h1>
             </NuxtLink>
             <Sidebar />
         </nav>

@@ -38,10 +38,10 @@ const testimonyList = ref([
 </script>
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="p-6 py-10 container border-x border-gray-300/50"> <!--border-x border-[#dedede]-->
+        <div class="py-10 container border-gray-300/50"> <!--border-x border-[#dedede]-->
         <p class="text-center text-2xl mb-6">99% of my clients refer me, here's why they do</p>
-        <section class="mb-12">
-            <Carousel :opts="{ align: 'end' }" class="relative w-full h-100">
+        <section class="">
+            <Carousel :opts="{ align: 'end' }" class="relative w-full">
                 <CarouselContent class="h-auto">
                     <CarouselItem v-for="item in testimonyList" class="sm:basis-1/2 md:basis-1/3 h-full items-stretch">
                         <div class="flex flex-col items-center justify-between gap-4 p-4 border bg-indigo-200 rounded-lg text-foreground h-full">
@@ -56,8 +56,8 @@ const testimonyList = ref([
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious class="top-[50%] -left-3.75"/>
-                <CarouselNext class="top-[50%] -right-3.75" />
+                <!-- <CarouselPrevious class="top-[50%] -left-3.75"/>
+                <CarouselNext class="top-[50%] -right-3.75" /> -->
             </Carousel>
         </section>
     </div>

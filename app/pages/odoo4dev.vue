@@ -7,9 +7,10 @@ definePageMeta({
 </script>
 
 <template>
-    <section class="container mt-(--ui-header) p-4">
+    <section class="container mt-(--ui-header) py-6">
         <h1 class="text-muted text-2xl mb-4">Odoo Development Service (v18, v19+)</h1>
-        <p>I provide full cycle odoo implementation, from requirement gathering to deployment with minimal disruption. By aligning odoo with your business goals, i craft ERP Solutions that align perfectly with your workflow, compliance needs and growth goals across multiple industries.</p>
+        <p>I provide full cycle odoo implementation, from requirement gathering to deployment with minimal disruption. By aligning odoo with your business goals.</p>
+        <p>I craft ERP Solutions that align perfectly with your workflow, compliance needs and growth goals across multiple industries</p>
 
         <section class="mt-4">
             <h2 class="text-muted text-2xl mb-4 text-center">Technologies used for Odoo Development</h2>
@@ -57,7 +58,7 @@ definePageMeta({
                     <span class="border p-4 flex flex-col gap-4 items-center">
                         <Telescope />
                         <p>Custom development</p>
-                        <p>Develop tailored odoo modules to match your exact business process. From Nigeria Payroll structure to VAT automation and multi-currency handling.</p>
+                        <p>Develop or extend tailored odoo modules to match your exact business process (Websites, Social & Email Marketing, Inventory, Journal Configuration e.t.c.) </p>
                     </span>
                     <span class="border p-4 flex flex-col gap-4 items-center">
                         <Settings />

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Vite-plus just landed',
-    publisher: 'Suleiman Hamza - Software Developer'
+    title: 'Blog: VitePlus just Landed',
+    titleTemplate: '%s • Suleiman Hamza',
+    publisher: 'Suleiman Hamza - Odoo Technical Developer'
 })
 definePageMeta({
     layout: 'blog-pages'

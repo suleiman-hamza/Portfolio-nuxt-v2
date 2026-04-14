@@ -11,7 +11,7 @@
                     loading="eager"
                     fetch-priority="high"
                     src="/images/avatar1.png" 
-                    alt="suleiman avatar" 
+                    alt="suleiman hamza ai-generated-avatar" 
                     w="25" 
                     h="25" 
                     class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 

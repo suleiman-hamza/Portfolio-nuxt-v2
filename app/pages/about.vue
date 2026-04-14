@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Motion } from "motion-v"
 import { ShieldAlertIcon } from 'lucide-vue-next'
-import { Button } from '@/components/ui/button'
+// import { Button } from '@/components/ui/button'
 import {
     Item,
     ItemActions,
@@ -13,6 +13,15 @@ import {
 
 definePageMeta({
     layout: 'pages',
+})
+
+useSeoMeta({
+  title: 'About',
+  titleTemplate: '%s • Suleiman Hamza',
+  ogTitle: 'About | Suleiman Hamza',
+  ogDescription: 'Learn more about me',
+  description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
+//   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
 })
 </script>
 <template>

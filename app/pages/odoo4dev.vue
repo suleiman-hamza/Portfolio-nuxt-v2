@@ -11,6 +11,15 @@ definePageMeta({
     layout: 'default'
 })
 
+useSeoMeta({
+  title: 'Hire an Odoo Technical Developer',
+  titleTemplate: '%s • Suleiman Hamza',
+  description: 'Odoo ERP solutions. Delivering tailored ERP implementations.',
+  ogDescription: 'Odoo Technical Developer - Helping businesses showcase their value to the world throught strategic and timeless workflows with Odoo ERP',
+  ogTitle: 'Odoo | Suleiman Hamza'
+//   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+})
+
 const accordionList = ref([
     {
         title: 'How much does a project cost?',

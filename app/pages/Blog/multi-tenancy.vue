@@ -2,8 +2,10 @@
 definePageMeta({
     layout: 'blog-pages'
 })
+
 useSeoMeta({
-    title: 'Multi-Tenancy in SaaS Applications: A Typical Model with Example',
+    title: 'Blog: Multi-Tenancy in SaaS Applications: A Typical Model with Example',
+    titleTemplate: '%s • Suleiman Hamza',
     publisher: 'Suleiman Hamza - Odoo Technical Developer'
 })
 

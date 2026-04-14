@@ -1,4 +1,12 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'Blog',
+  titleTemplate: '%s • Suleiman Hamza',
+  ogTitle: 'Blog | Suleiman Hamza',
+  ogDescription: 'My Personal Wiki',
+  description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
+//   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+})
 const blogList = ref([
     {
         title: 'Vite Plus just Landed!',

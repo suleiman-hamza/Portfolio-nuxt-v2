@@ -73,7 +73,7 @@ const models = [
         variant="outline"
         as-child
         role="listitem"
-        class="border-amber-200"
+        class="border-amber-200 bg-amber-200/5"
       >
       <div>
 

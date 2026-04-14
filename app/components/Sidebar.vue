@@ -37,6 +37,10 @@ const navList = ref([
         label: 'Blog',
         to: '/blog'
     },
+    {
+        label: 'Odoo ERP',
+        to: '/odoo4dev'
+    }
 ])
 </script>
 
@@ -44,7 +48,7 @@ const navList = ref([
     <Sheet v-model:open="closeSheet">
         <SheetTrigger as-child >
             <Button variant="outline" size="icon" class="p-2 outline-0 border-none bg-transparent rounded-none ring ring-indigo-300" aria-label="Open Sidebar">
-                <Menu />
+                <Menu color="white" />
             </Button>
         </SheetTrigger>
         <SheetContent>

@@ -40,7 +40,7 @@ const accordionList = ref([
             <div class="container py-4 md:py-10">
                 <h1 class="text-muted text-2xl md:text-3xl mb-4">Odoo Development Service (v18, v19+)</h1>
                 <p class="text-lg md:text-xl">I provide full cycle odoo implementation, from requirement gathering to
-                    deployment with minimal disruption. By aligning odoo with your business goals. I craft ERP Solutions
+                    designing soluions, and ensuring smooth deployment with minimal disruption. I have a deep understanding of Odoo framework, backend and frontend development. By aligning Odoo with your business goals, I will craft ERP solutions
                     that align perfectly with your workflow, compliance needs and growth goals across multiple
                     industries</p>
             </div>
@@ -48,12 +48,12 @@ const accordionList = ref([
             <section class="container py-4 md:py-10">
                 <h2 class="text-muted text-2xl md:text-3xl mb-6">Technologies used for Odoo ERP Development</h2>
                 <div class="flex gap-4 flex-wrap">
-                    <div class="flex gap-1 border">
-
+                    <div class="flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="361" viewBox="0 0 256 361" class="icon w-6 h-6"><path fill="#e44d26" d="m255.555 70.766l-23.241 260.36l-104.47 28.962l-104.182-28.922L.445 70.766z"/><path fill="#f16529" d="m128 337.95l84.417-23.403l19.86-222.49H128z"/><path fill="#ebebeb" d="M82.82 155.932H128v-31.937H47.917l.764 8.568l7.85 88.01H128v-31.937H85.739zm7.198 80.61h-32.06l4.474 50.146l65.421 18.16l.147-.04V271.58l-.14.037l-35.568-9.604z"/><path d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0M92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88zm62.74 0h16.235v32.508h22.824v16.05h-39.06z"/><path fill="#fff" d="M127.89 220.573h39.327l-3.708 41.42l-35.62 9.614v33.226l65.473-18.145l.48-5.396l7.506-84.08l.779-8.576H127.89zm0-64.719v.078h77.143l.64-7.178l1.456-16.191l.763-8.568H127.89z"/></svg>
                         <span class="font-semibold text-white">HTML</span>
                     </div>
-                    <div class="flex gap-1 border">
-
+                    <div class="flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class="w-6 h-6 icon"><path fill="#639" d="M0 0h215.04C237.662 0 256 18.338 256 40.96v174.08c0 22.622-18.338 40.96-40.96 40.96H40.96C18.338 256 0 237.662 0 215.04z"/><path fill="#fff" d="M91.674 235.52c-16.443-.015-26.589-9.275-26.394-26.314v-43.108q0-12.958 7.588-19.702c9.085-8.752 30.164-9.285 39.063.133c5.483 4.836 7.552 14.715 7.06 23.934H100.12c.143-3.623-.049-9.109-2.179-11.175c-2.767-3.745-10.076-3.305-12.008.594q-1.782 3.174-1.782 9.388v37.422q-.001 11.77 8.182 11.901q3.826 0 5.806-2.777c1.84-2.197 2.127-7.06 1.978-10.578h18.873c1.29 17.938-9.298 30.505-27.318 30.282zm59.914 0c-18.22.25-26.37-12.713-25.866-30.282h17.815c-.494 7.66 2.137 14.635 8.445 14.149q4.222.001 5.94-2.645c2.175-3.223 2.582-12.53-.528-16.133c-2.174-3.469-9.992-6.53-14.121-8.594q-8.843-4.23-12.736-10.05c-5.855-8.612-5.312-27.515 2.903-35.175c7.982-9.451 28.828-9.886 36.818-.197c4.928 4.995 7.08 14.823 6.664 23.867h-17.158c.146-3.717-.204-9.715-1.648-11.901q-1.518-2.777-5.74-2.778q-7.522.001-7.521 8.99c.054 6.365 2.534 8.976 8.315 11.636c7.485 2.908 17.003 7.875 20.454 13.885c10.292 18.315 3.231 46.29-22.039 45.223zm57.538 0c-18.22.25-26.37-12.713-25.866-30.282h17.815c-.494 7.66 2.138 14.635 8.446 14.149q4.221.001 5.939-2.645c2.176-3.223 2.583-12.53-.528-16.133c-2.173-3.469-9.991-6.53-14.12-8.594q-8.843-4.23-12.736-10.05c-5.855-8.612-5.312-27.515 2.903-35.175c7.982-9.451 28.828-9.886 36.817-.197c4.928 4.995 7.081 14.823 6.664 23.867h-17.157c.146-3.717-.205-9.715-1.649-11.901q-1.517-2.777-5.74-2.778q-7.52.001-7.52 8.99c.053 6.365 2.534 8.976 8.314 11.636c7.486 2.908 17.004 7.875 20.455 13.885c10.291 18.315 3.23 46.29-22.04 45.223z"/></svg>
                         <span class="font-semibold text-white">CSS</span>
                     </div>
                     <div class="flex gap-1">
@@ -65,7 +65,8 @@ const accordionList = ref([
                         </svg>
                         <span class="font-semibold text-white">JAVASCRIPT</span>
                     </div>
-                    <div class="flex gap-1 border">
+                    <div class="flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="w-6 h-6 icon"><path fill="none" stroke="#f5a97f" stroke-linecap="round" stroke-linejoin="round" d="M4.5 4.5L1 8l3.5 3.5m7-7L15 8l-3.5 3.5M9.5 2l-3 12" stroke-width="1"/></svg>
                         <span class="font-semibold text-white">XML</span>
                     </div>
                     <div class="flex gap-1">

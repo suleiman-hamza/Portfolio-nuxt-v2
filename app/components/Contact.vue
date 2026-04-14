@@ -23,7 +23,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                         <span class="border-r border-b border-dashed absolute top-0 left-0 w-8 h-8 flex justify-center items-center">1</span>
                     </div>
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
-                        <p>Applying & Adopting modern frontend concepts and architecture</p>
+                        <p>Solid knowledge of Design Systems, SPA architectures, Autonomous agents, LLMs, AI-driven workflows</p>
                         <span class="border-l border-b border-dashed absolute top-0 right-0 w-8 h-8 flex justify-center items-center">2</span>
                     </div>
                     <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">

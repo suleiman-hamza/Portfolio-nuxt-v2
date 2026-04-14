@@ -208,7 +208,7 @@ const accordionList = ref([
                 <div class="grid grid-cols-1 md:grid-cols-3">
                     <h2 class="text-center text-muted text-2xl md:text-3xl flex items-center justify-center p-4">FAQ</h2>
                     <div class="md:col-span-2 border-t md:border-t-0 border-gray-300/50 md:border-l">
-                        <Accordion type="single" collapsible class="w-full" default-value="item-1">
+                        <Accordion type="single" collapsible class="w-full">
                             <AccordionItem v-for="item in accordionList" :key="item.value" class="" :value="item.value">
                                 <AccordionTrigger class="px-4 text-indigo-300">{{ item.title }}</AccordionTrigger>
                                 <AccordionContent class="px-4">

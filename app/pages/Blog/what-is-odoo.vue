@@ -3,7 +3,8 @@ definePageMeta({
     layout: 'blog-pages'
 })
 useSeoMeta({
-    title: 'What is Odoo ERP',
+    title: 'Blog: What is Odoo',
+    titleTemplate: '%s • Suleiman Hamza',
     publisher: 'Suleiman Hamza - Odoo Technical Developer'
 })
 

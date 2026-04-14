@@ -4,12 +4,20 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Hunter - Software Engineer",
+      title: "Software Engineer",
+      titleTemplate: '%s %separator %siteName',
+      templateParams: {
+        separator: '·',
+        siteName: 'Suleiman Hamza'
+      },
       meta: [
         {
           name: "description",
-          content: "A Nuxt.js application with Tailwind CSS",
+          content: "Software Engineer & Best ODOO Technical Developer in Nigeria",
         },
+        { property: 'og:title', content: 'Suleiman Hamza - Software Engineer | Frontend Engineer | Odoo Developer' },
+        { property: 'og:description', content: 'Experienced Software Engineer specializing in frontend development and Odoo ERP solutions. Passionate about crafting seamless web experiences and delivering tailored ERP implementations to drive business success.' },
+        { property: 'og:image', content: 'https://mysite.com/og.png' },
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
@@ -36,6 +44,10 @@ export default defineNuxtConfig({
       ],
     },
   },
+  site: { 
+ url: 'https://hunterxx.vercel.app/', 
+ name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer' 
+ }, 
   compatibilityDate: "2025-05-20",
   css: ["~/assets/css/main.css"],
   // At a minimum, a Vite plugin must have a name
@@ -60,5 +72,5 @@ export default defineNuxtConfig({
     ],
   },
   devtools: { enabled: true },
-  modules: ["shadcn-nuxt", "motion-v/nuxt", "@nuxt/image", "@nuxt/fonts"],
+  modules: ["shadcn-nuxt", "motion-v/nuxt", "@nuxt/image", "@nuxt/fonts", "@nuxtjs/seo", "nuxt-og-image"],
 });

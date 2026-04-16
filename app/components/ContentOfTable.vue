@@ -17,7 +17,7 @@ function openToc() {
         <header class="p-2 flex gap-2 items-center bg-indigo-300/20">
             <Bookmark class="text-indigo-400" />
             <h3>What you'll learn</h3>
-            <Button class="border ml-auto p-2 rounded-none bg-transparent" square @click="openToc" size="icon">
+            <Button class="ml-auto p-2 rounded-none bg-transparent" square @click="openToc" size="icon">
                 <ChevronUp v-if="tocOpen" />
                 <ChevronDown v-else />
             </Button>

@@ -16,8 +16,9 @@ useSeoMeta({
   titleTemplate: '%s • Suleiman Hamza',
   description: 'Odoo ERP solutions. Delivering tailored ERP implementations.',
   ogDescription: 'Odoo Technical Developer - Helping businesses showcase their value to the world throught strategic and timeless workflows with Odoo ERP',
-  ogTitle: 'Odoo | Suleiman Hamza'
+  ogTitle: 'Odoo | Suleiman Hamza',
 //   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+twitterCard: 'summary_large_image'
 })
 
 const accordionList = ref([

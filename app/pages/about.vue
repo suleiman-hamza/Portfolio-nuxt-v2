@@ -22,6 +22,7 @@ useSeoMeta({
   ogDescription: 'Learn more about me',
   description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
 //   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+twitterCard: 'summary_large_image'
 })
 </script>
 <template>

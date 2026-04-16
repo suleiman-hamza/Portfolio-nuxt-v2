@@ -5,11 +5,18 @@ definePageMeta({
 useSeoMeta({
     title: 'Blog: What is Odoo',
     titleTemplate: '%s • Suleiman Hamza',
-    publisher: 'Suleiman Hamza - Odoo Technical Developer'
+    publisher: 'Suleiman Hamza - Odoo Technical Developer',
+    twitterCard: 'summary_large_image',
+    ogType: 'article',
+  articleAuthor: ['Suleiman Hamza'],
+  articleSection: 'Odoo Tutorials',
+  articleTag: ['nuxt', 'odoo', 'erp', 'odoo development', 'ERP'],
+  articlePublishedTime: '2026-03-29T00:00:00Z',
+  articleModifiedTime: '2026-03-29T00:00:00Z'
 })
 
 const title = 'What is ODOO ERP'
-const postedOn = 'March 29, 2026'
+const postedOn = '2026-03-29T00:00:00Z'
 </script>
 
 <template>

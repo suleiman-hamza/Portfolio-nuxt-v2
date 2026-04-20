@@ -48,6 +48,13 @@ export default defineNuxtConfig({
  url: 'https://hunterxx.vercel.app/', 
  name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer' 
  }, 
+ ogImage: {
+    compatibility: {
+      runtime: {
+        browser: false
+      }
+    }
+  },
   compatibilityDate: "2025-05-20",
   css: ["~/assets/css/main.css"],
   // At a minimum, a Vite plugin must have a name

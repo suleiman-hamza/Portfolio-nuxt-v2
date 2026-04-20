@@ -6,6 +6,13 @@ useSeoMeta({
   ogDescription: 'An independent creative developer pursuing standout solutions that are meaningful, secure & scalable',
   description: 'Passionate Vue and Nuxt developer crafting seamless web experiences and delivering tailored ERP implementations to drive business success. A vue developer. A nuxt developer',
 //   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+twitterCard: 'summary_large_image'
+})
+
+defineOgImage('MyTemplate', {
+  title: 'Suleiman Hamza - Software Engineer',
+  description: 'An independent creative developer pursuing standout solutions that are meaningful, secure & scalable',
+  // image: 'https://mysite.com/og.png'
 })
 
 // definePageMeta({
@@ -19,7 +26,7 @@ useSeoMeta({
     <Projects />
     <!-- <Stack /> -->
     <LatestArticles />
-    <Clients />
+    <!-- <Clients /> -->
     <Contact />
     <Hire4Odoo />
 </template>

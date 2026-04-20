@@ -34,6 +34,8 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@takumi-rs/core": "^1.0.9",
+    "@takumi-rs/wasm": "^1.0.9",
     "nuxt-og-image": "^6.4.1",
     "typescript": "^5.9.3"
   }

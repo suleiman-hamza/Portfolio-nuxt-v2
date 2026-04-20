@@ -6,6 +6,7 @@ useSeoMeta({
   ogDescription: 'My Personal Wiki',
   description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
 //   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+twitterCard: 'summary_large_image'
 })
 const blogList = ref([
     {

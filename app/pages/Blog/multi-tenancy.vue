@@ -6,7 +6,14 @@ definePageMeta({
 useSeoMeta({
     title: 'Blog: Multi-Tenancy in SaaS Applications: A Typical Model with Example',
     titleTemplate: '%s • Suleiman Hamza',
-    publisher: 'Suleiman Hamza - Odoo Technical Developer'
+    publisher: 'Suleiman Hamza - Odoo Technical Developer',
+    twitterCard: 'summary_large_image',
+    ogType: 'article',
+  articleAuthor: ['Suleiman Hamza'],
+  articleSection: 'Multi-Tenancy Tutorials',
+  articleTag: ['nuxt', 'saas', 'multi-tenancy', 'SaaS', 'software-as-a-service', 'cloud computing', 'software architecture'],
+  articlePublishedTime: '2026-01-02T00:00:00Z',
+  articleModifiedTime: '2026-01-02T00:00:00Z'
 })
 
 const title = 'Multi-Tenancy'

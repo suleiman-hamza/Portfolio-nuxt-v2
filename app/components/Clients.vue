@@ -56,8 +56,8 @@ const testimonyList = ref([
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <!-- <CarouselPrevious class="top-[50%] -left-3.75"/>
-                <CarouselNext class="top-[50%] -right-3.75" /> -->
+                <CarouselPrevious class="md:top-[50%] md:-left-3.75"/>
+                <CarouselNext class="md:top-[50%] md:-right-3.75" />
             </Carousel>
         </section>
     </div>

@@ -26,7 +26,7 @@ defineOgImage('MyTemplate', {
     <Projects />
     <!-- <Stack /> -->
     <LatestArticles />
-    <Clients />
+    <!-- <Clients /> -->
     <Contact />
     <Hire4Odoo />
 </template>

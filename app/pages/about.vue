@@ -43,9 +43,9 @@ twitterCard: 'summary_large_image'
                         teams.</p>
                     <p>As a <span class="text-indigo-300">Frontend Engineer</span> with a passion for crafting smooth, delightful web experiences using
                         modern frontend technologies. I've worked with a variety of technologies including <span>NodeJS</span>, <span>React</span>, <span>TypeScript</span>, <span>Vue</span>, <span>Nuxt</span>, <span>Better-Auth</span>, <span>Redis</span>, <span class="text-[#42b983]">TailwindCSS</span>, <span class="text-[#fff42b]">Motion</span>, <span class="text-white">Shadcn-UI</span>,
-                        <span class="text-[#00dc82]">Python</span>, <span>PostgreSQL</span> & <span>Golang</span> to name a few.</p>
+                        <span class="text-[#00dc82]">Python</span>, <span>MongoDB</span>, <span>PostgreSQL</span> & <span>Golang</span> to name a few.</p>
                     <p>I’m also well-versed in the Vue & Vite ecosystem, with a deep understanding of libraries like <span class="text-[#ffd859]">Pinia</span>,
-                        <span class="text-[#42b983]">Vue Router</span>, <span class="text-[#add467]">Vitest</span>, <span>Cypress</span>, <span></span>, <span class="text-[#42b983]">VueUse</span>, <span class="text-[#6b77f8]">Vite +</span> and many more.</p>
+                        <span class="text-[#42b983]">Vue Router</span>, <span class="text-[#add467]">Vitest</span>, <span>Cypress</span>, <span>Tanstack Query</span>, <span class="text-[#42b983]">VueUse</span>, <span class="text-[#6b77f8]">Vite +</span> and many more.</p>
                     <p>I have recently picked up <span>ERP (Odoo) Technical development</span> as a core skill which has now widen my
                         knowledge of software development in general. By leveraging it's modular and extensible
                         architecture, i provide services to businesses of various sizes to help with:

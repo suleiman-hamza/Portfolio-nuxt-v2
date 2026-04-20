@@ -163,6 +163,14 @@ img {
     }
 }
 
+.code {
+    background-color: #08070794;
+    outline: 1px solid oklch(92.444% 0.12025 95.855 / 0.349);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: oklch(73.058% 0.13313 278.777);
+}
+
 /* .cross {
   @apply before:absolute after:absolute;
   @apply before:top-[-4px] before:bg-[#dedede] before:content-[''] before:w-[1px] before:h-[9px];

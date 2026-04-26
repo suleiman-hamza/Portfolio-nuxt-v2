@@ -21,8 +21,13 @@ useSeoMeta({
   ogTitle: 'About | Suleiman Hamza',
   ogDescription: 'Learn more about me',
   description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
-//   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+  ogImage: 'https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp',
 twitterCard: 'summary_large_image'
+})
+
+defineOgImage('MyTemplate.takumi', {
+  title: 'Suleiman Hamza - About me',
+  description: 'Software Engineer and Odoo Technical Developer.',
 })
 </script>
 <template>
@@ -30,9 +35,9 @@ twitterCard: 'summary_large_image'
         <section class="container mt-(--ui-header) border-[#dedede] bg-foreground text-(--text-muted) sm:grid sm:grid-cols-2 gap-2">
             <header class="grid grid-cols-[auto_1fr] items-end border-b border-gray-300/50">
                 <h2 class="text-2xl mb-2 vertical p-2 text-white">Meet the dev</h2>
-                <NuxtImg src="/images/replace-img.jpeg" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
+                <NuxtImg src="/images/suleiman-hamza-headshot.webp" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
                     alt="Image user" preload loading="eager" fetch-priority="high">
-                    <img v-if="isLoaded" v-bind="imgAttrs" width="" :src="src" class="w-100">
+                    <img v-if="isLoaded" v-bind="imgAttrs" width="1000" height="900" :src="src" class="w-100">
                 </NuxtImg>
             </header>
             <section class="py-8 col-span-2 border-b border-gray-300/50">

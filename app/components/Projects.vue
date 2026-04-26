@@ -18,85 +18,76 @@ import {
 const models = [
   {
     name: 'F1-League',
-    description: 'Everyday tasks and UI generation.',
+    description: 'Get back on the grid - Create and Join Leagues - Share with friends',
     image:
-      'https://images.unsplash.com/photo-1650804068570-7fb2e3dbf888?q=80&w=640&auto=format&fit=crop',
-    credit: 'Valeria Reverdo on Unsplash',
+      '/images/f1-banner.png',
+    url: '#'
   },
   {
     name: 'RovelSub Point',
-    description: 'Advanced thinking or reasoning.',
+    description: 'Recharge, Subscribe and Pay Utility Bills',
     image:
-      'https://images.unsplash.com/photo-1610280777472-54133d004c8c?q=80&w=640&auto=format&fit=crop',
-    credit: 'Michael Oeser on Unsplash',
+      '/images/rovel-banner.png',
+    url: 'https://rovellite.vercel.app',
   },
   {
-    name: 'Kaduna Direct',
-    description: 'Open Source model for everyone.',
+    name: 'Nuxt AI Chat',
+    description: 'AI sdk chat application with streaming interface',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    credit: 'Cherry Laithang on Unsplash',
+    url: 'https://nuxt-ai-sdk.vercel.app',
   },
   {
     name: 'Better Nuxt',
     description: 'Open Source model for everyone.',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    credit: 'Cherry Laithang on Unsplash',
+    url: '#',
   },
   {
     name: 'Revel Office',
     description: 'Open Source model for everyone.',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    credit: 'Cherry Laithang on Unsplash',
+    url: '#',
   },
   {
     name: 'Naira-X',
     description: 'Open Source model for everyone.',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    credit: 'Cherry Laithang on Unsplash',
+      url: '#'
   },
 ]
 
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
-        <div class="py-10 container border-gray-300/50 bg-foreground">
-            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="size-max p-1 mb-8" as="section">Featured Projects</CrossedDiv>
-            <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6">
-    <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-      <Item
-        v-for="model in models"
-        variant="outline"
-        as-child
-        role="listitem"
-        class="border-amber-200 bg-amber-200/5"
-      >
-      <div>
-
-        <ItemHeader>
-          <img
-          :src="model.image"
-          :alt="model.name"
-          width="128"
-          height="128"
-          class="aspect-square w-full rounded-sm object-cover grayscale"
-          >
-        </ItemHeader>
-        <ItemContent>
-          <ItemTitle>{{ model.name }}</ItemTitle>
-          <ItemDescription>{{ model.description }}</ItemDescription>
-        </ItemContent>
+  <section class="border-b border-gray-300/50">
+    <div class="py-10 container border-gray-300/50 bg-foreground">
+      <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="size-max p-1 mb-8" as="section">
+        Featured Projects</CrossedDiv>
+      <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6">
+        <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
+          <Item v-for="model in models" variant="outline" as-child role="listitem"
+            class="border-amber-200/60 bg-amber-200/5">
+            <div>
+              <ItemHeader>
+                <NuxtLink :to="model.url" class="bg-black p-2 rounded-sm w-full">
+                  <img :src="model.image" :alt="model.name" width="128" height="128"
+                    class="aspect-square w-full object-contain grayscale">
+                </NuxtLink>
+              </ItemHeader>
+              <ItemContent>
+                <ItemTitle>{{ model.name }}</ItemTitle>
+                <ItemDescription>{{ model.description }}</ItemDescription>
+              </ItemContent>
+            </div>
+          </Item>
+        </ItemGroup>
       </div>
-      </Item>
-    </ItemGroup>
-  </div>
-        </div>
-    </section>
+    </div>
+  </section>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

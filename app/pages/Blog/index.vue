@@ -5,8 +5,13 @@ useSeoMeta({
   ogTitle: 'Blog | Suleiman Hamza',
   ogDescription: 'My Personal Wiki',
   description: 'Learn more about Suleiman Hamza, a skilled Software Engineer and Odoo Technical Developer. Discover his expertise as a Software enginner & Developer.',
-//   ogImage: 'https://mysite.com/og.png' IMPLEMENT THIS LATER
+  ogImage: 'https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp',
 twitterCard: 'summary_large_image'
+})
+
+defineOgImage('MyTemplate.takumi', {
+  title: 'Suleiman Hamza - My Personal Wiki',
+  description: 'I share everything from technical choices to architectural decisions, the tools I use, the links between them, the platforms I rely on, and more.',
 })
 const blogList = ref([
     {
@@ -38,7 +43,7 @@ const blogList = ref([
 
 <template>
     <section class="mt-(--ui-header) py-6 container">
-        <div class="relative p-4 h-30 text-[24px] border border-gray-300/50 flex items-center justify-center mb-4">
+        <div class="relative p-4 h-30 md:h-50 text-[24px] border border-gray-300/50 flex items-center justify-center mb-4">
             <div class="absolute inset-0 -z-10">
                 <div class="absolute inset-0 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,transparent_40%,#7c86ff_100%)]"></div>
             </div>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { OctagonX, Download } from 'lucide-vue-next';
-import { Menu } from 'lucide-vue-next'
+import { Menu, ArrowUpRight } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 import {
     Sheet,
@@ -68,11 +68,15 @@ const navList = ref([
                 <div class="flex flex-col justify-between h-auto">
                     <NuxtLink v-for="item in navList" :to="item.to" class="size fit hover:bg-indigo-100/20 p-2 transition-all duration-300">{{ item.label }}</NuxtLink>
                 </div>
-                <div>
-                    <Button class="cursor-pointer">
-                        Download Resume
-                        <Download />
-                    </Button>
+                <div class="flex gap-2.5 items-center text-base">
+                    <NuxtLink to="/documents/Suleiman-Hamza-2026-Resume.pdf" external download="Suleiman Hamza Resume 2026.pdf" class="cursor-pointer flex items-center gap-2 bg-slate-800 text-gray-200 p-2 px-3 w-fit rounded-lg">
+                        <Download :size="16" />
+                        Resume
+                    </NuxtLink>
+                    <NuxtLink to="/documents/Suleiman-Hamza-2026-Resume.pdf" external target="_blank" class="cursor-pointer flex items-center gap-1 bg-slate-800 text-gray-200 p-2 w-fit rounded-lg">
+                        View Online
+                        <ArrowUpRight :size="16" />
+                    </NuxtLink>
                 </div>
                 <!--icons-->
                 <div class="mt-auto flex justify-end divide divide-accent-foreground gap-2">

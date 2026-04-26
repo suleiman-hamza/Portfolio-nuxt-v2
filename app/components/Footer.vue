@@ -11,7 +11,7 @@
         <section class="flex item-center justify-center divide divide-accent-foreground border-b border-gray-300/50">
             <!--x-logo-->
             <NuxtLink to="https://x.com/thee_hamza001" target="_blank" aria-label="X (Twitter) Profile"
-                class="hover:shadow-md shadow-green-300">
+                class="hover:shadow-md shadow-green-300 transition-shadow">
                 <span class="flex items-center justify-center icon w-10 h-10 bg-green-300/20 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -22,7 +22,7 @@
             </NuxtLink>
             <!--instagram-logo-->
             <NuxtLink to="https://www.instagram.com/_suleiman_hue/" target="_blank" aria-label="Instagram Profile"
-                class="hover:shadow-md shadow-pink-300">
+                class="hover:shadow-md shadow-pink-300 transition-shadow">
                 <span class="block w-10 h-10 bg-pink-300/20 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none">
@@ -37,7 +37,7 @@
             </NuxtLink>
             <!--discord-logo-->
             <NuxtLink to="https://discord.gg/eaNBB5vg" target="_blank" aria-label="Discord Profile"
-                class="hover:shadow-md shadow-slate-300">
+                class="hover:shadow-md shadow-slate-300 transition-shadow">
                 <span class="block icon w-10 h-10 bg-slate-300/20 p-2">
                     <!--link-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -53,7 +53,7 @@
             </NuxtLink>
             <!--bluesky-logo-->
             <NuxtLink to="https://bsky.app/profile/suleiman-hue.bsky.social" target="_blank"
-                aria-label="Bluesky Profile" class="hover:shadow-md shadow-blue-300">
+                aria-label="Bluesky Profile" class="hover:shadow-md shadow-blue-300 transition-shadow">
                 <span class="block icon w-10 h-10 bg-blue-300/20 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -64,7 +64,7 @@
             </NuxtLink>
             <!--github-logo-->
             <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile"
-                class="hover:shadow-md shadow-teal-300">
+                class="hover:shadow-md shadow-teal-300 transition-shadow">
                 <span class="block icon w-10 h-10 bg-teal-200/20 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"

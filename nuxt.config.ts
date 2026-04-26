@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         },
         { property: 'og:title', content: 'Suleiman Hamza - Software Engineer | Frontend Engineer | Odoo Developer' },
         { property: 'og:description', content: 'Experienced Software Engineer specializing in frontend development and Odoo ERP solutions. Passionate about crafting seamless web experiences and delivering tailored ERP implementations to drive business success.' },
-        { property: 'og:image', content: 'https://mysite.com/og.png' },
+        { property: 'og:image', content: 'https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp' },
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
     },
   },
   site: { 
- url: 'https://hunterxx.vercel.app/', 
+ url: 'https://shshunt.vercel.app/', 
  name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer' 
  }, 
  ogImage: {

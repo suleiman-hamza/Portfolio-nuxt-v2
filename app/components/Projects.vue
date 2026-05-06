@@ -38,25 +38,25 @@ const models = [
     url: 'https://nuxt-ai-sdk.vercel.app',
   },
   {
-    name: 'Better Nuxt',
-    description: 'Open Source model for everyone.',
+    name: 'Food by Aneke',
+    description: 'Experience flavours with a twist',
     image:
-      'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    url: '#',
+      '/images/logo-forage-with-aneke-background.svg',
+    url: 'https://fba-lite.vercel.app/',
   },
   {
     name: 'Revel Office',
-    description: 'Open Source model for everyone.',
+    description: 'Elevate your working experience, designed for ultimate comfort and lifestyle.',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-    url: '#',
+    url: 'https://revel-office1.vercel.app/',
   },
   {
     name: 'Naira-X',
     description: 'Open Source model for everyone.',
     image:
       'https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop',
-      url: '#'
+      url: '#' // https://naira-x.vercel.app/
   },
 ]
 

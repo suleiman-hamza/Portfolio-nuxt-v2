@@ -9,7 +9,7 @@ import { Book } from 'lucide-vue-next'
                 <span class="">Recent from the blog</span>
                 <Book :size="16" />
             </CrossedDiv>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 text-[18px]">
                 <NuxtLink to="/blog/viteplus" class="mb-4 size-fit">
                 <h4 class="underline text-indigo-400">Vite Plus just landed</h4>
                 <p class="text-sm text-indigo-100 mt-1">April 06, 2026</p>

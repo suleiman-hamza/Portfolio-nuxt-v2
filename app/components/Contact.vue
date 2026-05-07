@@ -12,25 +12,25 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                 <p class="mb-4 text-2xl text-muted">Intrested in having me on your team, I'd love to talk to you</p>
 
                 <div class="mb-4">
-                    <h3 class="">What i bring to your team 👇</h3>
+                    <h3 class="text-xl">What i bring to your team 👇</h3>
                 </div>
             </div>
             <!--experiment grid with crossed div-->
             <div class="mb-6 sm:w-125">
             <section class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 relative border-b-[1.2px] border-r-[1.2px] border-zinc-200/40 text-muted">
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                    <div class="text-xl border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
                         <p>Extensive experience in buliding & maintaining high quality frontend applications.</p>
                         <span class="border-r border-b border-dashed absolute top-0 left-0 w-8 h-8 flex justify-center items-center">1</span>
                     </div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                    <div class="text-xl border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
                         <p>Solid knowledge of Design Systems, SPA architectures, Autonomous agents, LLMs, AI-driven workflows</p>
                         <span class="border-l border-b border-dashed absolute top-0 right-0 w-8 h-8 flex justify-center items-center">2</span>
                     </div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                    <div class="text-xl border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
                         <p>Proven track record of successful & timely project deliveries.</p>
                         <span class="border-r border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 left-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">3</span>
                     </div>
-                    <div class="border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
+                    <div class="text-xl border-t-[1.2px] border-l-[1.2px] border-zinc-200/40 p-10 relative">
                         <p>Translating product requirements & designs into polished user-friendly interfaces</p>
                         <span class="border-l border-b sm:border-t sm:border-b-0 border-dashed absolute top-0 right-0 sm:top-auto sm:bottom-0 w-8 h-8 flex justify-center items-center">4</span>
                     </div>
@@ -42,7 +42,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
             </div>
 
             <RippleButton class="bg-white hover:shadow-sm shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] border transition duration-400">
-                <span class="">Get in Touch</span>
+                <span class="rakkas text-xl">Get in Touch</span>
                 <SendHorizonal class="size-4 inline" />
             </RippleButton>
         </div>

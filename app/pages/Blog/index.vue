@@ -42,12 +42,12 @@ const blogList = ref([
 </script>
 
 <template>
-    <section class="mt-(--ui-header) py-6 container">
+    <section class="py-6 container">
         <div class="relative p-4 h-30 md:h-50 text-[24px] border border-gray-300/50 flex items-center justify-center mb-4">
             <div class="absolute inset-0 -z-10">
                 <div class="absolute inset-0 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,transparent_40%,#7c86ff_100%)]"></div>
             </div>
-            <h2 class="relative z-10 text-white">My Personal Wiki</h2>
+            <h2 class="relative z-10 text-white rakkas">My Personal Wiki</h2>
         </div>
         <div>Welcome to my personal wiki, I share everything from technical choices to architectural decisions, the tools I use, the links between them, the platforms I rely on, and more.</div>
         <section class="">

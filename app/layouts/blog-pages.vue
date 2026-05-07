@@ -1,9 +1,9 @@
 <template>
     <div>
-        <header class="fixed w-full top-0 z-50">
+        <header class="">
             <Header />
         </header>
-        <main class="mt-(--ui-header)">
+        <main class="">
             <slot/>
         </main>
         <Footer />

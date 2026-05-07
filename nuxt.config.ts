@@ -80,4 +80,10 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: ["shadcn-nuxt", "motion-v/nuxt", "@nuxt/image", "@nuxt/fonts", "@nuxtjs/seo", "nuxt-og-image"],
+  fonts: {
+    defaults: {
+      weights: [400],
+      styles: ['normal', 'italic'],
+    }
+  }
 });

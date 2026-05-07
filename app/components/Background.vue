@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
         <div class="grid gap-8 md:grid-cols-2 py-15 container border-gray-300/50 bg-foreground">
             <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="min-h-75 border-gray-300/50 border-dashed flex flex-col grid-background">
                 <div class="w-full grid grid-cols-1 grid-rows-[auto_200px] gap-3 h-full overflow-hidden">
-                    <div class="w-full h-auto flex items-center justify-center"><p class="text-[24px] md:text-[32px] font-bold">Building in Obsession</p></div>
+                    <div class="w-full h-auto flex items-center justify-center"><p class="text-[24px] md:text-[32px] font-bold rakkas tracking-wide">Building in Obsession</p></div>
                     <div class="w-full h-auto"><span class="mt-20 md:mt-10 mx-auto animate-spin bg-indigo-500/20 rounded-full h-auto aspect-square w-full block border border-dashed"></span></div>
                 </div>
             </CrossedDiv>
@@ -16,7 +16,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
                 <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
                     Background
                 </CrossedDiv>
-                <p class="text-xl md:text-2xl text-muted">A detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
+                <p class="text-xl md:text-2xl text-muted tracking-[2%]">A detail-oriented, design-driven and passionate developer with strong problem solving & technical expertise. I thrive in building scalable
                     software applications, integrating complex systems and leveraging
                     modern development tools and practices.</p>
                 <NuxtLink to="/about"

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { AnimatePresence, Motion } from 'motion-v'
 import { OctagonX, Download } from 'lucide-vue-next';
 import { Menu, ArrowUpRight } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
@@ -45,28 +46,38 @@ const navList = ref([
 </script>
 
 <template>
-    <Sheet v-model:open="closeSheet">
-        <SheetTrigger as-child >
-            <Button variant="outline" size="icon" class="p-2 outline-0 border-none bg-transparent rounded-none ring ring-indigo-300" aria-label="Open Sidebar">
-                <Menu color="white" />
+    <Sheet v-model:open="closeSheet" class="transition-all duration-300">
+        <SheetTrigger as-child class="" >
+            <Button variant="outline" size="icon" class="dark:bg-indigo-300/10 outline-0 border-none rounded-none" aria-label="Open Sidebar">
+                <Menu color="white" class="size-6" />
             </Button>
         </SheetTrigger>
-        <SheetContent>
-            <SheetHeader class="p-0 relative">
-                <NuxtImg 
+
+        <AnimatePresence>
+
+            <SheetContent v-if="closeSheet" force-mount as-child class="bg-indigo-950/80 border-l border-indigo-500/20" >
+                <Motion
+                key="sheet-content"
+          :initial="{ x: '100%' }"
+          :animate="{ x: 0 }"
+          :exit="{ x: '100%' }"
+          :transition="{ type: 'tween', damping: 20, stiffness: 200 }"
+        >
+                <SheetHeader class="p-0 relative h-15">
+                    <!-- <NuxtImg 
                     src="/images/afro-pattern.svg" 
                     class="w-full aspect-auto" 
                     preload 
                     loading="eager"
                     fetch-priority="high" 
-                />
-                <SheetClose class="border size-fit ml-auto absolute top-4 right-4 z-10">
-                    <OctagonX />
+                /> -->
+                <SheetClose class="size-fit ml-auto absolute top-6 right-6 z-10">
+                    <OctagonX class="size-6" />
                 </SheetClose>
             </SheetHeader>
             <section class="p-4 text-indigo-300 text-[20px] h-full flex flex-col gap-5">
                 <div class="flex flex-col justify-between h-auto">
-                    <NuxtLink v-for="item in navList" :to="item.to" class="size fit hover:bg-indigo-100/20 p-2 transition-all duration-300">{{ item.label }}</NuxtLink>
+                    <NuxtLink v-for="item in navList" :to="item.to" class="text-white hover:bg-indigo-100/20 px-2 p-1 transition-all duration-300">{{ item.label }}</NuxtLink>
                 </div>
                 <div class="flex gap-2.5 items-center text-base">
                     <NuxtLink to="/documents/Suleiman-Hamza-2026-Resume.pdf" external download="Suleiman Hamza Resume 2026.pdf" class="cursor-pointer flex items-center gap-2 bg-slate-800 text-gray-200 p-2 px-3 w-fit rounded-lg">
@@ -119,9 +130,9 @@ const navList = ref([
                         stroke-width="1.5"
                         d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478" />
                     </svg>
-            </NuxtLink>
-            <!--github-logo-->
-            <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile">
+                </NuxtLink>
+                <!--github-logo-->
+                <NuxtLink to="https://github.com/suleiman-hamza" target="_blank" aria-label="Github Profile">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="1.5">
@@ -131,18 +142,20 @@ const navList = ref([
                         d="M3.086 16.57c.163.554.463 1.066.878 1.496c.414.431.932.77 1.513.988a4.46 4.46 0 0 0 3.62-.216" />
                     </g>
                 </svg>
-        </NuxtLink>
-                </div>
-            </section>
-            <SheetFooter class="p-0">
-                <NuxtImg 
-                    src="/images/afro-pattern.svg" 
-                    class="w-full aspect-auto" 
-                    preload 
-                    loading="eager"
-                    fetch-priority="high" 
-                />
-            </SheetFooter>
-        </SheetContent>
+            </NuxtLink>
+        </div>
+    </section>
+    <SheetFooter class="p-0">
+        <!-- <NuxtImg 
+        src="/images/afro-pattern.svg" 
+        class="w-full aspect-auto" 
+        preload 
+        loading="eager"
+        fetch-priority="high" 
+        /> -->
+    </SheetFooter>
+    </Motion>
+</SheetContent>
+</AnimatePresence>
     </Sheet>
 </template>

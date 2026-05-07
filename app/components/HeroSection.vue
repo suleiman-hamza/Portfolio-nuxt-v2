@@ -45,25 +45,9 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50 mt-(--ui-header)">
+    <section class="border-b border-gray-300/50">
         <main
             class="container flex flex-col items-center justify-around py-8 border-gray-300/50 grid-background px-4 sm:px-8 sm:py-12 bg-foreground text-text-muted h-[calc(100vh-var(--ui-header))]">
-            <!-- <ul class="flex flex-wrap justify-center gap-2 text-[1rem] leading-none">
-                <Motion as-child :initial="{ opacity: 0, x: 12 }" :whileInView="{ opacity: 1, x: 0 }"
-                    :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
-                    <li>Software Developer</li>
-                </Motion>
-                <hr class="divider">
-                <Motion as-child :initial="{ opacity: 0, x: 6 }" :whileInView="{ opacity: 1, x: 0 }"
-                    :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.7 }">
-                    <li>Creative Designer</li>
-                </Motion>
-                <hr class="divider">
-                <Motion as-child :initial="{ opacity: 0, y: 4 }" :whileInView="{ opacity: 1, y: 0 }"
-                    :transition="{ type: 'spring', stiffness: 100, duration: 2, delay: 0.3 }">
-                    <li>Odoo Technical Developer</li>
-                </Motion>
-            </ul> -->
             <h1 class="font-bold md:text-[18px] text-white">🖐 Hi, I'm Suleiman</h1>
             <h2 class="text-amber-200 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center">
                 An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>

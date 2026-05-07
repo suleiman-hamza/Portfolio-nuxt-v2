@@ -3,7 +3,7 @@
         <header class="">
             <Header />
         </header>
-        <main class="mt-(--ui-header)">
+        <main class="">
             <slot/>
         </main>
         <Footer />

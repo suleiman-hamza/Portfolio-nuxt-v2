@@ -21,6 +21,9 @@ const { as = 'div', border = 'border-zinc-200/40', crossy = 'before:bg-[#2b7fff]
 </template>
 
 <style scoped>
+div {
+  font-family: 'Courier New', Courier, monospace;
+}
 /* @reference "~/assets/css/main.css" */
 /* @import url("~/assets/css/main.css"); */
 

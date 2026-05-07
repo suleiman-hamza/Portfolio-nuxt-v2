@@ -48,8 +48,8 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
     <section class="border-b border-gray-300/50">
         <main
             class="container flex flex-col items-center justify-around py-8 border-gray-300/50 grid-background px-4 sm:px-8 sm:py-12 bg-foreground text-text-muted h-[calc(100vh-var(--ui-header))]">
-            <h1 class="font-bold md:text-[18px] text-white">🖐 Hi, I'm Suleiman</h1>
-            <h2 class="text-amber-200 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center">
+            <h1 class="text-[18px] text-white rakkas">🖐 Hi, I'm Suleiman</h1>
+            <h2 class="text-amber-200 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center rakkas">
                 An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>
             </h2>
             <HeroLogoSet />

@@ -9,6 +9,7 @@ body {
     margin: 0;
     background-color: var(--foreground);
     color: var(--text-muted);
+    font-family: serif;
 }
 
 *, *::before, *::after {
@@ -171,6 +172,9 @@ img {
     color: oklch(73.058% 0.13313 278.777);
 }
 
+.rakkas {
+  font-family: 'Rakkas', serif;
+}
 /* .cross {
   @apply before:absolute after:absolute;
   @apply before:top-[-4px] before:bg-[#dedede] before:content-[''] before:w-[1px] before:h-[9px];

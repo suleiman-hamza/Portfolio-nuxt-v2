@@ -24,7 +24,7 @@ twitterCard: 'summary_large_image'
 const accordionList = ref([
     {
         title: 'How much does a project cost?',
-        content: 'The cost of a project depends on manu factors, such as the size of the project, the features, the development time, etc. The initial amount of my services start from $200, with an average between $500 and $1000',
+        content: 'The cost of a project depends on many factors, such as the size of the project, the features, the development time, etc. The initial amount of my services start from $200, with an average between $500 and $1000',
         value: 'item-1'
     },
     {
@@ -46,10 +46,10 @@ const accordionList = ref([
 </script>
 
 <template>
-    <main class="mt-(--ui-header)">
+    <main class="">
             <div class="container py-4 md:py-10">
                 <h1 class="text-muted text-2xl md:text-3xl mb-4">Odoo Development Service (v18, v19+)</h1>
-                <p class="text-lg md:text-xl">I provide full cycle odoo implementation, from requirement gathering to
+                <p class="text-xl md:text-xl">I provide full cycle odoo implementation, from requirement gathering to
                     designing soluions, and ensuring smooth deployment with minimal disruption. I have a deep understanding of Odoo framework, backend and frontend development. By aligning Odoo with your business goals, I will craft ERP solutions
                     that align perfectly with your workflow, compliance needs and growth goals across multiple
                     industries</p>
@@ -181,21 +181,21 @@ const accordionList = ref([
                 <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 p-1">
                     <span class="border border-gray-300/50 p-4 flex flex-col gap-4 items-center text-center">
                         <Telescope class="size-9" color="white" />
-                        <p class="text-amber-200 font-bold md:text-xl text-lg">Custom Development</p>
+                        <p class="text-amber-200 text-xl rakkas">Custom Development</p>
                         <p class="md:text-xl text-lg">Develop or extend tailored odoo modules to match your exact
                             business process (Websites, Social & Email Marketing, Inventory, Journal Configuration
                             e.t.c.) </p>
                     </span>
                     <span class="border border-gray-300/50 p-4 flex flex-col gap-4 items-center text-center">
                         <Settings class="size-9" color="white" />
-                        <p class="text-amber-200 font-bold md:text-xl text-lg">Odoo CRM & eCommerce Solutions</p>
+                        <p class="text-amber-200 text-xl rakkas">Odoo CRM & eCommerce Solutions</p>
                         <p class="md:text-xl text-lg">Our Odoo CRM and eCommerce setups integrate your website, store,
                             and backend -- with local payment gateways like Paystack and Flutterwave for seamless
                             transactions.</p>
                     </span>
                     <span class="border border-gray-300/50 p-4 flex flex-col gap-4 items-center text-center">
                         <BellPlus class="size-9" color="white" />
-                        <p class="text-center font-bold text-amber-200 md:text-xl text-lg">Accounting, HR &
+                        <p class="text-center text-amber-200 text-xl rakkas">Accounting, HR &
                             Manufacturing Automation</p>
                         <p class="md:text-xl text-lg">Streamline your operations with smart automation. we digitize
                             Accounting, HR, Payroll & Manufacturing workflows - by improving compliance with accounting
@@ -203,7 +203,7 @@ const accordionList = ref([
                     </span>
                     <span class="border border-gray-300/50 p-4 flex flex-col gap-4 items-center text-center">
                         <BadgeCheck class="size-9" color="white" />
-                        <p class="text-amber-200 font-bold md:text-xl text-lg">Third Party API & Payment Integration</p>
+                        <p class="text-amber-200 text-xl rakkas">Third Party API & Payment Integration</p>
                         <p class="md:text-xl text-lg">Integrate Odoo with third-party APIs, banking, CRM, logistics, POS
                             or IoT to create one unified business platform that keeps your entire organization
                             connected.</p>
@@ -216,12 +216,12 @@ const accordionList = ref([
         <section class="border-b border-gray-300/50">
             <div class="border-x border-gray-300/50 container">
                 <div class="grid grid-cols-1 md:grid-cols-3">
-                    <h2 class="text-center text-muted text-2xl md:text-3xl flex items-center justify-center p-4">FAQ</h2>
+                    <h2 class="text-center text-muted text-2xl md:text-3xl flex items-center justify-center p-4 rakkas">FAQ</h2>
                     <div class="md:col-span-2 border-t md:border-t-0 border-gray-300/50 md:border-l">
                         <Accordion type="single" collapsible class="w-full">
                             <AccordionItem v-for="item in accordionList" :key="item.value" class="" :value="item.value">
-                                <AccordionTrigger class="px-4 text-indigo-300">{{ item.title }}</AccordionTrigger>
-                                <AccordionContent class="px-4">
+                                <AccordionTrigger class="px-4 text-indigo-300 text-lg">{{ item.title }}</AccordionTrigger>
+                                <AccordionContent class="px-4 text-lg">
                                     <p>{{ item.content }}</p>
                                 </AccordionContent>
                             </AccordionItem>

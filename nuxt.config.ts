@@ -44,10 +44,10 @@ export default defineNuxtConfig({
       ],
     },
   },
-  site: { 
- url: 'https://shshunt.vercel.app/', 
- name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer' 
- }, 
+  site: {
+ url: 'https://shshunt.vercel.app',
+ name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer'
+ },
  ogImage: {
     compatibility: {
       runtime: {

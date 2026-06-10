@@ -64,13 +64,21 @@ const models = [
 
 <template>
   <section class="border-b border-gray-300/50">
-    <div class="py-10 container border-gray-300/50 bg-foreground">
-      <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="size-max p-1 mb-8" as="section">
-        Featured Projects</CrossedDiv>
-      <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6">
-        <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
+    <div class="py-20 p-4 border-x container border-gray-300/50 bg-foreground">
+      <div class="w-full max-w-3xl lg:max-w-5xl mx-auto">
+        <p class="opacity-60 text-6xl md:text-8xl ml-10">Featured</p>
+        <p class="opacity-60 text-6xl md:text-8xl animate-float">Projects</p>
+      </div>
+      <!-- <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
+                  Featured Projects
+                </CrossedDiv> -->
+                <!-- <div class="relative mb-2 h-10 flex items-center justify-center">
+                  <p class="opacity-60 text-4xl md:text-8xl">Featured Projects</p>
+                </div> -->
+      <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6 items-center justify-center mx-auto">
+        <ItemGroup class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
           <Item v-for="model in models" variant="outline" as-child role="listitem"
-            class="border-amber-200/60 bg-amber-200/5">
+            class="border-amber-200/60 bg-amber-200/5 rounded-none">
             <div>
               <ItemHeader>
                 <NuxtLink :to="model.url" class="bg-black p-2 rounded-sm w-full">

@@ -27,7 +27,11 @@ const navList = ref([
         to: '/'
     },
     {
-        label: 'About',
+        label: 'Projects',
+        to: '/projects'
+    },
+    {
+        label: 'Meet the dev',
         to: '/about'
     },
     {

@@ -13,9 +13,9 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "Software Engineer & Best ODOO Technical Developer in Nigeria",
+          content: "Fullstack developer & Best ODOO Technical Developer in Nigeria",
         },
-        { property: 'og:title', content: 'Suleiman Hamza - Software Engineer | Frontend Engineer | Odoo Developer' },
+        { property: 'og:title', content: 'Suleiman Hamza - Creative Developer | Frontend Engineer | Odoo Developer' },
         { property: 'og:description', content: 'Experienced Software Engineer specializing in frontend development and Odoo ERP solutions. Passionate about crafting seamless web experiences and delivering tailored ERP implementations to drive business success.' },
         { property: 'og:image', content: 'https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp' },
         { charset: "utf-8" },

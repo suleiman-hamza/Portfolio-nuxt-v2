@@ -47,12 +47,15 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 <template>
     <section class="border-b border-gray-300/50">
         <main
-            class="container flex flex-col items-center justify-around py-8 border-gray-300/50 grid-background px-4 sm:px-8 sm:py-12 bg-foreground text-text-muted h-[calc(100vh-var(--ui-header))]">
-            <h1 class="text-[18px] text-white rakkas">🖐 Hi, I'm Suleiman</h1>
-            <h2 class="text-amber-200 text-3xl sm:text-4xl leading-[1.3] mb-4 max-w-175 text-center rakkas">
-                An independent creative developer pursuing standout solutions that are meaningful, secure & scalable <span>&#128293</span>
+            class="border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-[calc(100vh-var(--ui-header))]">
+            <div>
+                <h1 class="text-6xl md:text-8xl rakkas">Suleiman <br/> Hamza</h1>
+                <span class="text-sm md:text-2xl font-bold">(Abuja, Nigeria)</span>
+            </div>
+            <h2 class="text-amber-200 text-2xl lg:text-3xl leading-[1.3] mb-4 max-w-175 rakkas">
+                A creative developer pursuing standout solutions that are meaningful, secure & scalable. I focus on creating top-notch and impactful digital experience <span>&#128293</span>
             </h2>
-            <HeroLogoSet />
+            <!-- <HeroLogoSet /> -->
         </main>
     </section>
 </template>

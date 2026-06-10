@@ -33,7 +33,7 @@ defineOgImage('MyTemplate.takumi', {
 <template>
     <main class="">
         <section class="container border-[#dedede] bg-foreground text-(--text-muted) sm:grid sm:grid-cols-2 gap-2">
-            <header class="grid grid-cols-[auto_1fr] items-end border-b border-gray-300/50">
+            <header class="grid grid-cols-[auto_1fr] items-end border-b border-l border-r border-gray-300/50">
                 <h2 class="text-2xl mb-2 vertical p-2 text-white rakkas">Meet the dev</h2>
                 <NuxtImg src="/images/suleiman-hamza-headshot.webp" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
                     alt="Image user" preload loading="eager" fetch-priority="high">
@@ -59,13 +59,14 @@ defineOgImage('MyTemplate.takumi', {
                         <span>XML</span>, <span>PostgreSQL</span>, <span>Odoo ORM</span>, <span>Git</span>,
                         <span>Docker</span> and <span>JavaScript.</span>
                     </p>
-                    <p>I am also an active member of various developer communities in Abuja. Beyond Coding, i also enjoy:</p>
+                    <p>I am also an active member of various developer communities in Abuja. Beyond Coding, i also have a few hobbies:</p>
                     <ul class="marker:text-indigo-400 p-4 rakkas">
                         <li class="list-disc">Mountain Biking</li>
                         <li class="list-disc">Basketball</li>
                         <li class="list-disc">Learning Japanese</li>
                         <li class="list-disc">Events or Meetups Volunteering</li>
                         <li class="list-disc">Watching Anime</li>
+                        <li class="list-disc">Constantly Learning</li>
                     </ul>
                 </div>
             </section>

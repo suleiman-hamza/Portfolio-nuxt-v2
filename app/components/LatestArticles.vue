@@ -4,11 +4,10 @@ import { Book } from 'lucide-vue-next'
 
 <template>
     <section class="border-b border-gray-300/50">
-        <section class="container border-x border-gray-300/50 p-4 py-10">
-            <CrossedDiv class="size-max p-1 mb-6">
-                <span class="">Recent from the blog</span>
-                <Book :size="16" />
-            </CrossedDiv>
+        <section class="container border-x border-gray-300/50 p-4 py-20">
+            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
+                    Recent from the blog
+                </CrossedDiv>
             <div class="flex flex-col gap-4 text-[18px]">
                 <NuxtLink to="/blog/viteplus" class="mb-4 size-fit">
                 <h4 class="underline text-indigo-400">Vite Plus just landed</h4>

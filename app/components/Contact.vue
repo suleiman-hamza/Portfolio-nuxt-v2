@@ -4,13 +4,12 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
 
 <template>
     <section class="border-b border-gray-300/50">
-        <div class="px-4 py-12 container bg-foreground border-x border-gray-300/50 overflow-hidden relative">
+        <div class="px-4 py-20 container bg-foreground border-x border-gray-300/50 overflow-hidden relative">
                         <div class="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-indigo-500/30 to-transparent" />
-            <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv>
+            <!-- <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv> -->
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->
-            <div class="mb-4">
-                <p class="mb-4 text-2xl text-muted">Intrested in having me on your team, I'd love to talk to you</p>
-
+            <div class="mb-4 md:max-w-[68vw]">
+                <p class="mb-8 text-2xl text-muted">Intrested in having me on your team, I love creating meaningful work that adds value. <span class="text-(--text-muted)">I'd love to talk to you</span></p>
                 <div class="mb-4">
                     <h3 class="text-xl">What i bring to your team 👇</h3>
                 </div>
@@ -42,7 +41,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
             </div>
 
             <RippleButton class="bg-white hover:shadow-sm shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] border transition duration-400">
-                <span class="rakkas text-xl">Get in Touch</span>
+                <span class="rakkas text-xl">Reach out</span>
                 <SendHorizonal class="size-4 inline" />
             </RippleButton>
         </div>

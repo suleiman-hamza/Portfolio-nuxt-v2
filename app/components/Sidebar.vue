@@ -27,7 +27,11 @@ const navList = ref([
         to: '/'
     },
     {
-        label: 'About',
+        label: 'Projects',
+        to: '/projects'
+    },
+    {
+        label: 'Meet the dev',
         to: '/about'
     },
     {
@@ -142,6 +146,15 @@ const navList = ref([
                         d="M3.086 16.57c.163.554.463 1.066.878 1.496c.414.431.932.77 1.513.988a4.46 4.46 0 0 0 3.62-.216" />
                     </g>
                 </svg>
+            </NuxtLink>
+            <NuxtLink to="https://www.linkedin.com/in/suleiman-hamza-suleiman-01335a411" target="_blank" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+		<path d="M8 11v5m0-8v.01M12 16v-5m4 5v-3a2 2 0 1 0-4 0" />
+		<path d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z" />
+	</g>
+</svg>
             </NuxtLink>
         </div>
     </section>

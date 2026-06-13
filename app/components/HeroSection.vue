@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 // Reviews data
 const reviews = [
     {
@@ -47,7 +47,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 <template>
     <section class="border-b border-gray-300/50">
         <main
-            class="border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-[calc(100vh-var(--ui-header))]">
+            class="relative border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-[calc(100vh-var(--ui-header))]">
             <div>
                 <h1 class="text-6xl md:text-8xl rakkas">Suleiman <br/> Hamza</h1>
                 <span class="text-sm md:text-2xl font-bold">(Abuja, Nigeria)</span>
@@ -55,7 +55,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
             <h2 class="text-amber-200 text-2xl lg:text-3xl leading-[1.3] mb-4 max-w-175 rakkas">
                 A creative developer pursuing standout solutions that are meaningful, secure & scalable. I focus on creating top-notch and impactful digital experience <span>&#128293</span>
             </h2>
-            <!-- <HeroLogoSet /> -->
+            <SvgLogoPaths class="absolute bottom-4 right-4 text-gray-500 opacity-20" />
         </main>
     </section>
 </template>

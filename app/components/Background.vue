@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ArrowUpRight } from 'lucide-vue-next'
-
+import { motion } from 'motion-v';
 </script>
 
 <template>
@@ -24,6 +24,13 @@ import { ArrowUpRight } from 'lucide-vue-next'
                     <span class="">More About Me</span>
                     <ArrowUpRight :size="16" />
                 </NuxtLink>
+                <!-- <motion.div
+  initial="hidden"
+  whileInView="visible"
+  :inViewOptions="{ once: true }"
+>
+<p>slide in</p>
+</motion.div> -->
             </div>
         </div>
     </section>

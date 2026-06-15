@@ -72,7 +72,7 @@ const models = [
           <span class="sm:text-2xl justify-self-start text-xl">Projects</span>
         </div>
         <div class="px-6 w-full">
-          <span class="border block w-10 mx-auto border-indigo-300/50"></span>
+          <span class="border block w-10 mx-auto border-indigo-500/50"></span>
         </div>
       </div>
       <div class="flex w-full max-w-3xl lg:max-w-5xl flex-col gap-6 items-center justify-center mx-auto">

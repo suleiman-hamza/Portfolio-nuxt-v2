@@ -35,7 +35,7 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
                     </div>
                     <!--crossed div-->
                     <div class="hidden sm:grid absolute top-1/2 left-0 -translate-y-1/2 z-30 w-full grid-cols-2">
-                        <Plus class="translate-x-[12.5px] ml-auto text-indigo-300" />
+                        <Plus class="translate-x-[12.5px] ml-auto text-indigo-500" />
                     </div>
                 </section>
             </div>

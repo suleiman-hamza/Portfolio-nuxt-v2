@@ -4,7 +4,7 @@ import { motion } from 'motion-v';
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
+    <section class="border-b border-indigo-300/30">
         <div class="grid gap-10 md:grid-cols-2 p-2 py-20 container border-gray-300/50 bg-foreground">
             <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="min-h-75 border-gray-300/50 border-dashed flex flex-col grid-background">
                 <div class="w-full grid grid-cols-1 grid-rows-[auto_200px] gap-3 h-full overflow-hidden">

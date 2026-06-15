@@ -34,7 +34,7 @@ defineOgImage('MyTemplate.takumi', {
     <main class="">
         <section class="container border-[#dedede] bg-foreground text-(--text-muted) sm:grid sm:grid-cols-2 gap-2">
             <header class="grid grid-cols-[auto_1fr] items-end border-b border-l border-r border-gray-300/50">
-                <h2 class="text-2xl mb-2 vertical p-2 text-white rakkas">Meet the dev</h2>
+                <h2 class="text-2xl md:text-6xl mb-2 vertical p-2 text-white rakkas">Meet the dev</h2>
                 <NuxtImg src="/images/suleiman-hamza-headshot.webp" v-slot="{ src, imgAttrs, isLoaded }" :custom="true"
                     alt="Image user" preload loading="eager" fetch-priority="high">
                     <img v-if="isLoaded" v-bind="imgAttrs" width="1000" height="900" :src="src" class="w-100">

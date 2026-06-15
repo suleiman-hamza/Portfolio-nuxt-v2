@@ -3,8 +3,8 @@ import { SendHorizonal, Plus } from 'lucide-vue-next'
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
-        <div class="px-4 py-20 container bg-foreground border-x border-gray-300/50 overflow-hidden relative">
+    <section class="border-b border-indigo-300/30">
+        <div class="px-4 py-20 container bg-foreground border-x border-indigo-300/30 overflow-hidden relative">
                         <div class="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-indigo-500/30 to-transparent" />
             <!-- <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="mb-4 text-muted-foreground) p-2 size-max">Intrested in working with me?</CrossedDiv> -->
             <!-- <p class="!mb-4 text-(--muted-foreground)">Intrested in working with me ?</p> -->

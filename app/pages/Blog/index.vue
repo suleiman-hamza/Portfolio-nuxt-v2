@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+    layout: 'pages'
+})
+
 useSeoMeta({
   title: 'Blog',
   titleTemplate: '%s • Suleiman Hamza',

@@ -4,8 +4,8 @@ import Button from "./ui/button/Button.vue";
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
-        <section class="border-x border-gray-300/50 container py-15 px-4">
+    <section class="border-b border-indigo-300/30">
+        <section class="border-x border-indigo-300/30 container py-15 px-4">
             <div class=" mb-4 relative">
                 <span class="absolute top-0 left-0 h-full w-1 bg-indigo-500"></span>
                 <h2 class="relative text-lg md:text-2xl leading-none text-pretty pl-3">ERP Technical Developer Specialist</h2>

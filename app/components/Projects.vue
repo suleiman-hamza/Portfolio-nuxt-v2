@@ -63,8 +63,8 @@ const models = [
 </script>
 
 <template>
-  <section class="border-b border-gray-300/50">
-    <div class="py-20 p-4 border-x container border-gray-300/50 bg-foreground">
+  <section class="border-b border-indigo-300/30">
+    <div class="py-20 p-4 border-x container border-indigo-300/30 bg-foreground">
       <div class="mb-6">
         <div class="grid grid-cols-[1fr_auto_1fr] gap-2 sm:gap-4 lg:gap-6 items-center">
           <span class="justify-self-end sm:text-2xl text-xl">Featured</span>

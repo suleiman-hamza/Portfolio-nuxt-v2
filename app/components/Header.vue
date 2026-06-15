@@ -4,8 +4,8 @@
 <template>
     <header class="relative tab border-b border-indigo-300/30 border-dashed -h-(--ui-header)">
         <!-- <div class="absolute w-full top-0 h-0.75 bg-indigo-500" /> -->
-        <nav class="container py-4 w-full flex justify-between items-center @sm:w-12.5">
-            <NuxtLink to="/" aria-label="Back to Home" class="logo size-fit flex gap-2 items-center">
+        <nav class="container py-3 w-full flex justify-between items-center @sm:w-12.5">
+            <NuxtLink to="/" aria-label="Back to Home" class="size-fit flex gap-2 items-center">
                 <NuxtImg 
                     preload 
                     loading="eager"
@@ -16,7 +16,8 @@
                     h="25" 
                     class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 
                 />
-                <h1 class="rakkas text-white">shs</h1>
+                <div class="h-5 w-0.5 bg-zinc-700" />
+                <h1 class="rakkas uppercase">Hunterr</h1>
             </NuxtLink>
             <Sidebar />
         </nav>
@@ -24,19 +25,6 @@
 </template>
 
 <style lang="css" scoped>
-.nav-links:has(li:hover) li:not(:hover),
-.nav-links:has(li:focus) li:not(:focus) {
-    opacity: 0.5;
-}
-
-li {
-    transition: 300ms ease;
-}
-
-li:hover {
-    transform: translateY(5px);
-}
-
 .tab {
     background-color: transparent;
     backdrop-filter: blur(10px);

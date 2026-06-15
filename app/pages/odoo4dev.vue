@@ -8,7 +8,7 @@ import {
 import { BellPlus, Settings, Telescope, BadgeCheck } from 'lucide-vue-next'
 
 definePageMeta({
-    layout: 'default'
+    layout: 'pages'
 })
 
 useSeoMeta({

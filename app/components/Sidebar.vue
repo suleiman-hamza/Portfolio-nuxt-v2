@@ -52,14 +52,14 @@ const navList = ref([
 <template>
     <Sheet v-model:open="closeSheet" class="transition-all duration-300">
         <SheetTrigger as-child class="" >
-            <Button variant="outline" size="icon" class="dark:bg-indigo-300/10 outline-0 border-none rounded-none" aria-label="Open Sidebar">
+            <Button variant="outline" size="icon" class="dark:bg-transparent outline-0 border-none rounded-none" aria-label="Open Sidebar">
                 <Menu color="white" class="size-6" />
             </Button>
         </SheetTrigger>
 
         <AnimatePresence>
 
-            <SheetContent v-if="closeSheet" force-mount as-child class="bg-indigo-950/80 border-l border-indigo-500/20" >
+            <SheetContent v-if="closeSheet" force-mount as-child class="bg-indigo-950/80 border-l border-indigo-500/20 z-200" >
                 <Motion
                 key="sheet-content"
           :initial="{ x: '100%' }"

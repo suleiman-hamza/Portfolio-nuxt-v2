@@ -45,9 +45,9 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
+    <section class="border-b border-indigo-300/30">
         <main
-            class="relative border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-[calc(100vh-var(--ui-header))]">
+            class="relative border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-dvh">
             <div>
                 <h1 class="text-6xl md:text-8xl rakkas">Suleiman <br/> Hamza</h1>
                 <span class="text-sm md:text-2xl font-bold">(Abuja, Nigeria)</span>

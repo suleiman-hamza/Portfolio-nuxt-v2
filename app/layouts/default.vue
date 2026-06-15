@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="">
+        <header class="fixed top-0 w-full z-100">
             <Header />
         </header>
         <div>

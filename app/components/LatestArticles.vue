@@ -3,8 +3,8 @@ import { Book } from 'lucide-vue-next'
 </script>
 
 <template>
-    <section class="border-b border-gray-300/50">
-        <section class="container border-x border-gray-300/50 p-4 py-20">
+    <section class="border-b border-indigo-300/30">
+        <section class="container border-x border-indigo-300/30 p-4 py-20">
             <CrossedDiv crossx="after:bg-indigo-300" crossy="before:bg-indigo-300" class="align-center mx-auto size-max p-2 mb-4">
                     Recent from the blog
                 </CrossedDiv>

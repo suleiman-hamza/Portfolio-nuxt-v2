@@ -18,4 +18,6 @@ defineOgImage('MyTemplate.takumi', {
 // })
 </script>
 
-<template></template>
+<template>
+  <p>welcome project</p>
+</template>

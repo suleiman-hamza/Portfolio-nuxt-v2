@@ -71,6 +71,7 @@ export default defineNuxtConfig({
         '@vueuse/core',
         'embla-carousel-vue',
         'reka-ui',
+        '@unhead/schema-org/vue',
       ]
     },
     plugins: [

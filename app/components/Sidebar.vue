@@ -57,8 +57,6 @@ const navList = ref([
             </Button>
         </SheetTrigger>
 
-        <AnimatePresence>
-
             <SheetContent v-if="closeSheet" force-mount as-child class="bg-indigo-950/80 border-l border-indigo-500/20 z-200" >
                 <Motion
                 key="sheet-content"
@@ -169,6 +167,5 @@ const navList = ref([
     </SheetFooter>
     </Motion>
 </SheetContent>
-</AnimatePresence>
     </Sheet>
 </template>

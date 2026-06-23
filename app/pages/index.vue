@@ -22,6 +22,7 @@ defineOgImage('MyTemplate.takumi', {
     <HeroSection />
     <Background />
     <Projects />
+    <NewSec />
     <!-- <Stack /> -->
     <LatestArticles />
     <!-- <Clients /> -->

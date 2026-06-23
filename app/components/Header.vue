@@ -6,7 +6,15 @@
         <!-- <div class="absolute w-full top-0 h-0.75 bg-indigo-500" /> -->
         <nav class="container py-3 w-full flex justify-between items-center @sm:w-12.5">
             <NuxtLink to="/" aria-label="Back to Home" class="size-fit flex gap-2 items-center">
-                <NuxtImg 
+                <img
+                    fetch-priority="high"
+                    src="/images/avatar1.png" 
+                    alt="suleiman hamza ai-generated-avatar" 
+                    w="25" 
+                    h="25" 
+                    class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 
+                />
+                <!-- <NuxtImg 
                     preload 
                     loading="eager"
                     fetch-priority="high"
@@ -15,7 +23,7 @@
                     w="25" 
                     h="25" 
                     class="w-6.25 h-6.25 rounded-full outline outline-indigo-300/50" 
-                />
+                /> -->
                 <div class="h-5 w-0.5 bg-zinc-700" />
                 <h1 class="rakkas uppercase">Hunterr</h1>
             </NuxtLink>

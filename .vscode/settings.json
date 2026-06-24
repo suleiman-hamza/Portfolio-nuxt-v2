@@ -1,7 +1,5 @@
 {
-  "githubPullRequests.ignoredPullRequestBranches": [
-    "main"
-  ],
+  "githubPullRequests.ignoredPullRequestBranches": ["main"],
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -9,8 +7,6 @@
     "strings": "on"
   },
   "tailwindCSS.classAttributes": ["class", "ui"],
-  "tailwindCSS.experimental.classRegex": [
-    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
-  "postman.settings.dotenv-detection-notification-visibility": false,
+  "tailwindCSS.experimental.classRegex": [["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
+  "postman.settings.dotenv-detection-notification-visibility": false
 }

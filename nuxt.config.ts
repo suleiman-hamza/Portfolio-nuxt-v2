@@ -5,19 +5,29 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Software Engineer",
-      titleTemplate: '%s %separator %siteName',
+      titleTemplate: "%s %separator %siteName",
       templateParams: {
-        separator: '·',
-        siteName: 'Suleiman Hamza'
+        separator: "·",
+        siteName: "Suleiman Hamza",
       },
       meta: [
         {
           name: "description",
           content: "Fullstack developer & Best ODOO Technical Developer in Nigeria",
         },
-        { property: 'og:title', content: 'Suleiman Hamza - Creative Developer | Frontend Engineer | Odoo Developer' },
-        { property: 'og:description', content: 'Experienced Software Engineer specializing in frontend development and Odoo ERP solutions. Passionate about crafting seamless web experiences and delivering tailored ERP implementations to drive business success.' },
-        { property: 'og:image', content: 'https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp' },
+        {
+          property: "og:title",
+          content: "Suleiman Hamza - Creative Developer | Frontend Engineer | Odoo Developer",
+        },
+        {
+          property: "og:description",
+          content:
+            "Experienced Software Engineer specializing in frontend development and Odoo ERP solutions. Passionate about crafting seamless web experiences and delivering tailored ERP implementations to drive business success.",
+        },
+        {
+          property: "og:image",
+          content: "https://shshunt.vercel.app/images/suleiman-hamza-headshot.webp",
+        },
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
@@ -45,15 +55,15 @@ export default defineNuxtConfig({
     },
   },
   site: {
- url: 'https://shshunt.vercel.app',
- name: 'Suleiman Hamza | Software Developer | Odoo Technical Developer'
- },
- ogImage: {
+    url: "https://shshunt.vercel.app",
+    name: "Suleiman Hamza | Software Developer | Odoo Technical Developer",
+  },
+  ogImage: {
     compatibility: {
       runtime: {
-        browser: false
-      }
-    }
+        browser: false,
+      },
+    },
   },
   compatibilityDate: "2025-05-20",
   css: ["~/assets/css/main.css"],
@@ -62,17 +72,17 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: {
       include: [
-        '@vue/devtools-core',
-        '@vue/devtools-kit',
-        'lucide-vue-next',
-        'class-variance-authority',
-        'clsx',
-        'tailwind-merge',
-        '@vueuse/core',
-        'embla-carousel-vue',
-        'reka-ui',
-        '@unhead/schema-org/vue',
-      ]
+        "@vue/devtools-core",
+        "@vue/devtools-kit",
+        "lucide-vue-next",
+        "class-variance-authority",
+        "clsx",
+        "tailwind-merge",
+        "@vueuse/core",
+        "embla-carousel-vue",
+        "reka-ui",
+        "@unhead/schema-org/vue",
+      ],
     },
     plugins: [
       // inspect(),
@@ -80,11 +90,18 @@ export default defineNuxtConfig({
     ],
   },
   devtools: { enabled: true },
-  modules: ["shadcn-nuxt", "motion-v/nuxt", "@nuxt/image", "@nuxt/fonts", "@nuxtjs/seo", "nuxt-og-image"],
+  modules: [
+    "shadcn-nuxt",
+    "motion-v/nuxt",
+    "@nuxt/image",
+    "@nuxt/fonts",
+    "@nuxtjs/seo",
+    "nuxt-og-image",
+  ],
   fonts: {
     defaults: {
       weights: [400],
-      styles: ['normal', 'italic'],
-    }
-  }
+      styles: ["normal", "italic"],
+    },
+  },
 });

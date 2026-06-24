@@ -1,10 +1,10 @@
 {
   "name": "Hunterr",
   "private": true,
-  "type": "module",
   "description": "Suleiman Hamza is a professional Software Developer from Abuja, Nigeria",
   "author": "Suleiman Hamza",
   "repository": "https://suleiman-hamza.github.com/Portfolio-nuxt-v2",
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,6 +13,8 @@
     "postinstall": "nuxt prepare",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
     "prepare": "husky"
   },
   "dependencies": {
@@ -42,6 +44,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
     "nuxt-og-image": "^6.4.1",
+    "oxfmt": "^0.56.0",
     "oxlint": "^1.71.0",
     "typescript": "^5.9.3"
   },
@@ -49,6 +52,7 @@
     "vite": "npm:rolldown-vite@latest"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": "pnpm run lint"
+    "*.{js,jsx,ts,tsx,mjs,cjs}": "pnpm run lint",
+    "*": "oxfmt --no-error-on-unmatched-pattern"
   }
 }

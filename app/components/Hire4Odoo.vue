@@ -12,7 +12,7 @@ import Button from "./ui/button/Button.vue";
           ERP Technical Developer Specialist
         </h2>
       </div>
-      <div class="border-amber-200/60 border p-4 md:p-4 max-w-4xl bg-amber-200/10 text-white">
+      <div class="bg-[url(/images/noise-bg.png)] p-4 md:p-4 max-w-4xl bg-amber-400 text-black">
         <blockquote class="mb-2 md:mb-4 text-2xl md:text-3xl">
           "Helping businesses showcase their value to the world throught strategic and timeless
           workflows with ERP Software."

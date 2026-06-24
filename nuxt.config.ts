@@ -77,6 +77,8 @@ export default defineNuxtConfig({
         "lucide-vue-next",
         "class-variance-authority",
         "clsx",
+        "gsap",
+        "gsap/ScrollTrigger",
         "tailwind-merge",
         "@vueuse/core",
         "embla-carousel-vue",

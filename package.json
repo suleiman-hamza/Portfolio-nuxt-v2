@@ -10,7 +10,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "@nuxt/fonts": "^0.13.0",
@@ -36,10 +39,16 @@
   "devDependencies": {
     "@takumi-rs/core": "^1.0.9",
     "@takumi-rs/wasm": "^1.0.9",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
     "nuxt-og-image": "^6.4.1",
+    "oxlint": "^1.71.0",
     "typescript": "^5.9.3"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@latest"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": "pnpm run lint"
   }
 }

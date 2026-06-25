@@ -23,6 +23,7 @@ onMounted(() => {
     $SplitText.create(".hero", {
       type: "words",
       mask: "words",
+      aria: "auto",
       autoSplit: true,
       onSplit(splitText) {
         const tween = gsap.from(splitText.words, {

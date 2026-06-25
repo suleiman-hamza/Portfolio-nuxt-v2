@@ -1,4 +1,28 @@
 ﻿<script setup lang="ts">
+// import { onMounted, onUnmounted, ref } from 'vue'
+// import { useNuxtApp } from 'nuxt/app'
+import gsap from "gsap";
+const { $gsap } = useNuxtApp();
+
+let ctx: gsap.Context;
+
+onMounted(() => {
+  ctx = gsap.context(() => {
+    $gsap.to(".hero", {
+      rotation: 360,
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      scrollTrigger: {
+        scrub: true,
+      },
+    });
+  });
+});
+
+onUnmounted(() => {
+  ctx?.revert();
+});
 // Reviews data
 const reviews = [
   {
@@ -61,6 +85,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
         focus on creating top-notch and impactful digital experience <span>&#128293;</span>
       </h2>
       <SvgLogoPaths class="absolute bottom-4 right-4 text-gray-500 opacity-20" />
+      <span class="border w-10 h-10 hero absolute bottom-18 right-4 text-gray-500 opacity-20" />
     </main>
   </section>
 </template>

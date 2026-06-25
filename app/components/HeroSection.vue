@@ -2,19 +2,39 @@
 // import { onMounted, onUnmounted, ref } from 'vue'
 // import { useNuxtApp } from 'nuxt/app'
 import gsap from "gsap";
-const { $gsap } = useNuxtApp();
+
+const { $SplitText } = useNuxtApp();
 
 let ctx: gsap.Context;
 
 onMounted(() => {
   ctx = gsap.context(() => {
-    $gsap.to(".hero", {
+    let tl = gsap.timeline();
+
+    tl.to(".herosvg", {
       rotation: 360,
       opacity: 1,
       y: 0,
       duration: 0.8,
       scrollTrigger: {
         scrub: true,
+      },
+    });
+    $SplitText.create(".hero", {
+      type: "words",
+      mask: "words",
+      autoSplit: true,
+      onSplit(splitText) {
+        const tween = gsap.from(splitText.words, {
+          y: 100,
+          opacity: 0,
+          duration: 1,
+          ease: "expo.out",
+          stagger: 0.05,
+        });
+
+        tl.add(tween, "0");
+        return tween;
       },
     });
   });
@@ -71,7 +91,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
 <template>
   <section class="border-b border-indigo-300/30">
     <main
-      class="relative border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-dvh"
+      class="hero relative border-x container flex flex-col justify-around py-8 border-indigo-300/30 grid-background px-4 sm:px-8 sm:py-12 bg-foreground h-dvh"
     >
       <div>
         <h1 class="text-6xl md:text-8xl rakkas">
@@ -85,7 +105,7 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
         focus on creating top-notch and impactful digital experience <span>&#128293;</span>
       </h2>
       <SvgLogoPaths class="absolute bottom-4 right-4 text-gray-500 opacity-20" />
-      <span class="border w-10 h-10 hero absolute bottom-18 right-4 text-gray-500 opacity-20" />
+      <span class="border w-10 h-10 herosvg absolute bottom-18 right-4 text-gray-500 opacity-20" />
     </main>
   </section>
 </template>

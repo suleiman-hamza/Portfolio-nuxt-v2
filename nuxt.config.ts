@@ -79,6 +79,7 @@ export default defineNuxtConfig({
         "clsx",
         "gsap",
         "gsap/ScrollTrigger",
+        "gsap/SplitText",
         "tailwind-merge",
         "@vueuse/core",
         "embla-carousel-vue",

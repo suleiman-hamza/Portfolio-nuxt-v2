@@ -1,16 +1,21 @@
 {
   "name": "Hunterr",
   "private": true,
-  "type": "module",
   "description": "Suleiman Hamza is a professional Software Developer from Abuja, Nigeria",
   "author": "Suleiman Hamza",
   "repository": "https://suleiman-hamza.github.com/Portfolio-nuxt-v2",
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "prepare": "husky"
   },
   "dependencies": {
     "@nuxt/fonts": "^0.13.0",
@@ -21,6 +26,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-vue": "^8.6.0",
+    "gsap": "^3.15.0",
     "lucide-vue-next": "^0.511.0",
     "motion-v": "^1.6.1",
     "nuxt": "^4.0.0",
@@ -36,7 +42,18 @@
   "devDependencies": {
     "@takumi-rs/core": "^1.0.9",
     "@takumi-rs/wasm": "^1.0.9",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
     "nuxt-og-image": "^6.4.1",
+    "oxfmt": "^0.56.0",
+    "oxlint": "^1.71.0",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@latest"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": "pnpm run lint",
+    "*": "oxfmt --no-error-on-unmatched-pattern"
   }
 }

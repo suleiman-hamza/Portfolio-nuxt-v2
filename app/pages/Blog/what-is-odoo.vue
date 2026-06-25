@@ -1,92 +1,106 @@
 <script setup lang="ts">
 definePageMeta({
-    layout: 'blog-pages'
-})
+  layout: "blog-pages",
+});
 useSeoMeta({
-    title: 'Blog: What is Odoo',
-    titleTemplate: '%s • Suleiman Hamza',
-    publisher: 'Suleiman Hamza - Odoo Technical Developer',
-    twitterCard: 'summary_large_image',
-    ogType: 'article',
-  articleAuthor: ['Suleiman Hamza'],
-  articleSection: 'Odoo Tutorials',
-  articleTag: ['nuxt', 'odoo', 'erp', 'odoo development', 'ERP'],
-  articlePublishedTime: '2026-03-29T00:00:00Z',
-  articleModifiedTime: '2026-03-29T00:00:00Z'
-})
+  title: "Blog: What is Odoo",
+  titleTemplate: "%s • Suleiman Hamza",
+  publisher: "Suleiman Hamza - Odoo Technical Developer",
+  twitterCard: "summary_large_image",
+  ogType: "article",
+  articleAuthor: ["Suleiman Hamza"],
+  articleSection: "Odoo Tutorials",
+  articleTag: ["nuxt", "odoo", "erp", "odoo development", "ERP"],
+  articlePublishedTime: "2026-03-29T00:00:00Z",
+  articleModifiedTime: "2026-03-29T00:00:00Z",
+});
 
 const article = ref({
-    title: 'What is Odoo',
-    description: 'Article description',
-    postedOn: '2026-03-29T00:00:00Z'
-})
+  title: "What is Odoo",
+  description: "Article description",
+  postedOn: "2026-03-29T00:00:00Z",
+});
 
-const articleToc = ref([
-    'What is Odoo',
-    'Odoo Editions',
-    'License',
-    'Odoo Community Association',
-])
+const articleToc = ref(["What is Odoo", "Odoo Editions", "License", "Odoo Community Association"]);
 
 useSchemaOrg([
-    defineArticle({
-        headline: () => article.value.title,
-        description: () => article.value.description,
-    })
-])
+  defineArticle({
+    headline: () => article.value.title,
+    description: () => article.value.description,
+  }),
+]);
 </script>
 
 <template>
-    <div class="container">
-        <BlogHeader :title="article.title" :posted-on="article.postedOn" />
-        <main class="py-4 border-b border-gray-300/50 border-dashed">
-            <ContentOfTable :source="articleToc" />
-            <h2 class="mt-4 text-indigo-400 text-lg font-semibold">
-                What is Odoo
-            </h2>
-            <p>Odoo, formerly known as <span class="code">OpenERP</span>, is a software solution.</p>
-            <p>Odoo provides a rapid application development framework that is particularly suited to 
-building applications for business.</p>
-<p>s. The Odoo software is company-driven, meaning that its 
-roadmap and development are both tightly controlled by Odoo SA. However, it still 
-follows open source principles, and community contributions to the code are welcome.</p>
-<p>Odoo is a software product published by Odoo SA, a software company based in Belgium 
-founded by Fabien Pinckaers.</p>
-<div>The Odoo software follows the open core business model, meaning that some parts of the 
-software are open source and some parts are proprietary. As a result of this model, Odoo 
-publishes two editions:
-    <h2 class="mt-4 text-indigo-400 text-lg font-semibold">Odoo Editions</h2>
-    <ul>
-    <li>The Community Edition <span class="code">(CE)</span> is publicly available, open source, and licensed under LGPL.</li>
-    <li>
-The Enterprise Edition <span class="code">(EE)</span> is available only to official partners and customers and has a 
-proprietary license requiring non-disclosure of the code.</li>
-</ul>
-<p>The Odoo EE works as a layer of additional modules on top of the Odoo CE core, offering 
-premium features that are expected to provide enough value to motivate users to upgrade. 
-The revenue from the Odoo EE funds the development for both the Odoo CE and EE. The 
-Odoo founder and CEO Fabien Pinckaers has repeatedly pledged a commitment to keeping 
-80% of the code as open source in the Odoo CE and 20% in the proprietary Odoo EE.
-The biggest strength of any open source project is the community around it. Odoo has 
-an active community of contributors. For the Odoo product, the community contributes 
-with feature feedback, translations, security issue reports, bug fixes, and occasionally some 
-technical improvements to the core product.</p>
-</div>
-<h2 class="mt-4 text-indigo-400 text-lg font-semibold">Odoo Community</h2>
-<p>Beyond the Odoo core product, the community publishes additional Odoo modules 
-that add features. Many individuals and companies in the Odoo community make their 
-Git repositories publicly available under open source licenses. They also publish them 
-in Odoo Apps – which is the official Odoo app store: apps.odoo.com. The app store 
-allows for both free and paid modules.</p>
-<p>The Odoo core project does not offer a space to host these community module efforts, so 
-they are developed in a dispersed way, with no common standards and quality controls. 
-The Odoo Community Association <span class="code">(OCA)</span> was created to address this issue.</p>
-<p>Odoo is being used by companies of all sizes; each company has a different business
-flow and requirements</p>
-<p>, Odoo splits the features of the
-application into different modules. These modules can be loaded in the database on
-demand. Basically, the user can enable/disable these feature at any time.
-Consequently, the same software can be adjusted for different requirements</p>
-        </main>
-    </div>
+  <div class="container">
+    <BlogHeader :title="article.title" :posted-on="article.postedOn" />
+    <main class="py-4 border-b border-gray-300/50 border-dashed">
+      <ContentOfTable :source="articleToc" />
+      <h2 class="mt-4 text-indigo-400 text-lg font-semibold">What is Odoo</h2>
+      <p>Odoo, formerly known as <span class="code">OpenERP</span>, is a software solution.</p>
+      <p>
+        Odoo provides a rapid application development framework that is particularly suited to
+        building applications for business.
+      </p>
+      <p>
+        s. The Odoo software is company-driven, meaning that its roadmap and development are both
+        tightly controlled by Odoo SA. However, it still follows open source principles, and
+        community contributions to the code are welcome.
+      </p>
+      <p>
+        Odoo is a software product published by Odoo SA, a software company based in Belgium founded
+        by Fabien Pinckaers.
+      </p>
+      <div>
+        The Odoo software follows the open core business model, meaning that some parts of the
+        software are open source and some parts are proprietary. As a result of this model, Odoo
+        publishes two editions:
+        <h2 class="mt-4 text-indigo-400 text-lg font-semibold">Odoo Editions</h2>
+        <ul>
+          <li>
+            The Community Edition <span class="code">(CE)</span> is publicly available, open source,
+            and licensed under LGPL.
+          </li>
+          <li>
+            The Enterprise Edition <span class="code">(EE)</span> is available only to official
+            partners and customers and has a proprietary license requiring non-disclosure of the
+            code.
+          </li>
+        </ul>
+        <p>
+          The Odoo EE works as a layer of additional modules on top of the Odoo CE core, offering
+          premium features that are expected to provide enough value to motivate users to upgrade.
+          The revenue from the Odoo EE funds the development for both the Odoo CE and EE. The Odoo
+          founder and CEO Fabien Pinckaers has repeatedly pledged a commitment to keeping 80% of the
+          code as open source in the Odoo CE and 20% in the proprietary Odoo EE. The biggest
+          strength of any open source project is the community around it. Odoo has an active
+          community of contributors. For the Odoo product, the community contributes with feature
+          feedback, translations, security issue reports, bug fixes, and occasionally some technical
+          improvements to the core product.
+        </p>
+      </div>
+      <h2 class="mt-4 text-indigo-400 text-lg font-semibold">Odoo Community</h2>
+      <p>
+        Beyond the Odoo core product, the community publishes additional Odoo modules that add
+        features. Many individuals and companies in the Odoo community make their Git repositories
+        publicly available under open source licenses. They also publish them in Odoo Apps – which
+        is the official Odoo app store: apps.odoo.com. The app store allows for both free and paid
+        modules.
+      </p>
+      <p>
+        The Odoo core project does not offer a space to host these community module efforts, so they
+        are developed in a dispersed way, with no common standards and quality controls. The Odoo
+        Community Association <span class="code">(OCA)</span> was created to address this issue.
+      </p>
+      <p>
+        Odoo is being used by companies of all sizes; each company has a different business flow and
+        requirements
+      </p>
+      <p>
+        , Odoo splits the features of the application into different modules. These modules can be
+        loaded in the database on demand. Basically, the user can enable/disable these feature at
+        any time. Consequently, the same software can be adjusted for different requirements
+      </p>
+    </main>
+  </div>
 </template>

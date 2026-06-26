@@ -36,6 +36,7 @@ defineOgImage("MyTemplate.takumi", {
     <section
       class="container border-[#dedede] bg-foreground text-(--text-muted) sm:grid sm:grid-cols-2 gap-2"
     >
+      <Roles class="col-span-2" />
       <header
         class="grid grid-cols-[auto_1fr] items-end border-b border-l border-r border-gray-300/50"
       >
@@ -179,7 +180,7 @@ defineOgImage("MyTemplate.takumi", {
         </div>
       </section>
       <section
-        class="py-8 sm:col-start-2 sm:row-start-1 border-b border-gray-300/50 text-(--text-muted)"
+        class="py-8 sm:col-start-2 sm:row-start-2 border-b border-gray-300/50 text-(--text-muted)"
       >
         <h4 class="text-2xl mb-2 text-indigo-200 rakkas">Let's Connect</h4>
         <p class="mb-2">Feel free to connect with me on any of these platforms.</p>

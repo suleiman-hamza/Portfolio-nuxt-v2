@@ -30,6 +30,10 @@ defineOgImage("MyTemplate.takumi", {
   title: "Suleiman Hamza - About me",
   description: "Software Engineer and Odoo Technical Developer.",
 });
+
+onMounted(() => {
+  console.log(window.innerWidth);
+});
 </script>
 <template>
   <main class="">

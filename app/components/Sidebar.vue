@@ -26,18 +26,18 @@ const navList = ref([
     label: "Home",
     to: "/",
   },
-  {
-    label: "Projects",
-    to: "/projects",
-  },
+  // {
+  //   label: "Projects",
+  //   to: "/projects",
+  // },
   {
     label: "Meet the dev",
     to: "/about",
   },
-  {
-    label: "Playground",
-    to: "https://github.com/suleiman-hamza",
-  },
+  // {
+  //   label: "Playground",
+  //   to: "https://github.com/suleiman-hamza",
+  // },
   {
     label: "Blog",
     to: "/blog",

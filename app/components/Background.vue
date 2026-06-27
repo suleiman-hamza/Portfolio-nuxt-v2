@@ -1,6 +1,47 @@
 <script setup lang="ts">
 import { ArrowUpRight } from "lucide-vue-next";
-import { motion } from "motion-v";
+// import { motion } from "motion-v";
+import gsap from "gsap";
+
+let ctx: gsap.Context;
+
+onMounted(() => {
+  ctx = gsap.context(() => {
+    let tl = gsap.timeline();
+
+    tl.to(".backgroundSvg1", {
+      rotation: 360,
+      opacity: 1,
+      y: 0,
+      duration: 1.5,
+      scrollTrigger: {
+        scrub: true,
+      },
+    });
+    tl.to(".backgroundSvg2", {
+      rotation: -360,
+      opacity: 1,
+      y: 0,
+      duration: 1.5,
+      scrollTrigger: {
+        scrub: true,
+      },
+    });
+    tl.to(".backgroundSvg3", {
+      rotation: 360,
+      opacity: 1,
+      y: 0,
+      duration: 1.5,
+      scrollTrigger: {
+        scrub: true,
+      },
+    });
+  });
+});
+
+onUnmounted(() => {
+  ctx?.revert();
+});
 </script>
 
 <template>
@@ -17,7 +58,12 @@ import { motion } from "motion-v";
               Building in Obsession
             </p>
           </div>
-          <div class="w-full h-auto">
+          <div class="w-full h-auto relative">
+            <div class="absolute flex gap-4 border border-indigo-400">
+              <span class="border w-10 h-10 backgroundSvg1 text-gray-500 opacity-20" />
+              <span class="border w-10 h-10 backgroundSvg2 text-gray-500 opacity-20" />
+              <span class="border w-10 h-10 backgroundSvg3 text-gray-500 opacity-20" />
+            </div>
             <span
               class="mt-20 md:mt-10 mx-auto animate-spin bg-indigo-500/20 rounded-full h-auto aspect-square w-full block border border-dashed"
             ></span>

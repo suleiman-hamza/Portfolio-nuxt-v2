@@ -1,5 +1,14 @@
 <script setup lang="ts">
 import { SendHorizonal, Plus } from "lucide-vue-next";
+
+const phoneNumber = "2347085057435";
+const defaultMessage = "Hello! I would like to make an inquiry about your services.";
+
+// Automatically encodes spaces and characters for a clean URL string
+const whatsappUrl = computed(() => {
+  const encodedText = encodeURIComponent(defaultMessage);
+  return `https://wa.me/${phoneNumber}?text=${encodedText}`;
+});
 </script>
 
 <template>
@@ -70,9 +79,11 @@ import { SendHorizonal, Plus } from "lucide-vue-next";
 
       <RippleButton
         class="bg-white hover:shadow-sm shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] border transition duration-400"
+        as-child
       >
-        <span class="rakkas text-xl">Reach out</span>
-        <SendHorizonal class="size-4 inline" />
+        <NuxtLink href="whatsappUrl" target="_blank">
+          <span class="rakkas text-xl">Reach out</span>
+        </NuxtLink>
       </RippleButton>
     </div>
   </section>

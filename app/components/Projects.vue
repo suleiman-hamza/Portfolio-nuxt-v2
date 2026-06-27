@@ -85,23 +85,21 @@ const models = [
             role="listitem"
             class="border-amber-200/60 bg-amber-200/5 rounded-none"
           >
-            <div>
-              <ItemHeader>
-                <NuxtLink :to="model.url" class="bg-black p-2 rounded-sm w-full">
-                  <img
-                    :src="model.image"
-                    :alt="model.name"
-                    width="128"
-                    height="128"
-                    class="aspect-square w-full object-contain grayscale"
-                  />
-                </NuxtLink>
+            <a :href="model.url" class="group">
+              <ItemHeader class="bg-black p-2 rounded-sm w-full overflow-hidden">
+                <img
+                  :src="model.image"
+                  :alt="model.name"
+                  width="128"
+                  height="128"
+                  class="aspect-square w-full object-contain grayscale transition-transform duration-300 ease-out group-hover:scale-110"
+                />
               </ItemHeader>
               <ItemContent>
                 <ItemTitle>{{ model.name }}</ItemTitle>
                 <ItemDescription>{{ model.description }}</ItemDescription>
               </ItemContent>
-            </div>
+            </a>
           </Item>
         </ItemGroup>
       </div>

@@ -19,10 +19,14 @@ import Button from "./ui/button/Button.vue";
         </blockquote>
         <!-- <NuxtLink to="/odoo4dev" class="underline flex gap-1 items-center justify-center size-fit leading-0 text-indigo-500"><span>Learn more</span><ArrowUpRight :size="16" /></NuxtLink> -->
         <Button
+          as-child
+          to="/odo4dev"
           class="rounded-none hover:cursor-pointer text-lg border border-indigo-500/30 hover:border-indigo-500 text-[#dedede]"
         >
-          Learn More
-          <ArrowUpRight />
+          <NuxtLink to="/odoo4dev" class="flex gap-2 items-center size-fit">
+            Learn More
+            <ArrowUpRight />
+          </NuxtLink>
         </Button>
       </div>
     </section>

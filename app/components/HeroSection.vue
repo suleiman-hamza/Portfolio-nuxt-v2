@@ -10,16 +10,6 @@ let ctx: gsap.Context;
 onMounted(() => {
   ctx = gsap.context(() => {
     let tl = gsap.timeline();
-
-    tl.to(".herosvg", {
-      rotation: 360,
-      opacity: 1,
-      y: 0,
-      duration: 0.8,
-      scrollTrigger: {
-        scrub: true,
-      },
-    });
     $SplitText.create(".hero", {
       type: "words",
       mask: "words",
@@ -44,49 +34,6 @@ onMounted(() => {
 onUnmounted(() => {
   ctx?.revert();
 });
-// Reviews data
-const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
-  },
-  {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
-  },
-  {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
-  },
-  {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
-  },
-];
-
-// Split reviews into two rows
-const firstRow = ref(reviews.slice(0, reviews.length / 2));
-const secondRow = ref(reviews.slice(reviews.length / 2));
 </script>
 
 <template>
@@ -105,8 +52,6 @@ const secondRow = ref(reviews.slice(reviews.length / 2));
         A creative developer pursuing standout solutions that are meaningful, secure & scalable. I
         focus on creating top-notch and impactful digital experience <span>&#128293;</span>
       </h2>
-      <SvgLogoPaths class="absolute bottom-4 right-4 text-gray-500 opacity-20" />
-      <span class="border w-10 h-10 herosvg absolute bottom-18 right-4 text-gray-500 opacity-20" />
     </main>
   </section>
 </template>

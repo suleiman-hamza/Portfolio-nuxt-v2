@@ -59,10 +59,10 @@ onUnmounted(() => {
             </p>
           </div>
           <div class="w-full h-auto relative">
-            <div class="absolute flex gap-4 border border-indigo-400">
-              <span class="border w-10 h-10 backgroundSvg1 text-gray-500 opacity-20" />
-              <span class="border w-10 h-10 backgroundSvg2 text-gray-500 opacity-20" />
-              <span class="border w-10 h-10 backgroundSvg3 text-gray-500 opacity-20" />
+            <div class="absolute flex gap-4 bottom-5 left-1/2 -translate-x-1/2">
+              <span class="border w-10 h-10 backgroundSvg1 border-rose-400 opacity-20" />
+              <span class="border w-10 h-10 backgroundSvg2 border-teal-400 opacity-20" />
+              <span class="border w-10 h-10 backgroundSvg3 border-sky-400 opacity-20" />
             </div>
             <span
               class="mt-20 md:mt-10 mx-auto animate-spin bg-indigo-500/20 rounded-full h-auto aspect-square w-full block border border-dashed"

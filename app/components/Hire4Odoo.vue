@@ -8,21 +8,25 @@ import Button from "./ui/button/Button.vue";
     <section class="border-x border-indigo-300/30 container py-15 px-4">
       <div class="mb-4 relative">
         <span class="absolute top-0 left-0 h-full w-1 bg-indigo-500"></span>
-        <h2 class="relative text-lg md:text-2xl leading-none text-pretty pl-3">
+        <h2 class="relative text-md rakkas md:text-2xl leading-none text-pretty pl-3">
           ERP Technical Developer Specialist
         </h2>
       </div>
       <div class="bg-[url(/images/noise-bg.png)] p-4 md:p-4 max-w-4xl bg-amber-400 text-black">
         <blockquote class="mb-2 md:mb-4 text-2xl md:text-3xl">
-          "Helping businesses showcase their value to the world throught strategic and timeless
+          "I help businesses showcase their value to the world throught strategic and timeless
           workflows with ERP Software."
         </blockquote>
         <!-- <NuxtLink to="/odoo4dev" class="underline flex gap-1 items-center justify-center size-fit leading-0 text-indigo-500"><span>Learn more</span><ArrowUpRight :size="16" /></NuxtLink> -->
         <Button
+          as-child
+          to="/odo4dev"
           class="rounded-none hover:cursor-pointer text-lg border border-indigo-500/30 hover:border-indigo-500 text-[#dedede]"
         >
-          Learn More
-          <ArrowUpRight />
+          <NuxtLink to="/odoo4dev" class="flex gap-2 items-center size-fit">
+            Learn More
+            <ArrowUpRight />
+          </NuxtLink>
         </Button>
       </div>
     </section>

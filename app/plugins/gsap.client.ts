@@ -2,8 +2,9 @@
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
+import { MotionPathPlugin } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+gsap.registerPlugin(ScrollTrigger, SplitText, MotionPathPlugin);
 
 export default defineNuxtPlugin(() => {
   return {
@@ -11,6 +12,7 @@ export default defineNuxtPlugin(() => {
       gsap,
       ScrollTrigger,
       SplitText,
+      MotionPathPlugin,
     },
   };
 });
